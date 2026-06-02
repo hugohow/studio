@@ -5,9 +5,11 @@ name: Refresh slots
 # Horaire = ~24 runs/jour (~1 min chacun) → reste sous les 2000 min/mois gratuites
 # d'un repo privé. La planification GitHub (UTC) a souvent ~5-15 min de latence.
 on:
-  # Déclenché par cron-job.org via l'API GitHub (workflow_dispatch) — scheduler fiable.
-  # Le schedule natif GitHub étant best-effort, on ne l'utilise plus.
-  workflow_dispatch: {}
+  schedule:
+    # Repo public => minutes Actions gratuites illimitées, donc 15 min OK.
+    # ⚠️ Le schedule GitHub est best-effort : retards de 5-20 min possibles, voire run sauté.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {} # déclenchement manuel possible
 
 permissions:
   contents: write
