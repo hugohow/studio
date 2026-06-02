@@ -7,11 +7,19 @@ import Explorer from "./Explorer";
 export const revalidate = 600;
 
 async function loadFeed() {
-  // Prod (Vercel) : on lit le feed publié par le cron via son URL raw GitHub.
+  // Prod (Vercel) : feed publié par le cron, lu via l'API GitHub (repo privé).
+  // FEED_URL = https://api.github.com/repos/<owner>/<repo>/contents/data/slots.json?ref=main
+  // FEED_TOKEN = PAT GitHub fine-grained, lecture seule "Contents" sur ce repo.
   const url = process.env.FEED_URL;
+  const token = process.env.FEED_TOKEN;
   if (url) {
     try {
-      const r = await fetch(url, { next: { revalidate: 600 } });
+      const headers = { "User-Agent": "studiotonight" };
+      if (token) {
+        headers.Authorization = `Bearer ${token}`;
+        headers.Accept = "application/vnd.github.raw"; // renvoie le contenu brut du fichier
+      }
+      const r = await fetch(url, { headers, next: { revalidate: 600 } });
       if (!r.ok) return { error: `HTTP ${r.status} sur FEED_URL` };
       return await r.json();
     } catch (e) {
