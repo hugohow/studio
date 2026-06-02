@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { ConfigProvider, DatePicker, Select } from "antd";
 import frFR from "antd/locale/fr_FR";
@@ -31,6 +31,13 @@ function frDateTime(iso) {
 export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
   const venues = feed.venues || [];
   const router = useRouter();
+
+  // Auto-refresh : re-fetch du feed côté serveur toutes les 60 s, sans recharger l'onglet
+  // ni perdre la sélection jour/heure (router.refresh ne remonte pas le composant).
+  useEffect(() => {
+    const id = setInterval(() => router.refresh(), 60000);
+    return () => clearInterval(id);
+  }, [router]);
 
   // Couverture par salle (min/max des jours présents) + bornes globales.
   const { allMin, allMax, venueCover } = useMemo(() => {
