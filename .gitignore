@@ -1,0 +1,12 @@
+# Dépendances / builds
+node_modules/
+web/node_modules/
+web/.next/
+web/out/
+
+# Divers
+.DS_Store
+*.log
+.env
+.env.local
+.vercel

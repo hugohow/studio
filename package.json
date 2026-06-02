@@ -1,0 +1,17 @@
+{
+  "name": "studiotonight",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "StudioTonight — trouve les créneaux libres des studios de répétition à Paris (Wacked Live, Studio Bleu, Studio HBS, extensible). Sortie JSON, exécutable en cron sur le cloud.",
+  "bin": {
+    "studiotonight": "bin/fetch-slots.js"
+  },
+  "scripts": {
+    "fetch": "node bin/fetch-slots.js",
+    "fetch:file": "node bin/fetch-slots.js --out data/slots.json"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,42 @@
+name: Refresh slots
+
+# Rafraîchit data/slots.json à intervalle régulier et commit le résultat.
+# Vercel lit ce fichier via son URL raw GitHub (variable d'env FEED_URL) + ISR.
+# Horaire = ~24 runs/jour (~1 min chacun) → reste sous les 2000 min/mois gratuites
+# d'un repo privé. La planification GitHub (UTC) a souvent ~5-15 min de latence.
+on:
+  schedule:
+    - cron: "0 * * * *" # toutes les heures
+  workflow_dispatch: {} # déclenchement manuel possible
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-slots
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Récupérer les créneaux
+        run: node bin/fetch-slots.js --out data/slots.json --months 1
+
+      - name: Commit si changement
+        run: |
+          git config user.name "studio-finder-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/slots.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "chore: refresh slots $(date -u +%FT%TZ)"
+            git push
+          fi
