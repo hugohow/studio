@@ -132,8 +132,11 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
     }
   }
 
+  // `{date}` est remplacé côté front par le jour sélectionné (la page planning accepte ?date=).
+  const bookingUrl = `${BASE}?date={date}`;
   const studios = [...rooms.entries()].map(([id, r]) => ({
     studio: roomNames.get(id) || `Salle ${id}`,
+    url: bookingUrl,
     days: r.days,
   }));
 

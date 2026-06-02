@@ -35,7 +35,7 @@ async function loadFeed() {
   }
 }
 
-export default async function Page() {
+export default async function Page({ searchParams }) {
   const feed = await loadFeed();
 
   if (feed.error) {
@@ -53,5 +53,7 @@ export default async function Page() {
     );
   }
 
-  return <Explorer feed={feed} />;
+  return (
+    <Explorer feed={feed} initialDate={searchParams?.date || ""} initialTime={searchParams?.time || ""} />
+  );
 }

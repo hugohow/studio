@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { ConfigProvider, DatePicker, Select } from "antd";
 import frFR from "antd/locale/fr_FR";
 import dayjs from "dayjs";
@@ -26,8 +27,9 @@ function frDateTime(iso) {
   });
 }
 
-export default function Explorer({ feed }) {
+export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
   const venues = feed.venues || [];
+  const router = useRouter();
 
   // Couverture par salle (min/max des jours présents) + bornes globales.
   const { allMin, allMax, venueCover } = useMemo(() => {
@@ -50,8 +52,31 @@ export default function Explorer({ feed }) {
     return { allMin: lo, allMax: hi, venueCover: cover };
   }, [venues]);
 
-  const [date, setDate] = useState(allMin || "");
-  const [time, setTime] = useState(""); // "" = toutes les heures
+  const [date, setDate] = useState(initialDate || allMin || "");
+  const [time, setTime] = useState(initialTime || ""); // "" = toutes les heures
+
+  // Reflète les filtres dans l'URL (partageable + restauré au reload).
+  function pushUrl(d, t) {
+    const p = new URLSearchParams();
+    if (d) p.set("date", d);
+    if (t) p.set("time", t);
+    const qs = p.toString();
+    router.replace(qs ? `?${qs}` : "?", { scroll: false });
+  }
+  function chooseDate(d) {
+    setDate(d);
+    setTime("");
+    pushUrl(d, "");
+  }
+  function chooseTime(t) {
+    setTime(t);
+    pushUrl(date, t);
+  }
+
+  // Lien de réservation daté : {date} remplacé par le jour sélectionné (HBS).
+  function bookingHref(url) {
+    return url ? url.replaceAll("{date}", date) : undefined;
+  }
 
   const timesForDate = useMemo(() => {
     const set = new Set();
@@ -81,8 +106,7 @@ export default function Explorer({ feed }) {
     const next = dayjs(date).add(delta, "day").format("YYYY-MM-DD");
     if (allMin && next < allMin) return;
     if (allMax && next > allMax) return;
-    setDate(next);
-    setTime("");
+    chooseDate(next);
   }
 
   return (
@@ -103,10 +127,7 @@ export default function Explorer({ feed }) {
               </button>
               <DatePicker
                 value={date ? dayjs(date) : null}
-                onChange={(d) => {
-                  setDate(d ? d.format("YYYY-MM-DD") : "");
-                  setTime("");
-                }}
+                onChange={(d) => chooseDate(d ? d.format("YYYY-MM-DD") : "")}
                 minDate={allMin ? dayjs(allMin) : undefined}
                 maxDate={allMax ? dayjs(allMax) : undefined}
                 allowClear={false}
@@ -123,7 +144,7 @@ export default function Explorer({ feed }) {
             <label>Heure</label>
             <Select
               value={time}
-              onChange={(v) => setTime(v)}
+              onChange={(v) => chooseTime(v)}
               disabled={!timesForDate.length}
               style={{ height: 38, minWidth: 150 }}
               options={[{ value: "", label: "Toutes" }, ...timesForDate.map((t) => ({ value: t, label: t }))]}
@@ -145,7 +166,8 @@ export default function Explorer({ feed }) {
         </div>
 
         {view.venues.map((v) => {
-          const visible = v.studios.filter((s) => (time ? s.hit : true));
+          // On n'affiche que les studios avec au moins un créneau (selon l'heure filtrée).
+          const visible = v.studios.filter((s) => (time ? s.hit : s.times.length > 0));
           const anyData = v.studios.some((s) => s.times.length > 0);
           return (
             <section className="venue" key={v.name}>
@@ -179,7 +201,7 @@ export default function Explorer({ feed }) {
                           <a
                             key={t}
                             className={"chip" + (time && t === time ? " hit" : "")}
-                            href={s.url}
+                            href={bookingHref(s.url)}
                             target="_blank"
                             rel="noreferrer"
                             title={`Réserver ${s.name} à ${t}`}
