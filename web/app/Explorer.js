@@ -118,6 +118,10 @@ export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
           by{" "}
           <a href="https://www.linkedin.com/in/hugo-how-choong/" target="_blank" rel="noreferrer">
             Hugo How-Choong
+          </a>{" "}
+          ·{" "}
+          <a href="https://github.com/hugohow/studio" target="_blank" rel="noreferrer">
+            code sur GitHub
           </a>
         </p>
         <p className="sub">
