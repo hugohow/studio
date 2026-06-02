@@ -20,6 +20,7 @@ function frShort(iso) {
 
 function frDateTime(iso) {
   return new Date(iso).toLocaleString("fr-FR", {
+    timeZone: "Europe/Paris",
     day: "numeric",
     month: "short",
     hour: "2-digit",

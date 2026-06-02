@@ -6,7 +6,9 @@ name: Refresh slots
 # d'un repo privé. La planification GitHub (UTC) a souvent ~5-15 min de latence.
 on:
   schedule:
-    - cron: "0 * * * *" # toutes les heures
+    # GitHub planifie en *best-effort* (souvent 5-20 min de retard, parfois sauté).
+    # On évite ":00" (créneau le plus congestionné) et on tourne 2×/h pour la fraîcheur.
+    - cron: "17,47 * * * *"
   workflow_dispatch: {} # déclenchement manuel possible
 
 permissions:

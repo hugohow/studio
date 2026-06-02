@@ -2,9 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 import Explorer from "./Explorer";
 
-// ISR : la page se régénère au plus toutes les 10 min (le cron GitHub Actions
-// rafraîchit le feed plus souvent ; on relit la version à jour côté Vercel).
-export const revalidate = 600;
+// On relit le feed au plus toutes les 60 s (le cron GitHub Actions le rafraîchit ;
+// 60 s garde le site quasi à jour sans marteler l'API GitHub).
+export const revalidate = 60;
 
 async function loadFeed() {
   // Prod (Vercel) : feed publié par le cron, lu via l'API GitHub (repo privé).
@@ -19,7 +19,7 @@ async function loadFeed() {
         headers.Authorization = `Bearer ${token}`;
         headers.Accept = "application/vnd.github.raw"; // renvoie le contenu brut du fichier
       }
-      const r = await fetch(url, { headers, next: { revalidate: 600 } });
+      const r = await fetch(url, { headers, next: { revalidate: 60 } });
       if (!r.ok) return { error: `HTTP ${r.status} sur FEED_URL` };
       return await r.json();
     } catch (e) {

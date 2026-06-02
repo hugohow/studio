@@ -1,7 +1,7 @@
 import "./globals.css";
 
-const TITLE = "StudioTonight";
-const DESC = "Les créneaux dispo des studios de répétition du nord-est parisien";
+const TITLE = "🎸 StudioTonight";
+const DESC = "Voir directement les créneaux dispo";
 
 export const metadata = {
   metadataBase: new URL(process.env.SITE_URL || "https://studiotonight.vercel.app"),
