@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T19:14:55.571Z",
+  "generatedAt": "2026-06-02T19:35:26.580Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -12459,6 +12459,11 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
+            "2026-06-03": [
+              {
+                "time": "17:00"
+              }
+            ],
             "2026-06-05": [
               {
                 "time": "10:00"
@@ -14830,11 +14835,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-02": [
-              {
-                "time": "21:30"
-              }
-            ],
             "2026-06-04": [
               {
                 "time": "11:30"
