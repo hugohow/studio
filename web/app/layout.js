@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "StudioTonight",
-  description: "Trouve un studio de répétition libre à Paris ce soir",
+  description: "Les créneaux dispo des studios de répétition du nord-est parisien",
 };
 
 export default function RootLayout({ children }) {

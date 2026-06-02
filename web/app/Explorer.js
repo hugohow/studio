@@ -113,6 +113,12 @@ export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
     <ConfigProvider locale={frFR} theme={{ token: { colorPrimary: "#2563eb", borderRadius: 8 } }}>
       <main>
         <h1>🎸 StudioTonight</h1>
+        <p className="byline">
+          by{" "}
+          <a href="https://www.linkedin.com/in/hugo-how-choong/" target="_blank" rel="noreferrer">
+            Hugo How-Choong
+          </a>
+        </p>
         <p className="sub">
           {venues.length} salle(s) · feed mis à jour le {feed.generatedAt ? frDateTime(feed.generatedAt) : "?"} · durée{" "}
           {feed.durationH}h · données du {allMin && frShort(allMin)} au {allMax && frShort(allMax)}

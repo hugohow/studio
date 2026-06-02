@@ -33,6 +33,12 @@ h1 {
   margin: 0 0 4px;
 }
 
+.byline {
+  margin: 2px 0 16px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
 .sub {
   color: var(--muted);
   margin: 0 0 24px;
