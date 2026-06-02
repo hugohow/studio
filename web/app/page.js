@@ -35,6 +35,35 @@ async function loadFeed() {
   }
 }
 
+// Rafraîchissement "à la visite" : si le feed est vieux, on déclenche le workflow GitHub
+// (qui régénère data/slots.json). Pas de scheduler ; la fraîcheur suit le trafic.
+let lastDispatchAt = 0; // debounce par instance serverless (évite les déclenchements en rafale)
+
+async function maybeRefresh(generatedAt) {
+  const token = process.env.GH_DISPATCH_TOKEN;
+  if (!token || !generatedAt) return;
+  const ageMin = (Date.now() - new Date(generatedAt).getTime()) / 60000;
+  if (ageMin < 15) return; // assez frais
+  if (Date.now() - lastDispatchAt < 5 * 60 * 1000) return; // déjà déclenché récemment
+  lastDispatchAt = Date.now();
+  try {
+    await fetch("https://api.github.com/repos/hugohow/studio/actions/workflows/refresh.yml/dispatches", {
+      method: "POST",
+      cache: "no-store",
+      headers: {
+        Accept: "application/vnd.github+json",
+        Authorization: `Bearer ${token}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "studiotonight",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ ref: "main" }),
+    });
+  } catch {
+    /* best-effort : on n'empêche pas le rendu si le déclenchement échoue */
+  }
+}
+
 export default async function Page({ searchParams }) {
   const feed = await loadFeed();
 
@@ -52,6 +81,8 @@ export default async function Page({ searchParams }) {
       </main>
     );
   }
+
+  await maybeRefresh(feed.generatedAt);
 
   return (
     <Explorer feed={feed} initialDate={searchParams?.date || ""} initialTime={searchParams?.time || ""} />
