@@ -1,7 +1,7 @@
 import "./globals.css";
 
 const TITLE = "🎸 StudioTonight";
-const DESC = "Voir directement les créneaux dispo";
+const DESC = "Voir en temps réel les créneaux : Wacked, Studio Bleu, HBS";
 
 export const metadata = {
   metadataBase: new URL(process.env.SITE_URL || "https://studiotonight.vercel.app"),
