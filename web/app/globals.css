@@ -112,6 +112,32 @@ select {
 input[type="date"] {
   font-variant-numeric: tabular-nums;
 }
+.nativedate {
+  min-width: 150px;
+}
+
+/* Empilement des contrôles sur petit écran */
+@media (max-width: 640px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .summary {
+    margin-left: 0;
+  }
+}
+
+/* Champ plage horaire (slider antd) */
+.field-hours {
+  flex: 1 1 240px;
+}
+.sliderbox {
+  min-width: 220px;
+  padding: 4px 14px 0;
+}
+.sliderbox .ant-slider {
+  margin: 8px 6px 20px; /* place pour les marks + confort tactile */
+}
 
 .summary {
   font-size: 14px;

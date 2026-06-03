@@ -2,12 +2,15 @@
 
 import { useMemo, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { ConfigProvider, DatePicker, Select } from "antd";
+import { ConfigProvider, DatePicker, Slider } from "antd";
 import frFR from "antd/locale/fr_FR";
 import dayjs from "dayjs";
 import "dayjs/locale/fr";
 
 dayjs.locale("fr");
+
+const H_MIN = 8;
+const H_MAX = 24; // 24 = minuit
 
 function frDate(iso) {
   if (!iso) return "";
@@ -28,12 +31,15 @@ function frDateTime(iso) {
   });
 }
 
-export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
+function fmtH(v) {
+  return v >= 24 ? "minuit" : `${v}h`;
+}
+
+export default function Explorer({ feed, initialDate = "", initialFrom, initialTo, isMobile = false }) {
   const venues = feed.venues || [];
   const router = useRouter();
 
-  // Auto-refresh : re-fetch du feed côté serveur toutes les 60 s, sans recharger l'onglet
-  // ni perdre la sélection jour/heure (router.refresh ne remonte pas le composant).
+  // Auto-refresh : re-fetch du feed côté serveur toutes les 60 s, sans recharger l'onglet.
   useEffect(() => {
     const id = setInterval(() => router.refresh(), 60000);
     return () => clearInterval(id);
@@ -61,24 +67,35 @@ export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
   }, [venues]);
 
   const [date, setDate] = useState(initialDate || allMin || "");
-  const [time, setTime] = useState(initialTime || ""); // "" = toutes les heures
+  const [range, setRange] = useState([
+    Number.isFinite(initialFrom) ? initialFrom : H_MIN,
+    Number.isFinite(initialTo) ? initialTo : H_MAX,
+  ]);
 
   // Reflète les filtres dans l'URL (partageable + restauré au reload).
-  function pushUrl(d, t) {
+  function pushUrl(d, r) {
     const p = new URLSearchParams();
     if (d) p.set("date", d);
-    if (t) p.set("time", t);
+    if (r && (r[0] !== H_MIN || r[1] !== H_MAX)) {
+      p.set("from", r[0]);
+      p.set("to", r[1]);
+    }
     const qs = p.toString();
     router.replace(qs ? `?${qs}` : "?", { scroll: false });
   }
   function chooseDate(d) {
     setDate(d);
-    setTime("");
-    pushUrl(d, "");
+    pushUrl(d, range); // on garde la plage horaire en changeant de jour
   }
-  function chooseTime(t) {
-    setTime(t);
-    pushUrl(date, t);
+  function chooseRange(r) {
+    setRange(r);
+    pushUrl(date, r);
+  }
+  function step(delta) {
+    const next = dayjs(date).add(delta, "day").format("YYYY-MM-DD");
+    if (allMin && next < allMin) return;
+    if (allMax && next > allMax) return;
+    chooseDate(next);
   }
 
   // Lien de réservation daté : {date} remplacé par le jour sélectionné (HBS).
@@ -86,36 +103,29 @@ export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
     return url ? url.replaceAll("{date}", date) : undefined;
   }
 
-  const timesForDate = useMemo(() => {
-    const set = new Set();
-    for (const v of venues)
-      for (const s of v.studios || [])
-        for (const slot of s.days?.[date] || []) set.add(slot.time);
-    return [...set].sort();
-  }, [venues, date]);
-
   const view = useMemo(() => {
+    const [a, b] = range;
+    const inRange = (t) => {
+      const [h, m] = t.split(":").map(Number);
+      const hf = h + m / 60;
+      return hf >= a && hf <= b;
+    };
     let freeCount = 0;
     const out = venues.map((v) => {
       const cover = venueCover[v.name] || {};
-      const beyond = cover.max && date > cover.max; // au-delà de l'horizon de la salle
+      const beyond = cover.max && date > cover.max;
       const studios = (v.studios || []).map((s) => {
-        const times = (s.days?.[date] || []).map((x) => x.time);
-        const hit = time ? times.includes(time) : times.length > 0;
-        if (hit) freeCount++;
-        return { name: s.studio, times, hit, url: s.url || v.url };
+        const all = (s.days?.[date] || []).map((x) => x.time);
+        const times = all.filter(inRange);
+        if (times.length) freeCount++;
+        return { name: s.studio, times, hasData: all.length > 0, url: s.url || v.url };
       });
       return { name: v.name, address: v.address, url: v.url, studios, beyond, cover };
     });
     return { venues: out, freeCount };
-  }, [venues, date, time, venueCover]);
+  }, [venues, date, range, venueCover]);
 
-  function step(delta) {
-    const next = dayjs(date).add(delta, "day").format("YYYY-MM-DD");
-    if (allMin && next < allMin) return;
-    if (allMax && next > allMax) return;
-    chooseDate(next);
-  }
+  const isFullRange = range[0] === H_MIN && range[1] === H_MAX;
 
   return (
     <ConfigProvider locale={frFR} theme={{ token: { colorPrimary: "#2563eb", borderRadius: 8 } }}>
@@ -143,50 +153,58 @@ export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
               <button className="stepper" onClick={() => step(-1)} disabled={date <= allMin} aria-label="Jour précédent">
                 ‹
               </button>
-              <DatePicker
-                value={date ? dayjs(date) : null}
-                onChange={(d) => chooseDate(d ? d.format("YYYY-MM-DD") : "")}
-                minDate={allMin ? dayjs(allMin) : undefined}
-                maxDate={allMax ? dayjs(allMax) : undefined}
-                allowClear={false}
-                format="ddd D MMM YYYY"
-                style={{ height: 38, minWidth: 180 }}
-              />
+              {/* Mobile (détecté par user-agent) : date picker natif · Desktop : antd */}
+              {isMobile ? (
+                <input
+                  type="date"
+                  className="nativedate"
+                  value={date}
+                  min={allMin || undefined}
+                  max={allMax || undefined}
+                  onChange={(e) => e.target.value && chooseDate(e.target.value)}
+                />
+              ) : (
+                <DatePicker
+                  value={date ? dayjs(date) : null}
+                  onChange={(d) => chooseDate(d ? d.format("YYYY-MM-DD") : "")}
+                  minDate={allMin ? dayjs(allMin) : undefined}
+                  maxDate={allMax ? dayjs(allMax) : undefined}
+                  allowClear={false}
+                  format="ddd D MMM YYYY"
+                  style={{ height: 38, minWidth: 180 }}
+                />
+              )}
               <button className="stepper" onClick={() => step(1)} disabled={date >= allMax} aria-label="Jour suivant">
                 ›
               </button>
             </div>
           </div>
 
-          <div className="field">
-            <label>Heure</label>
-            <Select
-              value={time}
-              onChange={(v) => chooseTime(v)}
-              disabled={!timesForDate.length}
-              style={{ height: 38, minWidth: 150 }}
-              options={[{ value: "", label: "Toutes" }, ...timesForDate.map((t) => ({ value: t, label: t }))]}
-            />
+          <div className="field field-hours">
+            <label>Plage horaire</label>
+            <div className="sliderbox">
+              <Slider
+                range
+                min={H_MIN}
+                max={H_MAX}
+                step={1}
+                value={range}
+                onChange={chooseRange}
+                marks={{ 8: "8h", 12: "12h", 16: "16h", 20: "20h", 24: "0h" }}
+                tooltip={{ formatter: fmtH }}
+              />
+            </div>
           </div>
 
           <div className="summary">
-            {frDate(date)} ·{" "}
-            {time ? (
-              <>
-                <b>{view.freeCount}</b> studio(s) à {time}
-              </>
-            ) : (
-              <>
-                <b>{view.freeCount}</b> studio(s) dispo(s)
-              </>
-            )}
+            {frDate(date)} · <b>{view.freeCount}</b> studio(s){" "}
+            {isFullRange ? "dispo(s)" : `entre ${fmtH(range[0])} et ${fmtH(range[1])}`}
           </div>
         </div>
 
         {view.venues.map((v) => {
-          // On n'affiche que les studios avec au moins un créneau (selon l'heure filtrée).
-          const visible = v.studios.filter((s) => (time ? s.hit : s.times.length > 0));
-          const anyData = v.studios.some((s) => s.times.length > 0);
+          const visible = v.studios.filter((s) => s.times.length > 0);
+          const anyData = v.studios.some((s) => s.hasData);
           return (
             <section className="venue" key={v.name}>
               <h2>
@@ -205,32 +223,28 @@ export default function Explorer({ feed, initialDate = "", initialTime = "" }) {
                   Horizon limité : pas de données au-delà du {v.cover.max && frShort(v.cover.max)} pour cette salle.
                 </p>
               ) : visible.length === 0 ? (
-                <p className="none">Aucun studio libre {time ? `à ${time}` : "ce jour"}.</p>
+                <p className="none">Aucun studio libre {isFullRange ? "ce jour" : "sur cette plage"}.</p>
               ) : (
                 visible.map((s) => (
-                  <div className={"studio" + (s.times.length ? "" : " empty")} key={s.name}>
+                  <div className="studio" key={s.name}>
                     <div className="name">
                       <span>{s.name}</span>
                       <span className="count">{s.times.length} créneau(x)</span>
                     </div>
-                    {s.times.length ? (
-                      <div className="chips">
-                        {s.times.map((t) => (
-                          <a
-                            key={t}
-                            className={"chip" + (time && t === time ? " hit" : "")}
-                            href={bookingHref(s.url)}
-                            target="_blank"
-                            rel="noreferrer"
-                            title={`Réserver ${s.name} à ${t}`}
-                          >
-                            {t}
-                          </a>
-                        ))}
-                      </div>
-                    ) : (
-                      <span className="none">—</span>
-                    )}
+                    <div className="chips">
+                      {s.times.map((t) => (
+                        <a
+                          key={t}
+                          className="chip"
+                          href={bookingHref(s.url)}
+                          target="_blank"
+                          rel="noreferrer"
+                          title={`Réserver ${s.name} à ${t}`}
+                        >
+                          {t}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 ))
               )}

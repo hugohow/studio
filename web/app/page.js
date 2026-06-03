@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { headers } from "next/headers";
 import Explorer from "./Explorer";
 
 // On relit le feed au plus toutes les 60 s (le cron GitHub Actions le rafraîchit ;
@@ -84,7 +85,20 @@ export default async function Page({ searchParams }) {
 
   await maybeRefresh(feed.generatedAt);
 
+  const from = searchParams?.from ? Number(searchParams.from) : undefined;
+  const to = searchParams?.to ? Number(searchParams.to) : undefined;
+
+  // Détection mobile par user-agent (et non par largeur) : un pliant déplié reste un mobile tactile.
+  const ua = headers().get("user-agent") || "";
+  const isMobile = /Android|iPhone|iPad|iPod|Mobile|Windows Phone|webOS|BlackBerry|Opera Mini|IEMobile/i.test(ua);
+
   return (
-    <Explorer feed={feed} initialDate={searchParams?.date || ""} initialTime={searchParams?.time || ""} />
+    <Explorer
+      feed={feed}
+      initialDate={searchParams?.date || ""}
+      initialFrom={from}
+      initialTo={to}
+      isMobile={isMobile}
+    />
   );
 }
