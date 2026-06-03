@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T08:42:17.981Z",
+  "generatedAt": "2026-06-03T08:47:15.282Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5108,15 +5108,6 @@
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
             "2026-06-03": [
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
               {
                 "time": "16:00"
               }
