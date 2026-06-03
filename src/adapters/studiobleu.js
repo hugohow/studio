@@ -16,6 +16,7 @@ const VENUE = {
 };
 
 const MAX_CONCURRENCY = 8; // poli avec l'API : ~15 salles × ~60 jours = beaucoup de requêtes
+const MIN_DURATION_H = 2; // Studio Bleu impose une réservation de 2h minimum (impossible d'en réserver moins)
 
 // On ne s'engage pas sur le prix (modèle par taille de groupe, variable) : seule la dispo compte.
 
@@ -25,8 +26,19 @@ function toMin(hhmm) {
   return h * 60 + m;
 }
 
+// Règles propres à Studio Bleu sur l'heure de début (durationH = durée effective) :
+//  - pas de départ à la demi-heure à partir de 19h (le soir = heures pleines uniquement) ;
+//  - aucune réservation ne peut se terminer à 23:00.
+function allowedStart(hhmm, durationH) {
+  const start = toMin(hhmm);
+  if (start % 60 === 30 && start >= 19 * 60) return false; // pas de :30 après 19h
+  if (start + durationH * 60 === 23 * 60) return false; // pas de fin à 23:00
+  return true;
+}
+
 // À partir des tranches de 30 min d'un jour, renvoie les heures de DÉBUT réservables
-// pour une durée donnée : il faut `durationH*2` tranches consécutives toutes "free".
+// pour une durée donnée : il faut `durationH*2` tranches consécutives toutes "free",
+// puis on applique les règles propres à Studio Bleu (cf. allowedStart).
 function freeStarts(reservations, durationH) {
   const free = new Set(
     (reservations || []).filter((r) => r.status === "free").map((r) => toMin(r.hour))
@@ -40,7 +52,7 @@ function freeStarts(reservations, durationH) {
     for (let i = 1; i < needed; i++) {
       if (!free.has(start + i * 30)) { ok = false; break; }
     }
-    if (ok) starts.push(r.hour);
+    if (ok && allowedStart(r.hour, durationH)) starts.push(r.hour);
   }
   return starts;
 }
@@ -82,6 +94,8 @@ async function pool(items, limit, worker) {
 
 // Interface commune des adaptateurs (cf. wacked.js).
 export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) {
+  // Studio Bleu refuse les résas < 2h : on ne surface que des créneaux où 2h sont libres.
+  const effDurationH = Math.max(durationH, MIN_DURATION_H);
   const allRooms = await getJSON(`${API}/rooms`);
   const rooms = (allRooms || []).filter(
     (r) => r.site?.id === SITE_ID && r.internet_visibility
@@ -94,7 +108,7 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
       const perDay = await pool(dates, MAX_CONCURRENCY, async (date) => {
         try {
           const j = await getJSON(`${API}/reservations/daily?date=${date}&roomId=${room.id}`);
-          return [date, freeStarts(j?.reservations, durationH)];
+          return [date, freeStarts(j?.reservations, effDurationH)];
         } catch (e) {
           return [date, null]; // jour en erreur -> ignoré
         }
@@ -111,7 +125,7 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
     })
   );
 
-  return { id: VENUE.id, name: VENUE.name, address: VENUE.address, url: VENUE.url, durationH, studios };
+  return { id: VENUE.id, name: VENUE.name, address: VENUE.address, url: VENUE.url, durationH: effDurationH, studios };
 }
 
 export const meta = VENUE;

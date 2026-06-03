@@ -66,6 +66,14 @@ de 30 min. Pas de prix dans le feed (focus dispo).
   avec `Z` décale le jour.
 - Dispo = `status === "free"` ; un créneau de début tient si les `durationH*2` tranches consécutives
   sont toutes libres. Horizon plafonné par `room.days_visible` (~60 j).
+- ⚠️ **Règles de réservation** (affichées sur la page de résa, encodées dans `allowedStart` +
+  `effDurationH`) : **2h minimum** → l'adaptateur clampe la durée à `MIN_DURATION_H = 2`
+  (`effDurationH = max(durationH, 2)`), donc même dans le feed 1h on n'expose que des créneaux où
+  2h sont libres (la salle renvoie `durationH: 2`, pas affiché côté front) ; **pas de départ à la
+  demi-heure à partir de 19h** ; **pas de fin possible à 23:00** (donc pas de départ à 21:00 en 2h).
+- La page de réservation (`reservation.studiobleu.com`, SPA Next.js) appelle le **même** endpoint
+  `/reservations/daily` que nous : pas d'endpoint « créneaux réservables » côté serveur, les règles
+  sont appliquées en JS côté client → inutile de scraper, on réplique les règles ici.
 - ~15 salles × ~60 j = ~900 requêtes/run → concurrence bornée (`MAX_CONCURRENCY`), penser à espacer le
   cron quand il sera activé.
 
