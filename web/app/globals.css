@@ -122,9 +122,6 @@ input[type="date"] {
     flex-direction: column;
     align-items: stretch;
   }
-  .summary {
-    margin-left: 0;
-  }
 }
 
 /* Champ plage horaire (slider antd) */
@@ -140,9 +137,10 @@ input[type="date"] {
 }
 
 .summary {
+  flex: 0 0 100%; /* ligne dédiée : bouger le slider ne redimensionne plus rien */
   font-size: 14px;
   color: var(--muted);
-  margin-left: auto;
+  margin: 2px 0 0;
 }
 .summary b {
   color: var(--free);
