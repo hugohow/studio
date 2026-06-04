@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T12:40:18.709Z",
+  "generatedAt": "2026-06-04T12:43:01.819Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6326,11 +6326,6 @@
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
           "days": {
-            "2026-06-04": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-05": [
               {
                 "time": "22:00"
