@@ -6,8 +6,9 @@ Guide pour travailler sur ce repo. Voir aussi `README.md` (usage) et l'API déta
 ## But
 
 Récupérer **précisément** les créneaux libres des studios de répétition à Paris et les sortir en
-**JSON**. Salles branchées : **Wacked Live** (3 studios) et **Studio Bleu** (site 10ème Musique, ~15
-studios), pensé pour en brancher d'autres. Tourne en **cron sur le cloud** (GitHub Actions). Idée
+**JSON**. Salles branchées : **Wacked Live** (3 studios), **Studio Bleu** (site 10ème Musique, ~15
+studios), **Studio HBS** et **FGO-Barbara** (8 salles chacun, via QuickStudio), pensé pour en
+brancher d'autres. Tourne en **cron sur le cloud** (GitHub Actions). Idée
 produit : mode **inverse** = on donne date+heure, on obtient la liste des studios libres.
 
 **Focus dispo** : on ne s'engage pas sur les prix (modèles tarifaires hétérogènes selon les salles).
@@ -77,10 +78,14 @@ de 30 min. Pas de prix dans le feed (focus dispo).
 - ~15 salles × ~60 j = ~900 requêtes/run → concurrence bornée (`MAX_CONCURRENCY`), penser à espacer le
   cron quand il sera activé.
 
-## Points d'attention (Studio HBS / QuickStudio)
+## Points d'attention (QuickStudio : Studio HBS, FGO-Barbara)
 
+- Plusieurs salles partagent le back **QuickStudio** (`quickstudio.com`). Le cœur est mutualisé dans
+  `src/adapters/quickstudio.js` (`makeQuickStudio({ id, name, address, slug })`) ; chaque salle
+  (`hbs.js`, `fgo-barbara.js`) n'est qu'un wrapper qui fournit sa `meta` + son `slug`.
 - **Pas d'API JSON** : Ruby on Rails, planning rendu en HTML → **scraping** (plus fragile si le markup change).
-- `GET /fr/studios/studio-hbs/bookings?date=YYYY-MM-DD` → **1 requête = 1 jour pour les 8 salles**.
+- `GET /fr/studios/<slug>/bookings?date=YYYY-MM-DD` → **1 requête = 1 jour pour toutes les salles** du studio
+  (slugs : `studio-hbs`, `fgo-barbara`). Le nom de salle = texte du `<h4>` du `room-box`.
 - Salles = `<div class="room" data-room="ID">` ; créneaux = `<span class="cell-N available|unavailable|closed"
   data-start="<unix>" data-end="<unix>">`. Les `available` sont les intervalles libres (timestamps Unix,
   convertis en heure de Paris). Dispo = on émet les heures de début (pas de 30 min) où la durée tient.

@@ -5,8 +5,9 @@
 import * as wacked from "./wacked.js";
 import * as studiobleu from "./studiobleu.js";
 import * as hbs from "./hbs.js";
+import * as fgoBarbara from "./fgo-barbara.js";
 
-export const ADAPTERS = [wacked, studiobleu, hbs];
+export const ADAPTERS = [wacked, studiobleu, hbs, fgoBarbara];
 
 // Date + heure courantes en heure de Paris : { date: "YYYY-MM-DD", time: "HH:MM" }.
 function parisNow() {
