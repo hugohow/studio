@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T16:40:57.427Z",
+  "generatedAt": "2026-06-04T16:58:24.573Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7997,14 +7997,6 @@
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
           "days": {
-            "2026-06-07": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-10": [
               {
                 "time": "10:00"
