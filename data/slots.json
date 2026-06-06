@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T12:35:05.652Z",
+  "generatedAt": "2026-06-06T12:47:09.915Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4463,6 +4463,14 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
+            "2026-06-07": [
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
+              }
+            ],
             "2026-06-09": [
               {
                 "time": "10:00"
@@ -7566,6 +7574,24 @@
             "2026-06-14": [
               {
                 "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
               },
               {
                 "time": "20:00"
