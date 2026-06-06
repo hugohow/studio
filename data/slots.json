@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T17:55:31.272Z",
+  "generatedAt": "2026-06-06T18:05:37.011Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-06-06": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "23:00"
               }
@@ -1173,9 +1170,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-06-06": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "23:00"
               }
@@ -2354,9 +2348,6 @@
           "days": {
             "2026-06-06": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "23:00"
               }
             ],
@@ -3515,11 +3506,6 @@
           "studio": "Studio A (P.A)",
           "url": "https://reservation.studiobleu.com/studios/1",
           "days": {
-            "2026-06-06": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-15": [
               {
                 "time": "17:00"
@@ -8879,6 +8865,15 @@
             "2026-06-10": [
               {
                 "time": "10:00"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
               }
             ],
             "2026-06-11": [
@@ -9843,11 +9838,6 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
-            "2026-06-06": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-07": [
               {
                 "time": "20:00"
@@ -13026,9 +13016,6 @@
           "days": {
             "2026-06-06": [
               {
-                "time": "20:00"
-              },
-              {
                 "time": "20:30"
               },
               {
@@ -13403,9 +13390,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-06": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "20:30"
               },
@@ -13849,9 +13833,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-06": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "20:30"
               },
@@ -15300,9 +15281,6 @@
           "days": {
             "2026-06-06": [
               {
-                "time": "20:00"
-              },
-              {
                 "time": "20:30"
               },
               {
@@ -15950,9 +15928,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-06": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "20:30"
               },
