@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T13:54:54.342Z",
+  "generatedAt": "2026-06-07T14:11:22.623Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3888,18 +3888,6 @@
               },
               {
                 "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
               }
             ],
             "2026-06-12": [
@@ -5836,14 +5824,6 @@
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
           "days": {
-            "2026-06-13": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-14": [
               {
                 "time": "10:00"
@@ -6213,21 +6193,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
               },
               {
                 "time": "22:00"
@@ -16258,11 +16223,6 @@
           "studio": "Grande Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-07": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-08": [
               {
                 "time": "10:00"
