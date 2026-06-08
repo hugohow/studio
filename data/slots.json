@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T19:18:41.001Z",
+  "generatedAt": "2026-06-08T19:34:39.516Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -8975,11 +8975,6 @@
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
           "days": {
-            "2026-06-10": [
-              {
-                "time": "10:00"
-              }
-            ],
             "2026-06-11": [
               {
                 "time": "22:00"
@@ -12809,9 +12804,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-08": [
-              {
-                "time": "21:30"
-              },
               {
                 "time": "22:00"
               }
