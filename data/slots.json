@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T13:58:38.760Z",
+  "generatedAt": "2026-06-08T14:08:37.281Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4100,27 +4100,6 @@
                 "time": "11:00"
               },
               {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -4241,11 +4220,6 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-06-08": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-10": [
               {
                 "time": "10:00"
@@ -12793,14 +12767,6 @@
                 "time": "22:30"
               }
             ],
-            "2026-06-10": [
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              }
-            ],
             "2026-06-12": [
               {
                 "time": "11:30"
@@ -16086,11 +16052,6 @@
           "studio": "Grande Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-08": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-09": [
               {
                 "time": "10:00"
