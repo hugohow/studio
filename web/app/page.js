@@ -71,7 +71,7 @@ export default async function Page({ searchParams }) {
   if (feed.error) {
     return (
       <main>
-        <h1>StudioTonight</h1>
+        <h1>Studio Tonight</h1>
         <p className="sub">
           Impossible de charger le feed : {feed.error}.
           <br />

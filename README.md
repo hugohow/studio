@@ -1,4 +1,4 @@
-# 🎸 StudioTonight
+# 🎸 Studio Tonight
 
 **[studiotonight.vercel.app](https://studiotonight.vercel.app)** — voir directement les créneaux libres des studios de répétition du nord-est parisien.
 
