@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T13:54:09.128Z",
+  "generatedAt": "2026-06-09T14:14:36.492Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1055,11 +1055,6 @@
         {
           "studio": "Studio 2",
           "days": {
-            "2026-06-09": [
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-06-10": [
               {
                 "time": "10:00"
@@ -2168,9 +2163,6 @@
           "days": {
             "2026-06-09": [
               {
-                "time": "18:00"
-              },
-              {
                 "time": "23:00"
               }
             ],
@@ -2427,12 +2419,6 @@
               },
               {
                 "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              },
-              {
-                "time": "21:00"
               }
             ],
             "2026-06-19": [
@@ -12425,27 +12411,6 @@
                 "time": "13:00"
               },
               {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
                 "time": "17:00"
               },
               {
@@ -12743,11 +12708,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-09": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-06-10": [
               {
                 "time": "17:30"
@@ -14327,9 +14287,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-09": [
-              {
-                "time": "16:00"
-              },
               {
                 "time": "16:30"
               },
@@ -16044,11 +16001,6 @@
           "studio": "Grande Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-09": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-10": [
               {
                 "time": "12:00"
