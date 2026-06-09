@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T07:42:58.938Z",
+  "generatedAt": "2026-06-09T07:59:18.290Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4222,11 +4222,6 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-06-10": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-06-12": [
               {
                 "time": "10:00"
@@ -6660,11 +6655,6 @@
                 "time": "20:00"
               }
             ],
-            "2026-06-18": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-20": [
               {
                 "time": "20:00"
@@ -8668,23 +8658,6 @@
               },
               {
                 "time": "20:00"
-              }
-            ],
-            "2026-06-22": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
               }
             ],
             "2026-06-23": [
@@ -12003,6 +11976,9 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-09": [
+              {
+                "time": "10:00"
+              },
               {
                 "time": "17:00"
               }
