@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T13:29:07.107Z",
+  "generatedAt": "2026-06-09T13:46:20.636Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7609,17 +7609,6 @@
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
           "days": {
-            "2026-06-10": [
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-06-12": [
               {
                 "time": "10:00"
@@ -13657,18 +13646,6 @@
                 "time": "10:30"
               },
               {
-                "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              },
-              {
                 "time": "22:00"
               },
               {
@@ -16068,9 +16045,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-09": [
-              {
-                "time": "15:30"
-              },
               {
                 "time": "16:00"
               }
