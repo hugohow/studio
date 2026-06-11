@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T18:58:16.040Z",
+  "generatedAt": "2026-06-11T19:11:36.774Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -950,11 +950,6 @@
         {
           "studio": "Studio 2",
           "days": {
-            "2026-06-11": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-06-12": [
               {
                 "time": "11:00"
@@ -11007,11 +11002,6 @@
           "studio": "Grand Studio 1",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-11": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-06-12": [
               {
                 "time": "10:00"
