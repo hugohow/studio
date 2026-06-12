@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T11:58:22.430Z",
+  "generatedAt": "2026-06-12T12:18:56.986Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -951,9 +951,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-06-12": [
-              {
-                "time": "16:00"
-              },
               {
                 "time": "17:00"
               },
@@ -11809,9 +11806,6 @@
           "days": {
             "2026-06-12": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "14:30"
               }
             ],
@@ -13077,11 +13071,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-12": [
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-06-14": [
               {
                 "time": "16:30"
@@ -14373,9 +14362,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-12": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "18:00"
               },
@@ -16345,9 +16331,6 @@
           "days": {
             "2026-06-12": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "14:30"
               },
               {
@@ -16517,9 +16500,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-12": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "14:30"
               },
@@ -16720,11 +16700,6 @@
           "studio": "Petite Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-12": [
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-06-14": [
               {
                 "time": "13:00"
