@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T21:07:24.318Z",
+  "generatedAt": "2026-06-13T21:12:33.029Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7587,6 +7587,11 @@
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
           "days": {
+            "2026-06-14": [
+              {
+                "time": "10:00"
+              }
+            ],
             "2026-06-15": [
               {
                 "time": "20:00"
