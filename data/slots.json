@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T11:58:58.697Z",
+  "generatedAt": "2026-06-13T12:08:06.806Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4002,9 +4002,6 @@
             "2026-06-14": [
               {
                 "time": "10:00"
-              },
-              {
-                "time": "20:00"
               }
             ],
             "2026-06-15": [
@@ -10527,6 +10524,14 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
+            "2026-06-13": [
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
+              }
+            ],
             "2026-06-14": [
               {
                 "time": "20:00"
@@ -16329,9 +16334,6 @@
           "days": {
             "2026-06-13": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "14:30"
               },
               {
@@ -16865,9 +16867,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-13": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "18:00"
               },
