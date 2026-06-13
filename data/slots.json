@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T17:08:26.286Z",
+  "generatedAt": "2026-06-13T17:18:30.904Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -8556,11 +8556,6 @@
           "studio": "Studio D",
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
-            "2026-06-13": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-15": [
               {
                 "time": "10:00"
