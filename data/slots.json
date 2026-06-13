@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T06:47:51.061Z",
+  "generatedAt": "2026-06-13T06:57:57.182Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -25,9 +25,6 @@
               }
             ],
             "2026-06-14": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "12:00"
               },
@@ -8686,11 +8683,6 @@
           "studio": "Studio D",
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
-            "2026-06-13": [
-              {
-                "time": "12:00"
-              }
-            ],
             "2026-06-15": [
               {
                 "time": "10:00"
@@ -14266,11 +14258,6 @@
           "studio": "Mini Studio 8",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-13": [
-              {
-                "time": "12:30"
-              }
-            ],
             "2026-06-14": [
               {
                 "time": "14:30"
