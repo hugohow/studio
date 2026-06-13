@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T20:01:18.591Z",
+  "generatedAt": "2026-06-13T20:10:22.470Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3971,11 +3971,6 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-06-14": [
-              {
-                "time": "10:00"
-              }
-            ],
             "2026-06-15": [
               {
                 "time": "10:00"
