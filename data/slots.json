@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T13:19:25.467Z",
+  "generatedAt": "2026-06-13T13:29:37.598Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3486,11 +3486,6 @@
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
           "days": {
-            "2026-06-13": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-16": [
               {
                 "time": "10:00"
@@ -6348,14 +6343,6 @@
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
-            "2026-06-13": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "12:30"
@@ -6908,9 +6895,6 @@
           "url": "https://reservation.studiobleu.com/studios/17",
           "days": {
             "2026-06-13": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "20:00"
               }
@@ -10542,6 +10526,18 @@
             "2026-06-17": [
               {
                 "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
               }
             ],
             "2026-06-19": [
