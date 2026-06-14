@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T17:53:37.095Z",
+  "generatedAt": "2026-06-14T18:03:40.544Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-06-14": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "23:00"
               }
@@ -884,9 +881,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-06-14": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "23:00"
               }
@@ -9480,11 +9474,6 @@
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
           "days": {
-            "2026-06-14": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-18": [
               {
                 "time": "10:00"
@@ -10558,11 +10547,6 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
-            "2026-06-14": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-16": [
               {
                 "time": "18:00"
@@ -13460,15 +13444,6 @@
               },
               {
                 "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
               },
               {
                 "time": "13:30"
