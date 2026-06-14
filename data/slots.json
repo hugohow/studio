@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:40:48.695Z",
+  "generatedAt": "2026-06-14T11:01:27.204Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3979,24 +3979,6 @@
               }
             ],
             "2026-06-16": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
               {
                 "time": "13:00"
               },
@@ -8744,9 +8726,6 @@
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
             "2026-06-14": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "13:30"
               },
@@ -17975,11 +17954,6 @@
           "studio": "Petite Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-14": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-06-15": [
               {
                 "time": "10:00"
