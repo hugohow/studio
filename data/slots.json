@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T16:06:42.246Z",
+  "generatedAt": "2026-06-14T16:11:50.502Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14216,6 +14216,11 @@
           "studio": "Mini Studio 8",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
+            "2026-06-14": [
+              {
+                "time": "18:30"
+              }
+            ],
             "2026-06-15": [
               {
                 "time": "10:00"
