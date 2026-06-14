@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T08:33:56.018Z",
+  "generatedAt": "2026-06-14T08:45:05.106Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -12696,6 +12696,9 @@
           "days": {
             "2026-06-14": [
               {
+                "time": "11:30"
+              },
+              {
                 "time": "12:00"
               }
             ],
@@ -13664,14 +13667,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-14": [
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              }
-            ],
             "2026-06-15": [
               {
                 "time": "13:00"
