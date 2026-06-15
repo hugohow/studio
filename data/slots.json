@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T15:26:02.284Z",
+  "generatedAt": "2026-06-15T15:31:27.353Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -13288,6 +13288,12 @@
             "2026-06-16": [
               {
                 "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
               }
             ],
             "2026-06-17": [
@@ -16839,9 +16845,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "17:30"
-              },
               {
                 "time": "18:00"
               },
