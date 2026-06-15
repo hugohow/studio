@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T09:55:55.537Z",
+  "generatedAt": "2026-06-15T10:01:04.774Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2702,11 +2702,6 @@
           "studio": "Studio A (P.A)",
           "url": "https://reservation.studiobleu.com/studios/1",
           "days": {
-            "2026-06-16": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-17": [
               {
                 "time": "22:00"
@@ -14593,9 +14588,6 @@
           "days": {
             "2026-06-15": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -14858,9 +14850,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -15368,9 +15357,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -15909,9 +15895,6 @@
           "days": {
             "2026-06-15": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -15927,15 +15910,6 @@
               },
               {
                 "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
               },
               {
                 "time": "13:00"
@@ -16481,9 +16455,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -17081,9 +17052,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
