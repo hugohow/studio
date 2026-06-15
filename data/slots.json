@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T08:28:50.671Z",
+  "generatedAt": "2026-06-15T08:33:24.256Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -12578,6 +12578,18 @@
             ],
             "2026-06-22": [
               {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
                 "time": "12:30"
               },
               {
@@ -12843,21 +12855,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
               {
                 "time": "13:00"
               },
@@ -13354,9 +13351,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "10:30"
-              },
               {
                 "time": "11:00"
               },
@@ -13967,12 +13961,6 @@
           "days": {
             "2026-06-15": [
               {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -14082,6 +14070,12 @@
               }
             ],
             "2026-06-22": [
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
               {
                 "time": "12:30"
               },
@@ -14327,9 +14321,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "10:30"
-              },
               {
                 "time": "11:00"
               },
@@ -14707,9 +14698,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "10:30"
-              },
               {
                 "time": "11:00"
               },
@@ -18281,9 +18269,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-15": [
-              {
-                "time": "10:30"
-              },
               {
                 "time": "11:00"
               },
