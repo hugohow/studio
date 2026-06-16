@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T07:37:59.105Z",
+  "generatedAt": "2026-06-16T07:57:22.438Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5982,11 +5982,6 @@
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
-            "2026-06-16": [
-              {
-                "time": "10:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "15:00"
@@ -7416,6 +7411,17 @@
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
           "days": {
+            "2026-06-16": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              }
+            ],
             "2026-06-17": [
               {
                 "time": "18:00"
