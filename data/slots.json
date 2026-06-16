@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T14:51:09.685Z",
+  "generatedAt": "2026-06-16T15:07:16.031Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3574,20 +3574,6 @@
             "2026-06-17": [
               {
                 "time": "22:00"
-              }
-            ],
-            "2026-06-18": [
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
               }
             ],
             "2026-06-19": [
@@ -7479,27 +7465,6 @@
                 "time": "10:00"
               },
               {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
                 "time": "14:00"
               },
               {
@@ -8163,9 +8128,6 @@
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
             "2026-06-17": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "16:00"
               }
@@ -10206,11 +10168,6 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
-            "2026-06-16": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-20": [
               {
                 "time": "22:00"
@@ -13005,15 +12962,6 @@
                 "time": "11:00"
               },
               {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
                 "time": "13:00"
               },
               {
@@ -13021,21 +12969,6 @@
               },
               {
                 "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
               },
               {
                 "time": "17:00"
@@ -13798,14 +13731,12 @@
           "studio": "Mini Studio 8",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-16": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-06-17": [
               {
                 "time": "11:00"
+              },
+              {
+                "time": "11:30"
               },
               {
                 "time": "14:00"
@@ -14055,6 +13986,20 @@
           "studio": "Studio 1 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
+            "2026-06-17": [
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              }
+            ],
             "2026-06-19": [
               {
                 "time": "13:00"
