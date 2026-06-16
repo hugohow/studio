@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T09:35:16.493Z",
+  "generatedAt": "2026-06-16T09:50:23.132Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4846,9 +4846,6 @@
           "url": "https://reservation.studiobleu.com/studios/12",
           "days": {
             "2026-06-17": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "16:00"
               },
@@ -11586,17 +11583,6 @@
           "studio": "Studio Standard 2",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-16": [
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              }
-            ],
             "2026-06-17": [
               {
                 "time": "10:30"
