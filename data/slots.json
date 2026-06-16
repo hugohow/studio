@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T06:16:43.313Z",
+  "generatedAt": "2026-06-16T06:26:42.330Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5789,6 +5789,14 @@
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
           "days": {
+            "2026-06-17": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              }
+            ],
             "2026-06-18": [
               {
                 "time": "18:00"
