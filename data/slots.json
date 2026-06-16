@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T19:20:39.867Z",
+  "generatedAt": "2026-06-16T19:35:57.111Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2546,11 +2546,6 @@
           "studio": "Studio A (P.A)",
           "url": "https://reservation.studiobleu.com/studios/1",
           "days": {
-            "2026-06-18": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-19": [
               {
                 "time": "22:00"
@@ -11999,9 +11994,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-16": [
-              {
-                "time": "21:30"
-              },
               {
                 "time": "22:00"
               }
