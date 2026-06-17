@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T18:00:40.456Z",
+  "generatedAt": "2026-06-17T18:10:24.096Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4727,11 +4727,6 @@
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
           "days": {
-            "2026-06-17": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-19": [
               {
                 "time": "19:00"
@@ -13503,11 +13498,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-17": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-06-18": [
               {
                 "time": "15:00"
@@ -15443,15 +15433,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
               }
             ],
             "2026-06-23": [
