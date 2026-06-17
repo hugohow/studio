@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T09:30:59.327Z",
+  "generatedAt": "2026-06-17T09:46:03.669Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -12218,6 +12218,27 @@
                 "time": "12:30"
               },
               {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
                 "time": "16:30"
               },
               {
@@ -12417,15 +12438,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-17": [
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
               {
                 "time": "13:00"
               }
@@ -13882,9 +13894,6 @@
           "days": {
             "2026-06-17": [
               {
-                "time": "11:30"
-              },
-              {
                 "time": "12:00"
               },
               {
@@ -14190,9 +14199,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-17": [
-              {
-                "time": "11:30"
-              },
               {
                 "time": "20:30"
               },
@@ -16835,9 +16841,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-17": [
-              {
-                "time": "11:30"
-              },
               {
                 "time": "12:00"
               },
