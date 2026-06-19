@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T20:19:17.357Z",
+  "generatedAt": "2026-06-19T20:31:33.754Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3646,24 +3646,6 @@
               },
               {
                 "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
               },
               {
                 "time": "20:00"
@@ -14425,11 +14407,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-19": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "13:30"
@@ -14734,11 +14711,6 @@
           "studio": "Box Batterie",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-19": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-06-22": [
               {
                 "time": "13:30"
@@ -16230,11 +16202,6 @@
           "studio": "Studio 4 (sans batterie) - 5 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-19": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-06-22": [
               {
                 "time": "12:00"
