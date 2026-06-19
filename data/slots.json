@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T19:19:46.011Z",
+  "generatedAt": "2026-06-19T19:32:46.857Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -12831,11 +12831,6 @@
           "studio": "Studio Standard 2",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-19": [
-              {
-                "time": "21:30"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "11:30"
@@ -14273,11 +14268,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-19": [
-              {
-                "time": "21:30"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "11:00"
@@ -14797,9 +14787,6 @@
           "days": {
             "2026-06-19": [
               {
-                "time": "21:30"
-              },
-              {
                 "time": "22:00"
               },
               {
@@ -15114,9 +15101,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-19": [
-              {
-                "time": "21:30"
-              },
               {
                 "time": "22:00"
               }
@@ -16306,9 +16290,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-19": [
-              {
-                "time": "21:30"
-              },
               {
                 "time": "22:00"
               },
