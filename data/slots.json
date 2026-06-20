@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T11:03:33.049Z",
+  "generatedAt": "2026-06-20T11:13:45.611Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7036,6 +7036,11 @@
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
           "days": {
+            "2026-06-20": [
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-06-21": [
               {
                 "time": "15:00"
