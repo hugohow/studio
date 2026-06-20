@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:00:21.320Z",
+  "generatedAt": "2026-06-20T20:10:14.262Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3531,11 +3531,6 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-06-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "15:30"
@@ -5189,11 +5184,6 @@
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
           "days": {
-            "2026-06-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "13:00"
@@ -5763,11 +5753,6 @@
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
           "days": {
-            "2026-06-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "19:00"
@@ -6863,11 +6848,6 @@
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
           "days": {
-            "2026-06-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "15:00"
@@ -7366,11 +7346,6 @@
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
           "days": {
-            "2026-06-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-24": [
               {
                 "time": "22:00"
@@ -9177,11 +9152,6 @@
           "studio": "Studio D",
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
-            "2026-06-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "18:00"
@@ -11294,11 +11264,6 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
-            "2026-06-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-21": [
               {
                 "time": "17:00"
