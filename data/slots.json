@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T10:37:10.786Z",
+  "generatedAt": "2026-06-21T10:52:30.121Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4862,11 +4862,6 @@
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
           "days": {
-            "2026-06-21": [
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-06-23": [
               {
                 "time": "14:00"
