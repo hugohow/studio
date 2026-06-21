@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T12:45:18.231Z",
+  "generatedAt": "2026-06-21T13:00:48.515Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3504,21 +3504,6 @@
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
             "2026-06-21": [
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
               {
                 "time": "18:00"
               },
@@ -11750,11 +11735,6 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
-            "2026-06-21": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-06-22": [
               {
                 "time": "20:00"
@@ -12979,18 +12959,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-21": [
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
               {
                 "time": "17:00"
               },
@@ -16223,6 +16191,18 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-21": [
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
               {
                 "time": "17:00"
               },
