@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T16:35:41.522Z",
+  "generatedAt": "2026-06-22T16:45:48.638Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5814,11 +5814,6 @@
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
           "days": {
-            "2026-06-22": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-25": [
               {
                 "time": "22:00"
