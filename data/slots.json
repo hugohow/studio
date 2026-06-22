@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T07:20:29.740Z",
+  "generatedAt": "2026-06-22T07:35:44.816Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2323,11 +2323,6 @@
           "studio": "STUDIO B (P.A)",
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
-            "2026-06-22": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-06-28": [
               {
                 "time": "10:00"
@@ -7730,6 +7725,14 @@
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
           "days": {
+            "2026-06-23": [
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-06-24": [
               {
                 "time": "22:00"
