@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T16:52:49.936Z",
+  "generatedAt": "2026-06-23T17:08:06.730Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2651,6 +2651,29 @@
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
           "days": {
+            "2026-06-27": [
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              }
+            ],
             "2026-06-29": [
               {
                 "time": "13:00"
