@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T06:45:58.059Z",
+  "generatedAt": "2026-06-23T06:59:54.150Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -16511,11 +16511,6 @@
           "studio": "Box Batterie",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-23": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-06-25": [
               {
                 "time": "13:30"
