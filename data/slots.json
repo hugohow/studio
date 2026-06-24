@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:35:45.962Z",
+  "generatedAt": "2026-06-24T13:45:54.526Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7024,14 +7024,6 @@
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
-            "2026-06-27": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-07-01": [
               {
                 "time": "22:00"
@@ -8695,9 +8687,6 @@
                 "time": "16:00"
               },
               {
-                "time": "20:00"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -10169,9 +10158,6 @@
               },
               {
                 "time": "16:00"
-              },
-              {
-                "time": "22:00"
               }
             ],
             "2026-06-27": [
@@ -16043,9 +16029,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-24": [
-              {
-                "time": "16:30"
-              },
               {
                 "time": "20:00"
               },
