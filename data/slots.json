@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T07:31:22.499Z",
+  "generatedAt": "2026-06-24T07:49:15.018Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6932,17 +6932,6 @@
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
-            "2026-06-28": [
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-07-01": [
               {
                 "time": "22:00"
@@ -15413,14 +15402,6 @@
           "studio": "Studio Standard 4",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-24": [
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              }
-            ],
             "2026-06-25": [
               {
                 "time": "10:00"
@@ -16008,15 +15989,6 @@
               },
               {
                 "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
               },
               {
                 "time": "15:30"
@@ -16830,6 +16802,14 @@
           "studio": "Box Batterie",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
+            "2026-06-24": [
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "12:00"
+              }
+            ],
             "2026-06-25": [
               {
                 "time": "13:30"
