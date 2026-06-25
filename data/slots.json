@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T14:47:14.712Z",
+  "generatedAt": "2026-06-25T14:57:24.866Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5479,11 +5479,6 @@
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
           "days": {
-            "2026-06-25": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-26": [
               {
                 "time": "22:00"
