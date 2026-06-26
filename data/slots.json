@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T13:41:06.149Z",
+  "generatedAt": "2026-06-26T14:01:10.002Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1078,6 +1078,15 @@
               }
             ],
             "2026-06-27": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "12:00"
+              },
               {
                 "time": "13:00"
               },
@@ -2341,11 +2350,6 @@
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
           "days": {
-            "2026-06-26": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-29": [
               {
                 "time": "10:00"
@@ -6796,11 +6800,6 @@
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
           "days": {
-            "2026-06-26": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-29": [
               {
                 "time": "10:00"
@@ -8494,11 +8493,6 @@
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
           "days": {
-            "2026-06-26": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-28": [
               {
                 "time": "10:00"
@@ -10673,17 +10667,6 @@
               },
               {
                 "time": "20:00"
-              }
-            ],
-            "2026-06-30": [
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
               }
             ],
             "2026-07-01": [
@@ -14309,11 +14292,6 @@
           "studio": "Grand Studio 1",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-26": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-28": [
               {
                 "time": "18:00"
@@ -14786,21 +14764,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-26": [
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
               {
                 "time": "18:30"
               },
@@ -15398,6 +15361,14 @@
           "studio": "Studio Standard 3",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
+            "2026-06-26": [
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              }
+            ],
             "2026-06-27": [
               {
                 "time": "14:00"
@@ -16505,11 +16476,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-06-26": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-27": [
               {
                 "time": "13:30"
@@ -16753,9 +16719,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-26": [
-              {
-                "time": "16:00"
-              },
               {
                 "time": "20:00"
               },
@@ -19102,11 +19065,6 @@
           "studio": "Grande Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-26": [
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-06-27": [
               {
                 "time": "19:00"
