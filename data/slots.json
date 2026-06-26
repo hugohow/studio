@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T14:52:08.136Z",
+  "generatedAt": "2026-06-26T14:57:14.085Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7285,11 +7285,6 @@
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
-            "2026-06-26": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-06-27": [
               {
                 "time": "15:00"
