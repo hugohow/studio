@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T11:13:47.998Z",
+  "generatedAt": "2026-06-28T11:16:16.811Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -39,6 +39,9 @@
               },
               {
                 "time": "18:00"
+              },
+              {
+                "time": "19:00"
               },
               {
                 "time": "20:00"
