@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T10:00:33.017Z",
+  "generatedAt": "2026-06-29T10:05:27.641Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-06-29": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "17:00"
               },
@@ -474,9 +471,6 @@
           "days": {
             "2026-06-29": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -926,9 +920,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-06-29": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "15:00"
               },
@@ -3853,9 +3844,6 @@
           "days": {
             "2026-06-29": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -4097,9 +4085,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-29": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -4656,9 +4641,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-29": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -5335,9 +5317,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-29": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -6825,9 +6804,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-29": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
