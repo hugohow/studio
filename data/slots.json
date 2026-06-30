@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T09:23:48.855Z",
+  "generatedAt": "2026-06-30T09:35:27.619Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1389,9 +1389,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-30": [
-              {
-                "time": "11:30"
-              },
               {
                 "time": "12:00"
               },
@@ -3862,6 +3859,18 @@
                 "time": "15:00"
               },
               {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
                 "time": "21:30"
               }
             ],
@@ -4036,9 +4045,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-06-30": [
-              {
-                "time": "11:30"
-              },
               {
                 "time": "15:00"
               },
@@ -5236,9 +5242,6 @@
           "days": {
             "2026-06-30": [
               {
-                "time": "11:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -6263,9 +6266,6 @@
           "days": {
             "2026-06-30": [
               {
-                "time": "11:30"
-              },
-              {
                 "time": "12:00"
               },
               {
@@ -6479,9 +6479,6 @@
           "days": {
             "2026-06-30": [
               {
-                "time": "11:30"
-              },
-              {
                 "time": "12:00"
               },
               {
@@ -6523,9 +6520,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-30": [
-              {
-                "time": "11:30"
-              },
               {
                 "time": "12:00"
               },
