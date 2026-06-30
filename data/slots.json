@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T10:57:01.415Z",
+  "generatedAt": "2026-06-30T11:01:57.158Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-06-30": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "16:00"
               },
@@ -439,9 +436,6 @@
           "days": {
             "2026-06-30": [
               {
-                "time": "15:00"
-              },
-              {
                 "time": "16:00"
               },
               {
@@ -844,9 +838,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-06-30": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "16:00"
               },
@@ -2497,18 +2488,6 @@
           "days": {
             "2026-06-30": [
               {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               }
             ],
@@ -3116,7 +3095,10 @@
           "days": {
             "2026-06-30": [
               {
-                "time": "13:00"
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
               },
               {
                 "time": "15:00"
@@ -5369,15 +5351,6 @@
                 "time": "11:00"
               },
               {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
                 "time": "13:00"
               },
               {
@@ -5622,11 +5595,6 @@
           "studio": "Studio 1 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-30": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-07-07": [
               {
                 "time": "10:00"
@@ -6351,9 +6319,6 @@
           "days": {
             "2026-06-30": [
               {
-                "time": "13:00"
-              },
-              {
                 "time": "13:30"
               },
               {
@@ -6386,9 +6351,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-06-30": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "13:30"
               },
@@ -6817,11 +6779,6 @@
           "studio": "Petite Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-06-30": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-07-01": [
               {
                 "time": "10:00"
