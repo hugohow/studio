@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T08:52:41.681Z",
+  "generatedAt": "2026-07-05T09:02:53.199Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-07-05": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "18:00"
               },
@@ -3049,9 +3046,6 @@
           "days": {
             "2026-07-05": [
               {
-                "time": "13:00"
-              },
-              {
                 "time": "16:00"
               },
               {
@@ -5686,9 +5680,6 @@
           "days": {
             "2026-07-05": [
               {
-                "time": "11:00"
-              },
-              {
                 "time": "14:00"
               },
               {
@@ -6187,9 +6178,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-05": [
-              {
-                "time": "11:00"
-              },
               {
                 "time": "11:30"
               },
