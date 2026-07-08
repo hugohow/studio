@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T11:06:37.817Z",
+  "generatedAt": "2026-07-08T11:16:54.214Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5814,14 +5814,6 @@
           "studio": "Studio Standard 4",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-08": [
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-07-09": [
               {
                 "time": "10:00"
@@ -6586,12 +6578,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-08": [
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
               {
                 "time": "18:00"
               }
