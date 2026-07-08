@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T16:55:06.079Z",
+  "generatedAt": "2026-07-08T17:07:50.533Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -8358,11 +8358,6 @@
           "studio": "Studio 3 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-07-08": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-07-09": [
               {
                 "time": "12:00"
