@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T20:15:21.595Z",
+  "generatedAt": "2026-07-09T20:32:06.269Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6561,15 +6561,6 @@
               },
               {
                 "time": "18:00"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              },
-              {
-                "time": "22:00"
               }
             ],
             "2026-07-21": [
@@ -6609,11 +6600,6 @@
           "studio": "Box Batterie",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-09": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-07-10": [
               {
                 "time": "11:30"
@@ -8625,11 +8611,6 @@
           "studio": "Grande Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-07-09": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-07-10": [
               {
                 "time": "10:00"
@@ -9376,11 +9357,6 @@
           "studio": "Petite Salle",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-07-09": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-07-10": [
               {
                 "time": "10:00"
