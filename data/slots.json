@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T18:59:55.642Z",
+  "generatedAt": "2026-07-10T19:20:10.131Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2555,11 +2555,6 @@
         {
           "studio": "Studio 3",
           "days": {
-            "2026-07-10": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-07-11": [
               {
                 "time": "10:00"
@@ -5827,9 +5822,6 @@
           "days": {
             "2026-07-10": [
               {
-                "time": "21:00"
-              },
-              {
                 "time": "21:30"
               }
             ],
@@ -6026,9 +6018,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-10": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               },
@@ -6339,9 +6328,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-10": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               },
@@ -6808,9 +6794,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-10": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               },
@@ -8400,9 +8383,6 @@
           "days": {
             "2026-07-10": [
               {
-                "time": "21:00"
-              },
-              {
                 "time": "21:30"
               },
               {
@@ -9159,9 +9139,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-10": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               },
