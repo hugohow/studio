@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T11:57:39.618Z",
+  "generatedAt": "2026-07-10T12:02:44.435Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-07-10": [
-              {
-                "time": "16:00"
-              },
               {
                 "time": "17:00"
               }
@@ -56,9 +53,6 @@
               },
               {
                 "time": "12:00"
-              },
-              {
-                "time": "13:00"
               },
               {
                 "time": "14:00"
@@ -1263,9 +1257,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-07-10": [
-              {
-                "time": "16:00"
-              },
               {
                 "time": "17:00"
               },
@@ -2617,9 +2608,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-07-10": [
-              {
-                "time": "16:00"
-              },
               {
                 "time": "17:00"
               },
@@ -5989,9 +5977,6 @@
           "days": {
             "2026-07-10": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "16:00"
               },
               {
@@ -7076,9 +7061,6 @@
           "days": {
             "2026-07-10": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "19:00"
               },
               {
@@ -7448,11 +7430,6 @@
           "studio": "Studio 1 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-07-10": [
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-07-11": [
               {
                 "time": "10:00"
@@ -8697,9 +8674,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-10": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "14:30"
               },
