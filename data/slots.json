@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T08:54:23.094Z",
+  "generatedAt": "2026-07-11T08:59:25.574Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3907,6 +3907,9 @@
           "days": {
             "2026-07-11": [
               {
+                "time": "11:00"
+              },
+              {
                 "time": "11:30"
               },
               {
@@ -6468,6 +6471,11 @@
           "studio": "Box Batterie",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
+            "2026-07-11": [
+              {
+                "time": "11:00"
+              }
+            ],
             "2026-07-12": [
               {
                 "time": "12:30"
@@ -6945,6 +6953,9 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-11": [
+              {
+                "time": "11:00"
+              },
               {
                 "time": "11:30"
               },
