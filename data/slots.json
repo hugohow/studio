@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T19:58:38.207Z",
+  "generatedAt": "2026-07-13T20:08:50.269Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3632,11 +3632,6 @@
           "studio": "Grand Studio 1",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-13": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-14": [
               {
                 "time": "17:30"
@@ -5726,11 +5721,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-13": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-14": [
               {
                 "time": "17:30"
@@ -6062,11 +6052,6 @@
           "studio": "Box Batterie 7",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-13": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-14": [
               {
                 "time": "19:00"
