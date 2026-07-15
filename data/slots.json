@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T19:56:05.596Z",
+  "generatedAt": "2026-07-15T20:05:22.451Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3332,11 +3332,6 @@
           "studio": "Grand Studio 1",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-15": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-16": [
               {
                 "time": "15:30"
@@ -4328,11 +4323,6 @@
           "studio": "Studio Standard 3",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-15": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-16": [
               {
                 "time": "17:00"
@@ -5536,11 +5526,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-15": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-16": [
               {
                 "time": "17:00"
@@ -5897,19 +5882,7 @@
                 "time": "16:00"
               },
               {
-                "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
                 "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              },
-              {
-                "time": "22:00"
               }
             ],
             "2026-07-17": [
@@ -8146,9 +8119,6 @@
           "days": {
             "2026-07-15": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "22:30"
               }
             ],
@@ -8979,9 +8949,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-15": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
