@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:58:14.769Z",
+  "generatedAt": "2026-07-19T07:03:19.199Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-07-19": [
-              {
-                "time": "11:00"
-              },
               {
                 "time": "12:00"
               },
@@ -936,9 +933,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-07-19": [
-              {
-                "time": "11:00"
-              },
               {
                 "time": "12:00"
               },
