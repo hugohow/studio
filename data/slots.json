@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T13:28:20.895Z",
+  "generatedAt": "2026-07-22T13:33:28.666Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2575,9 +2575,6 @@
           "days": {
             "2026-07-22": [
               {
-                "time": "15:30"
-              },
-              {
                 "time": "16:00"
               },
               {
@@ -3230,9 +3227,6 @@
           "days": {
             "2026-07-22": [
               {
-                "time": "15:30"
-              },
-              {
                 "time": "16:00"
               },
               {
@@ -3824,9 +3818,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-22": [
-              {
-                "time": "15:30"
-              },
               {
                 "time": "16:00"
               },
@@ -6882,11 +6873,6 @@
           "studio": "Studio 2 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-07-22": [
-              {
-                "time": "15:30"
-              }
-            ],
             "2026-07-23": [
               {
                 "time": "10:00"
@@ -7023,9 +7009,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-22": [
-              {
-                "time": "15:30"
-              },
               {
                 "time": "16:00"
               },
@@ -7566,9 +7549,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-22": [
-              {
-                "time": "15:30"
-              },
               {
                 "time": "16:00"
               },
