@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T11:33:02.165Z",
+  "generatedAt": "2026-07-23T11:52:59.711Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3134,6 +3134,9 @@
           "days": {
             "2026-07-23": [
               {
+                "time": "14:00"
+              },
+              {
                 "time": "14:30"
               },
               {
@@ -3780,22 +3783,7 @@
           "days": {
             "2026-07-23": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
               },
               {
                 "time": "17:30"
@@ -4379,6 +4367,11 @@
           "studio": "Studio Standard 4",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
+            "2026-07-23": [
+              {
+                "time": "17:00"
+              }
+            ],
             "2026-07-24": [
               {
                 "time": "17:00"
@@ -4911,6 +4904,9 @@
           "days": {
             "2026-07-23": [
               {
+                "time": "14:00"
+              },
+              {
                 "time": "17:30"
               },
               {
@@ -5210,11 +5206,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-23": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-07-24": [
               {
                 "time": "17:00"
@@ -5698,6 +5689,9 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-23": [
+              {
+                "time": "14:00"
+              },
               {
                 "time": "14:30"
               },
@@ -6261,7 +6255,25 @@
           "days": {
             "2026-07-23": [
               {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
                 "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
               },
               {
                 "time": "17:30"
