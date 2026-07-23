@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T09:44:22.002Z",
+  "generatedAt": "2026-07-23T10:01:04.643Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-07-23": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "17:00"
               },
@@ -745,9 +742,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-07-23": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "15:00"
               },
@@ -1585,9 +1579,6 @@
           "days": {
             "2026-07-23": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -2162,12 +2153,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "19:00"
               },
               {
                 "time": "20:00"
@@ -4290,9 +4275,6 @@
               }
             ],
             "2026-08-03": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -6983,9 +6965,6 @@
           "days": {
             "2026-07-23": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -7588,9 +7567,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-23": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -8411,9 +8387,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-23": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
