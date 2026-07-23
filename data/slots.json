@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T19:47:27.325Z",
+  "generatedAt": "2026-07-23T20:07:48.374Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5427,11 +5427,6 @@
           "studio": "Box Batterie 7",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-23": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-24": [
               {
                 "time": "16:30"
@@ -7041,9 +7036,6 @@
           "days": {
             "2026-07-23": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "22:30"
               }
             ],
@@ -7803,9 +7795,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-23": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
