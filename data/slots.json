@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T16:54:28.277Z",
+  "generatedAt": "2026-07-24T17:14:48.685Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2353,9 +2353,6 @@
           "days": {
             "2026-07-24": [
               {
-                "time": "19:00"
-              },
-              {
                 "time": "19:30"
               },
               {
@@ -2990,6 +2987,18 @@
           "days": {
             "2026-07-24": [
               {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
                 "time": "21:30"
               }
             ],
@@ -3600,24 +3609,6 @@
           "days": {
             "2026-07-24": [
               {
-                "time": "19:00"
-              },
-              {
-                "time": "19:30"
-              },
-              {
-                "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -4174,6 +4165,9 @@
           "days": {
             "2026-07-24": [
               {
+                "time": "21:30"
+              },
+              {
                 "time": "22:00"
               }
             ],
@@ -4722,9 +4716,6 @@
             ],
             "2026-07-26": [
               {
-                "time": "11:00"
-              },
-              {
                 "time": "11:30"
               },
               {
@@ -5038,12 +5029,6 @@
               }
             ],
             "2026-07-26": [
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -5523,9 +5508,6 @@
               }
             ],
             "2026-07-26": [
-              {
-                "time": "12:30"
-              },
               {
                 "time": "13:00"
               },
@@ -6649,13 +6631,7 @@
         {
           "studio": "Studio 2 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
-          "days": {
-            "2026-07-24": [
-              {
-                "time": "19:00"
-              }
-            ]
-          }
+          "days": {}
         },
         {
           "studio": "Studio 3 - 8 personnes",
@@ -7063,9 +7039,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-24": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "19:30"
               },
@@ -7844,9 +7817,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-24": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "19:30"
               },
