@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T18:21:44.558Z",
+  "generatedAt": "2026-07-25T18:31:50.141Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2103,8 +2103,86 @@
     {
       "id": "studiobleu",
       "name": "Studio Bleu — 10ème Musique",
-      "error": "fetch failed",
-      "studios": []
+      "address": "7/9 rue des Petites Écuries, 75010 Paris",
+      "url": "https://reservation.studiobleu.com/studios?sites=1",
+      "durationH": 2,
+      "studios": [
+        {
+          "studio": "Studio A (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/1",
+          "days": {}
+        },
+        {
+          "studio": "STUDIO B (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/2",
+          "days": {}
+        },
+        {
+          "studio": "STUDIO NOIR (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/3",
+          "days": {}
+        },
+        {
+          "studio": "STUDIO ROSE",
+          "url": "https://reservation.studiobleu.com/studios/4",
+          "days": {}
+        },
+        {
+          "studio": "Studio INDIGO (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/11",
+          "days": {}
+        },
+        {
+          "studio": "Studio BLEU (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/12",
+          "days": {}
+        },
+        {
+          "studio": "Studio ORANGE (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/13",
+          "days": {}
+        },
+        {
+          "studio": "Studio ROUGE (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/14",
+          "days": {}
+        },
+        {
+          "studio": "Studio VIOLET",
+          "url": "https://reservation.studiobleu.com/studios/15",
+          "days": {}
+        },
+        {
+          "studio": "Studio VERT",
+          "url": "https://reservation.studiobleu.com/studios/16",
+          "days": {}
+        },
+        {
+          "studio": "Studio C",
+          "url": "https://reservation.studiobleu.com/studios/17",
+          "days": {}
+        },
+        {
+          "studio": "Studio BEIGE (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/18",
+          "days": {}
+        },
+        {
+          "studio": "Studio D",
+          "url": "https://reservation.studiobleu.com/studios/19",
+          "days": {}
+        },
+        {
+          "studio": "Studio JAUNE",
+          "url": "https://reservation.studiobleu.com/studios/20",
+          "days": {}
+        },
+        {
+          "studio": "Studio E",
+          "url": "https://reservation.studiobleu.com/studios/21",
+          "days": {}
+        }
+      ]
     },
     {
       "id": "hbs",
@@ -6668,9 +6746,6 @@
           "days": {
             "2026-07-25": [
               {
-                "time": "20:30"
-              },
-              {
                 "time": "21:00"
               }
             ],
@@ -7439,9 +7514,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-25": [
-              {
-                "time": "20:30"
-              },
               {
                 "time": "21:00"
               }
