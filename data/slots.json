@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:23:07.548Z",
+  "generatedAt": "2026-07-27T17:38:40.533Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2643,9 +2643,6 @@
           "days": {
             "2026-07-27": [
               {
-                "time": "19:30"
-              },
-              {
                 "time": "20:00"
               },
               {
@@ -3206,9 +3203,6 @@
           "days": {
             "2026-07-27": [
               {
-                "time": "19:30"
-              },
-              {
                 "time": "20:00"
               },
               {
@@ -3722,9 +3716,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-27": [
-              {
-                "time": "19:30"
-              },
               {
                 "time": "20:00"
               },
@@ -4316,31 +4307,12 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-27": [
-              {
-                "time": "19:30"
-              }
-            ],
             "2026-07-28": [
               {
                 "time": "16:30"
               },
               {
                 "time": "17:00"
-              }
-            ],
-            "2026-07-29": [
-              {
-                "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
               }
             ],
             "2026-07-31": [
@@ -5669,7 +5641,16 @@
           "days": {
             "2026-07-27": [
               {
-                "time": "19:30"
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
               }
             ],
             "2026-07-28": [
