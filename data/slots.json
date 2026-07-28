@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:58:56.356Z",
+  "generatedAt": "2026-07-28T15:04:13.928Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -567,9 +567,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-07-28": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "23:00"
               }
@@ -1192,9 +1189,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-07-28": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "22:00"
               },
@@ -2528,7 +2522,10 @@
           "days": {
             "2026-07-28": [
               {
-                "time": "19:00"
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
               }
             ],
             "2026-07-29": [
@@ -3108,13 +3105,10 @@
           "days": {
             "2026-07-28": [
               {
-                "time": "17:00"
+                "time": "18:30"
               },
               {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
+                "time": "19:00"
               },
               {
                 "time": "22:00"
@@ -4233,11 +4227,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-28": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "14:00"
@@ -4997,9 +4986,6 @@
           "days": {
             "2026-07-28": [
               {
-                "time": "17:00"
-              },
-              {
                 "time": "21:00"
               },
               {
@@ -5507,9 +5493,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-28": [
-              {
-                "time": "18:30"
-              },
               {
                 "time": "20:30"
               },
@@ -6057,11 +6040,6 @@
           "studio": "Studio 4 (sans batterie) - 5 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-07-28": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-07-29": [
               {
                 "time": "13:00"
@@ -6307,9 +6285,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-28": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "17:30"
               },
@@ -7159,9 +7134,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-28": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "17:30"
               },
