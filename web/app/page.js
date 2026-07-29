@@ -9,7 +9,7 @@ export const revalidate = 60;
 
 async function loadFeed() {
   // Prod (Vercel) : feed publié par le cron, lu via l'API GitHub (repo privé).
-  // FEED_URL = https://api.github.com/repos/<owner>/<repo>/contents/data/slots.json?ref=main
+  // FEED_URL = https://api.github.com/repos/<owner>/<repo>/contents/data/slots.json?ref=data
   // FEED_TOKEN = PAT GitHub fine-grained, lecture seule "Contents" sur ce repo.
   const url = process.env.FEED_URL;
   const token = process.env.FEED_TOKEN;

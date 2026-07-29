@@ -34,7 +34,11 @@ Pas de dépendances, Node ≥ 18 (utilise `fetch` global). Rien à installer.
 - `bin/fetch-slots.js` — CLI : parse les flags, appelle `fetchAll`, sort le JSON ou le résultat inverse.
 - `src/adapters/index.js` — registre `ADAPTERS` + `fetchAll({durationH, monthsLoad})` (agrège toutes les salles, tolérant aux erreurs).
 - `src/adapters/wacked.js` — adaptateur Wacked. Mapping studios→`serviceId`/`providerIds`/tarifs + appel `/slots` + normalisation.
-- `.github/workflows/refresh.yml` — cron (~15 min) : régénère `data/slots.json` et le commit.
+- `.github/workflows/refresh.yml` — cron (~15 min) : régénère `data/slots.json` et le pousse sur
+  la branche **`data`** (jamais sur `main` : un push sur `main` = un déploiement Vercel, et le cron
+  saturait le quota gratuit de 100/jour, bloquant les vrais déploiements). `web/vercel.json`
+  (`git.deploymentEnabled.data: false`) fait qu'un push sur `data` ne crée **aucun** déploiement.
+  `FEED_URL` (env Vercel) pointe sur `?ref=data`.
 - `data/slots.json` — sortie générée (le « feed »).
 
 ### Format de sortie
