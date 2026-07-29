@@ -2,6 +2,8 @@
 // API JSON publique reverse-engineerée — voir ~/.claude/skills/reserver-studio/references/amelia-api.md
 // ⚠️ Le `/` de la route /slots ne doit PAS être URL-encodé (sinon 404).
 
+import { USER_AGENT } from "./http.js";
+
 const AJAX = "https://wackedlive.fr/wp-admin/admin-ajax.php?action=wpamelia_api";
 
 const VENUE = {
@@ -36,7 +38,9 @@ async function fetchSlots(studio, durationH, monthsLoad) {
     `${AJAX}&call=/slots&monthsLoad=${monthsLoad}` +
     `&serviceId=${serviceId}&serviceDuration=${durationH * 3600}` +
     `&providerIds=${providerIds}&group=1&page=booking&structured=true&persons=1`;
-  const r = await fetch(url, { headers: { "X-Requested-With": "XMLHttpRequest" } });
+  const r = await fetch(url, {
+    headers: { "X-Requested-With": "XMLHttpRequest", "User-Agent": USER_AGENT },
+  });
   if (!r.ok) throw new Error(`slots HTTP ${r.status}`);
   const j = await r.json();
   return (j && j.data && j.data.slots) || {};

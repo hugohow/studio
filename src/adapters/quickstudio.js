@@ -7,6 +7,8 @@
 // Les `available` sont les intervalles libres (timestamps Unix → heure de Paris).
 // ⚠️ Scraping HTML : plus fragile qu'une API si QuickStudio change son markup. Lecture seule.
 
+import { USER_AGENT } from "./http.js";
+
 const MAX_CONCURRENCY = 6;
 // QuickStudio n'ouvre les réservations que ~14 jours à l'avance : au-delà, le planning
 // renvoie une valeur fixe (≈ placeholder « tout libre ») et non la vraie dispo -> on coupe à 14 jours.
@@ -117,7 +119,11 @@ export function makeQuickStudio(meta) {
     const perDay = await pool(dates, MAX_CONCURRENCY, async (date) => {
       try {
         const r = await fetch(`${BASE}?date=${date}`, {
-          headers: { "X-Requested-With": "XMLHttpRequest", Accept: "text/html" },
+          headers: {
+            "X-Requested-With": "XMLHttpRequest",
+            Accept: "text/html",
+            "User-Agent": USER_AGENT,
+          },
         });
         if (!r.ok) return null;
         const html = await r.text();

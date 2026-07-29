@@ -5,6 +5,8 @@
 // La dispo se déduit des tranches `status:"free"` (vs "reserved" ; type "closeHour" = hors horaires).
 // ⚠️ `date` au format YYYY-MM-DD (un ISO avec Z décale le jour). Lecture seule, aucune réservation.
 
+import { USER_AGENT } from "./http.js";
+
 const API = "https://api.studiobleu.com";
 const SITE_ID = 1; // 10ème Musique
 
@@ -58,7 +60,9 @@ function freeStarts(reservations, durationH) {
 }
 
 async function getJSON(url) {
-  const r = await fetch(url, { headers: { Accept: "application/json" } });
+  const r = await fetch(url, {
+    headers: { Accept: "application/json", "User-Agent": USER_AGENT },
+  });
   if (!r.ok) throw new Error(`HTTP ${r.status} on ${url}`);
   return r.json();
 }
@@ -105,22 +109,33 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
     rooms.map(async (room) => {
       const dates = dateRange(monthsLoad, room.days_visible || 60);
 
+      let lastError = null;
       const perDay = await pool(dates, MAX_CONCURRENCY, async (date) => {
         try {
           const j = await getJSON(`${API}/reservations/daily?date=${date}&roomId=${room.id}`);
           return [date, freeStarts(j?.reservations, effDurationH)];
         } catch (e) {
+          lastError = String(e.message || e);
           return [date, null]; // jour en erreur -> ignoré
         }
       });
 
       const days = {};
+      let okDays = 0;
       for (const [date, starts] of perDay) {
-        if (!starts || !starts.length) continue;
+        if (!starts) continue;
+        okDays++;
+        if (!starts.length) continue;
         days[date] = starts.map((time) => ({ time }));
       }
       // Lien profond vers la page de réservation de cette salle.
       const url = `https://reservation.studiobleu.com/studios/${room.id}`;
+      // 0 jour exploitable = la salle entière a échoué (ex. blocage UA du 26/06/2026) :
+      // on le signale au lieu de publier silencieusement une salle vide.
+      if (!okDays && lastError) {
+        console.error(`[studiobleu] ${room.name}: tous les jours en erreur (${lastError})`);
+        return { studio: room.name, url, error: lastError, days };
+      }
       return { studio: room.name, url, days };
     })
   );
