@@ -6,6 +6,8 @@ const adapter = makeQuickStudio({
   name: "FGO-Barbara",
   address: "1 rue de Fleury, 75018 Paris",
   slug: "fgo-barbara",
+  // Salles de concert, pas des studios de répét -> hors feed.
+  excludeRooms: ["Grande Salle", "Petite Salle"],
 });
 
 export const meta = adapter.meta;
