@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T18:28:00.531Z",
+  "generatedAt": "2026-07-29T18:38:23.109Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3434,6 +3434,18 @@
             ],
             "2026-07-30": [
               {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
                 "time": "14:00"
               },
               {
@@ -5896,15 +5908,6 @@
           "url": "https://reservation.studiobleu.com/studios/12",
           "days": {
             "2026-07-30": [
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
               {
                 "time": "17:00"
               },
@@ -16331,9 +16334,6 @@
           "days": {
             "2026-07-29": [
               {
-                "time": "20:30"
-              },
-              {
                 "time": "21:00"
               },
               {
@@ -16913,9 +16913,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-29": [
-              {
-                "time": "20:30"
-              },
               {
                 "time": "21:00"
               },
@@ -19092,6 +19089,18 @@
                 "time": "13:00"
               },
               {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
                 "time": "17:00"
               },
               {
@@ -19969,9 +19978,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-29": [
-              {
-                "time": "20:30"
-              },
               {
                 "time": "21:00"
               },
