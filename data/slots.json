@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T18:02:22.781Z",
+  "generatedAt": "2026-07-29T18:22:47.921Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1812,11 +1812,6 @@
           "studio": "STUDIO B (P.A)",
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "10:00"
@@ -2285,11 +2280,6 @@
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-31": [
               {
                 "time": "10:00"
@@ -4880,33 +4870,6 @@
               },
               {
                 "time": "11:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
               }
             ],
             "2026-08-01": [
@@ -8087,17 +8050,45 @@
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "10:00"
               },
               {
                 "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
               }
             ],
             "2026-07-31": [
@@ -8270,11 +8261,6 @@
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "10:00"
@@ -9113,11 +9099,6 @@
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "12:30"
@@ -10067,11 +10048,6 @@
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-31": [
               {
                 "time": "10:00"
@@ -12063,11 +12039,6 @@
           "studio": "Studio D",
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "12:00"
@@ -13434,11 +13405,6 @@
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "16:00"
@@ -14880,11 +14846,6 @@
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
-            "2026-07-29": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-07-30": [
               {
                 "time": "10:00"
