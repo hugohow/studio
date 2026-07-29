@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T15:47:58.661Z",
+  "generatedAt": "2026-07-29T16:04:08.957Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1101,9 +1101,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-07-29": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               },
@@ -2313,9 +2310,6 @@
           "days": {
             "2026-07-29": [
               {
-                "time": "18:00"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -3467,9 +3461,6 @@
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
             "2026-07-29": [
-              {
-                "time": "18:00"
-              },
               {
                 "time": "18:30"
               },
@@ -6874,9 +6865,6 @@
           "days": {
             "2026-07-29": [
               {
-                "time": "18:00"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -8385,18 +8373,6 @@
               },
               {
                 "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
               }
             ],
             "2026-07-31": [
@@ -12135,9 +12111,6 @@
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
             "2026-07-29": [
-              {
-                "time": "18:00"
-              },
               {
                 "time": "22:00"
               }
@@ -16455,9 +16428,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-29": [
-              {
-                "time": "18:00"
-              },
               {
                 "time": "20:00"
               },
