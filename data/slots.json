@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T15:23:19.260Z",
+  "generatedAt": "2026-07-30T15:32:35.334Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7787,9 +7787,6 @@
           "days": {
             "2026-07-30": [
               {
-                "time": "17:30"
-              },
-              {
                 "time": "18:00"
               },
               {
@@ -8842,9 +8839,6 @@
           "url": "https://reservation.studiobleu.com/studios/16",
           "days": {
             "2026-07-30": [
-              {
-                "time": "17:30"
-              },
               {
                 "time": "18:00"
               }
@@ -16154,9 +16148,6 @@
           "days": {
             "2026-07-30": [
               {
-                "time": "17:30"
-              },
-              {
                 "time": "18:00"
               },
               {
@@ -17309,11 +17300,6 @@
           "studio": "Studio Standard 3",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-30": [
-              {
-                "time": "17:30"
-              }
-            ],
             "2026-07-31": [
               {
                 "time": "15:00"
@@ -17857,9 +17843,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-30": [
-              {
-                "time": "17:30"
-              },
               {
                 "time": "18:00"
               }
@@ -18490,11 +18473,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-30": [
-              {
-                "time": "17:30"
-              }
-            ],
             "2026-07-31": [
               {
                 "time": "20:00"
@@ -18844,9 +18822,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-30": [
-              {
-                "time": "17:30"
-              },
               {
                 "time": "18:00"
               },
@@ -19340,9 +19315,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-30": [
-              {
-                "time": "17:30"
-              },
               {
                 "time": "18:00"
               },
@@ -20317,9 +20289,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-30": [
-              {
-                "time": "17:30"
-              },
               {
                 "time": "18:00"
               },
