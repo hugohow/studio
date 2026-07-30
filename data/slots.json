@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T07:46:50.668Z",
+  "generatedAt": "2026-07-30T08:07:15.449Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -509,9 +509,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-07-30": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "14:00"
               },
@@ -1070,9 +1067,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-07-30": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "13:00"
               },
@@ -1758,9 +1752,6 @@
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
             "2026-07-30": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "10:30"
               },
@@ -4814,9 +4805,6 @@
           "days": {
             "2026-07-30": [
               {
-                "time": "10:00"
-              },
-              {
                 "time": "10:30"
               },
               {
@@ -5888,18 +5876,6 @@
               }
             ],
             "2026-07-31": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
               {
                 "time": "12:00"
               },
@@ -7972,9 +7948,6 @@
           "url": "https://reservation.studiobleu.com/studios/14",
           "days": {
             "2026-07-30": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "14:00"
               },
@@ -21039,9 +21012,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-30": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "10:30"
               },
