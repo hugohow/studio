@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T12:16:56.822Z",
+  "generatedAt": "2026-07-31T12:26:22.197Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1615,17 +1615,6 @@
           "studio": "STUDIO B (P.A)",
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
-            "2026-07-31": [
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-08-01": [
               {
                 "time": "10:00"
