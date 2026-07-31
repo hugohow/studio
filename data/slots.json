@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T19:29:10.961Z",
+  "generatedAt": "2026-07-31T19:39:22.152Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -19494,9 +19494,6 @@
           "days": {
             "2026-07-31": [
               {
-                "time": "21:30"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -20096,11 +20093,6 @@
           "studio": "Studio Standard 2",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-31": [
-              {
-                "time": "21:30"
-              }
-            ],
             "2026-08-01": [
               {
                 "time": "12:00"
@@ -20678,9 +20670,6 @@
           "days": {
             "2026-07-31": [
               {
-                "time": "21:30"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -21236,9 +21225,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-31": [
-              {
-                "time": "21:30"
-              },
               {
                 "time": "22:00"
               }
@@ -21878,11 +21864,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-31": [
-              {
-                "time": "21:30"
-              }
-            ],
             "2026-08-01": [
               {
                 "time": "18:30"
@@ -22246,9 +22227,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-31": [
-              {
-                "time": "21:30"
-              },
               {
                 "time": "22:00"
               }
@@ -22680,9 +22658,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-07-31": [
-              {
-                "time": "21:30"
-              },
               {
                 "time": "22:00"
               }
@@ -23244,11 +23219,6 @@
           "studio": "Mini Studio 8",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-07-31": [
-              {
-                "time": "21:30"
-              }
-            ],
             "2026-08-02": [
               {
                 "time": "12:00"
