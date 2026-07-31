@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T10:59:47.596Z",
+  "generatedAt": "2026-07-31T11:04:58.039Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-07-31": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "16:00"
               },
@@ -471,9 +468,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-07-31": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "16:00"
               },
@@ -988,9 +982,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-07-31": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "16:00"
               },
@@ -1632,9 +1623,6 @@
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
             "2026-07-31": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "13:30"
               },
@@ -8732,11 +8720,6 @@
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
           "days": {
-            "2026-07-31": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-08-01": [
               {
                 "time": "13:00"
@@ -13172,9 +13155,6 @@
           "days": {
             "2026-07-31": [
               {
-                "time": "13:00"
-              },
-              {
                 "time": "13:30"
               },
               {
@@ -14668,9 +14648,6 @@
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
             "2026-07-31": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "13:30"
               },
@@ -20491,9 +20468,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-07-31": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "15:00"
               },
