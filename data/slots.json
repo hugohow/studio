@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T12:26:22.197Z",
+  "generatedAt": "2026-07-31T12:37:08.253Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1472,11 +1472,6 @@
           "studio": "Studio A (P.A)",
           "url": "https://reservation.studiobleu.com/studios/1",
           "days": {
-            "2026-07-31": [
-              {
-                "time": "14:30"
-              }
-            ],
             "2026-08-01": [
               {
                 "time": "10:00"
@@ -10211,9 +10206,6 @@
               },
               {
                 "time": "12:00"
-              },
-              {
-                "time": "20:00"
               }
             ],
             "2026-08-14": [
@@ -11787,9 +11779,6 @@
           "days": {
             "2026-07-31": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               }
             ],
@@ -13208,9 +13197,6 @@
           "url": "https://reservation.studiobleu.com/studios/20",
           "days": {
             "2026-07-31": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -14690,9 +14676,6 @@
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
             "2026-07-31": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
