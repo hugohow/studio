@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T11:21:26.739Z",
+  "generatedAt": "2026-08-01T11:38:55.599Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4955,14 +4955,6 @@
           "studio": "STUDIO B (P.A)",
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
-            "2026-08-01": [
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-08-02": [
               {
                 "time": "10:00"
@@ -8322,9 +8314,6 @@
           "url": "https://reservation.studiobleu.com/studios/11",
           "days": {
             "2026-08-01": [
-              {
-                "time": "13:30"
-              },
               {
                 "time": "14:00"
               },
@@ -13332,9 +13321,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "13:30"
-              },
-              {
                 "time": "14:00"
               },
               {
@@ -15474,9 +15460,6 @@
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
             "2026-08-01": [
-              {
-                "time": "13:30"
-              },
               {
                 "time": "14:00"
               },
@@ -18359,9 +18342,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "13:30"
-              },
-              {
                 "time": "14:00"
               },
               {
@@ -19844,9 +19824,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "13:30"
-              },
-              {
                 "time": "14:00"
               },
               {
@@ -21087,9 +21064,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-01": [
-              {
-                "time": "13:30"
-              },
               {
                 "time": "14:00"
               }
@@ -22777,9 +22751,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "13:30"
-              },
-              {
                 "time": "14:00"
               },
               {
@@ -23246,9 +23217,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-01": [
-              {
-                "time": "13:30"
-              },
               {
                 "time": "14:00"
               },
