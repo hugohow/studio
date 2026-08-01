@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T12:27:39.740Z",
+  "generatedAt": "2026-08-01T12:32:51.547Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6896,9 +6896,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -13287,9 +13284,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -15423,9 +15417,6 @@
           "url": "https://reservation.studiobleu.com/studios/19",
           "days": {
             "2026-08-01": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -18302,9 +18293,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -19781,9 +19769,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -20408,9 +20393,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-01": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -22697,9 +22679,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -23154,9 +23133,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-01": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
