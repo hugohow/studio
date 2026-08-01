@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T09:49:49.655Z",
+  "generatedAt": "2026-08-01T10:10:08.023Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3248,9 +3248,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "19:00"
               },
               {
@@ -4844,11 +4841,6 @@
           "studio": "Studio A (P.A)",
           "url": "https://reservation.studiobleu.com/studios/1",
           "days": {
-            "2026-08-01": [
-              {
-                "time": "12:00"
-              }
-            ],
             "2026-08-02": [
               {
                 "time": "13:30"
@@ -4979,9 +4971,6 @@
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
             "2026-08-01": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -9289,9 +9278,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -9340,24 +9326,6 @@
               }
             ],
             "2026-08-03": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
               {
                 "time": "13:00"
               },
@@ -11604,9 +11572,6 @@
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
             "2026-08-01": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "16:00"
               }
@@ -15578,9 +15543,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -16968,11 +16930,6 @@
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
           "days": {
-            "2026-08-01": [
-              {
-                "time": "12:00"
-              }
-            ],
             "2026-08-02": [
               {
                 "time": "10:00"
@@ -18476,9 +18433,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -19970,9 +19924,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -21223,9 +21174,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "12:00"
-              },
-              {
                 "time": "12:30"
               },
               {
@@ -21820,9 +21768,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-01": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
@@ -23405,9 +23350,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-01": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
