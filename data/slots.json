@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:53:09.047Z",
+  "generatedAt": "2026-08-01T17:06:01.675Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1542,9 +1542,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-08-01": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "22:00"
               },
@@ -3239,9 +3236,6 @@
           "days": {
             "2026-08-01": [
               {
-                "time": "21:00"
-              },
-              {
                 "time": "22:00"
               },
               {
@@ -4805,14 +4799,6 @@
           "studio": "Studio A (P.A)",
           "url": "https://reservation.studiobleu.com/studios/1",
           "days": {
-            "2026-08-02": [
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-08-06": [
               {
                 "time": "20:00"
@@ -19447,11 +19433,6 @@
           "studio": "Grand Studio 1",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-01": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-08-02": [
               {
                 "time": "15:00"
@@ -22264,11 +22245,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-01": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-08-02": [
               {
                 "time": "11:00"
@@ -22707,11 +22683,6 @@
           "studio": "Box Batterie 7",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-01": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-08-02": [
               {
                 "time": "14:00"
