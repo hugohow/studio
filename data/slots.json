@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T06:59:37.371Z",
+  "generatedAt": "2026-08-02T07:16:12.475Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1534,9 +1534,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-08-02": [
-              {
-                "time": "11:00"
-              },
               {
                 "time": "12:00"
               },
