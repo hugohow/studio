@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T12:26:40.320Z",
+  "generatedAt": "2026-08-02T12:47:03.112Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -9645,9 +9645,6 @@
           "days": {
             "2026-08-02": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -10814,9 +10811,6 @@
           "url": "https://reservation.studiobleu.com/studios/14",
           "days": {
             "2026-08-02": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -12814,9 +12808,6 @@
           "url": "https://reservation.studiobleu.com/studios/17",
           "days": {
             "2026-08-02": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -16289,9 +16280,6 @@
           "days": {
             "2026-08-02": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -17827,9 +17815,6 @@
           "url": "https://reservation.studiobleu.com/studios/21",
           "days": {
             "2026-08-02": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -20548,9 +20533,6 @@
           "days": {
             "2026-08-02": [
               {
-                "time": "14:30"
-              },
-              {
                 "time": "15:00"
               },
               {
@@ -22742,9 +22724,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-02": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
