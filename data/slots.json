@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T18:42:37.764Z",
+  "generatedAt": "2026-08-03T18:53:07.342Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4754,33 +4754,6 @@
               },
               {
                 "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
               }
             ],
             "2026-08-07": [
@@ -20510,17 +20483,6 @@
           "studio": "Studio Standard 3",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-03": [
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              },
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-08-04": [
               {
                 "time": "15:30"
@@ -22181,6 +22143,17 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
+            "2026-08-03": [
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-08-05": [
               {
                 "time": "19:00"
@@ -22285,18 +22258,6 @@
               },
               {
                 "time": "12:00"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
               },
               {
                 "time": "17:00"
