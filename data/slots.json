@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T15:52:03.925Z",
+  "generatedAt": "2026-08-03T16:02:36.289Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3083,9 +3083,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-08-03": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               },
@@ -11711,11 +11708,6 @@
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
           "days": {
-            "2026-08-03": [
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-08-04": [
               {
                 "time": "10:00"
@@ -19380,9 +19372,6 @@
           "days": {
             "2026-08-03": [
               {
-                "time": "18:00"
-              },
-              {
                 "time": "18:30"
               },
               {
@@ -23312,9 +23301,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-03": [
-              {
-                "time": "18:00"
-              },
               {
                 "time": "21:00"
               },
