@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:56:42.448Z",
+  "generatedAt": "2026-08-03T11:01:58.098Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1481,9 +1481,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-08-03": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "16:00"
               },
@@ -11115,11 +11112,6 @@
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
           "days": {
-            "2026-08-03": [
-              {
-                "time": "13:00"
-              }
-            ],
             "2026-08-04": [
               {
                 "time": "20:00"
@@ -13768,9 +13760,6 @@
           "url": "https://reservation.studiobleu.com/studios/18",
           "days": {
             "2026-08-03": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "17:00"
               }
