@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:59:01.818Z",
+  "generatedAt": "2026-08-12T15:04:09.405Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1121,9 +1121,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-08-12": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "20:00"
               },
@@ -2352,9 +2349,6 @@
           "days": {
             "2026-08-12": [
               {
-                "time": "19:00"
-              },
-              {
                 "time": "20:00"
               },
               {
@@ -3429,9 +3423,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-12": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "19:00"
               }
@@ -7502,9 +7493,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-12": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "20:00"
               },
