@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T23:59:56.045Z",
+  "generatedAt": "2026-08-15T00:04:45.580Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3740,81 +3740,7 @@
                 "time": "16:00"
               }
             ],
-            "2026-08-16": [
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              }
-            ],
-            "2026-08-17": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
+            "2026-08-18": [
               {
                 "time": "18:00"
               },
@@ -3833,49 +3759,49 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=4",
           "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-12&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-08-23&roomId=11",
           "days": {}
         },
         {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=12",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=12",
           "days": {}
         },
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=13",
           "days": {}
         },
         {
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=14",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=14",
           "days": {}
         },
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=15",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=15",
           "days": {}
         },
         {
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=16",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=16",
           "days": {}
         },
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=17",
           "days": {}
         },
         {
@@ -3893,13 +3819,13 @@
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=20",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=20",
           "days": {}
         },
         {
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=21",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=21",
           "days": {}
         }
       ]
@@ -4481,6 +4407,59 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-08-28": [
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -4954,6 +4933,53 @@
               }
             ],
             "2026-08-27": [
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              }
+            ],
+            "2026-08-28": [
               {
                 "time": "14:30"
               },
@@ -5573,6 +5599,56 @@
               },
               {
                 "time": "19:00"
+              }
+            ],
+            "2026-08-28": [
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
               }
             ]
           }
@@ -6203,6 +6279,59 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-08-28": [
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -6597,6 +6726,32 @@
             "2026-08-27": [
               {
                 "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              }
+            ],
+            "2026-08-28": [
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
               },
               {
                 "time": "19:30"
@@ -7143,6 +7298,47 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-08-28": [
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -7661,6 +7857,56 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-08-28": [
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -8026,6 +8272,29 @@
               {
                 "time": "21:30"
               }
+            ],
+            "2026-08-28": [
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              }
             ]
           }
         }
@@ -8203,6 +8472,86 @@
               }
             ],
             "2026-08-27": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "22:30"
+              }
+            ],
+            "2026-08-28": [
               {
                 "time": "10:00"
               },
@@ -8527,6 +8876,86 @@
               {
                 "time": "22:30"
               }
+            ],
+            "2026-08-28": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "22:30"
+              }
             ]
           }
         },
@@ -8695,6 +9124,86 @@
               }
             ],
             "2026-08-27": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "22:30"
+              }
+            ],
+            "2026-08-28": [
               {
                 "time": "10:00"
               },
@@ -9019,6 +9528,86 @@
               {
                 "time": "22:30"
               }
+            ],
+            "2026-08-28": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "22:30"
+              }
             ]
           }
         },
@@ -9139,6 +9728,86 @@
               }
             ],
             "2026-08-27": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "22:30"
+              }
+            ],
+            "2026-08-28": [
               {
                 "time": "10:00"
               },
@@ -9385,6 +10054,86 @@
               }
             ],
             "2026-08-27": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "19:30"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "22:30"
+              }
+            ],
+            "2026-08-28": [
               {
                 "time": "10:00"
               },
