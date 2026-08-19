@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T23:14:46.253Z",
+  "generatedAt": "2026-08-19T23:16:12.541Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2751,55 +2751,8 @@
               {
                 "time": "18:00"
               }
-            ]
-          }
-        },
-        {
-          "studio": "STUDIO NOIR (P.A)",
-          "url": "https://reservation.studiobleu.com/studios/3",
-          "days": {
-            "2026-08-20": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              }
             ],
-            "2026-08-22": [
+            "2026-08-30": [
               {
                 "time": "10:00"
               },
@@ -2850,23 +2803,14 @@
               },
               {
                 "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
-            "2026-08-23": [
-              {
-                "time": "20:00"
               }
             ]
           }
+        },
+        {
+          "studio": "STUDIO NOIR (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/3",
+          "days": {}
         },
         {
           "studio": "STUDIO ROSE",
@@ -2889,7 +2833,7 @@
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-18&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-16&roomId=13",
           "days": {}
         },
         {
