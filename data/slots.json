@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T21:10:41.299Z",
+  "generatedAt": "2026-08-20T21:15:48.922Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2646,6 +2646,11 @@
               {
                 "time": "20:00"
               }
+            ],
+            "2026-08-27": [
+              {
+                "time": "16:00"
+              }
             ]
           }
         },
@@ -2684,7 +2689,7 @@
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-05&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=11",
           "days": {}
         },
         {
@@ -2726,7 +2731,7 @@
         {
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-18&roomId=18",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=18",
           "days": {}
         },
         {
