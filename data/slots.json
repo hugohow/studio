@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T18:56:13.294Z",
+  "generatedAt": "2026-08-20T19:03:12.247Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -13,11 +13,6 @@
         {
           "studio": "Studio 1",
           "days": {
-            "2026-08-20": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-08-21": [
               {
                 "time": "18:00"
@@ -1617,11 +1612,6 @@
         {
           "studio": "Studio 3",
           "days": {
-            "2026-08-20": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-08-21": [
               {
                 "time": "12:00"
@@ -2568,8 +2558,55 @@
               {
                 "time": "18:00"
               }
+            ]
+          }
+        },
+        {
+          "studio": "STUDIO NOIR (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/3",
+          "days": {
+            "2026-08-21": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
+              }
             ],
-            "2026-08-30": [
+            "2026-08-22": [
               {
                 "time": "10:00"
               },
@@ -2620,15 +2657,29 @@
               },
               {
                 "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
+              }
+            ],
+            "2026-08-23": [
+              {
+                "time": "20:00"
               }
             ]
           }
         },
         {
-          "studio": "STUDIO NOIR (P.A)",
-          "url": "https://reservation.studiobleu.com/studios/3",
+          "studio": "STUDIO ROSE",
+          "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-08-21": [
+            "2026-08-24": [
               {
                 "time": "10:00"
               },
@@ -2657,25 +2708,51 @@
                 "time": "14:00"
               },
               {
-                "time": "18:00"
+                "time": "14:30"
               },
               {
-                "time": "18:30"
+                "time": "15:00"
               },
               {
-                "time": "19:00"
+                "time": "15:30"
               },
               {
-                "time": "20:00"
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              }
+            ],
+            "2026-08-25": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
               }
             ]
           }
-        },
-        {
-          "studio": "STUDIO ROSE",
-          "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=4",
-          "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
@@ -2692,7 +2769,7 @@
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-18&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=13",
           "days": {}
         },
         {
@@ -2704,7 +2781,7 @@
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=15",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-18&roomId=15",
           "days": {}
         },
         {
@@ -3946,9 +4023,6 @@
           "days": {
             "2026-08-20": [
               {
-                "time": "21:00"
-              },
-              {
                 "time": "21:30"
               },
               {
@@ -5187,9 +5261,6 @@
           "days": {
             "2026-08-20": [
               {
-                "time": "21:00"
-              },
-              {
                 "time": "21:30"
               }
             ],
@@ -5610,9 +5681,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-20": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               },
@@ -6167,9 +6235,6 @@
           "days": {
             "2026-08-20": [
               {
-                "time": "21:00"
-              },
-              {
                 "time": "21:30"
               },
               {
@@ -6692,9 +6757,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-20": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               }
