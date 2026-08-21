@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T14:59:43.551Z",
+  "generatedAt": "2026-08-21T15:01:05.653Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-08-21": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "20:00"
               },
@@ -2323,9 +2320,6 @@
           "days": {
             "2026-08-21": [
               {
-                "time": "17:00"
-              },
-              {
                 "time": "17:30"
               },
               {
@@ -2544,6 +2538,11 @@
               {
                 "time": "20:00"
               }
+            ],
+            "2026-08-27": [
+              {
+                "time": "16:00"
+              }
             ]
           }
         },
@@ -2562,7 +2561,7 @@
         {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-20&roomId=12",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=12",
           "days": {}
         },
         {
@@ -2580,7 +2579,7 @@
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-20&roomId=15",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=15",
           "days": {}
         },
         {
@@ -2633,9 +2632,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-21": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "17:30"
               },
