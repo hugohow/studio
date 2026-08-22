@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T16:21:33.301Z",
+  "generatedAt": "2026-08-22T16:36:50.691Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2336,13 +2336,13 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-03&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-21&roomId=4",
           "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-08-31&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-21&roomId=11",
           "days": {}
         },
         {
@@ -2390,7 +2390,7 @@
         {
           "studio": "Studio D",
           "url": "https://reservation.studiobleu.com/studios/19",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-20&roomId=19",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-21&roomId=19",
           "days": {}
         },
         {
@@ -3709,9 +3709,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-08-22": [
-              {
-                "time": "18:30"
-              },
               {
                 "time": "19:00"
               }
@@ -5039,11 +5036,6 @@
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-22": [
-              {
-                "time": "18:30"
-              }
-            ],
             "2026-08-23": [
               {
                 "time": "11:30"
@@ -5532,14 +5524,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-22": [
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-08-23": [
               {
                 "time": "11:30"
@@ -6759,11 +6743,6 @@
           "studio": "Mini Studio 8",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-22": [
-              {
-                "time": "18:30"
-              }
-            ],
             "2026-08-23": [
               {
                 "time": "13:00"
