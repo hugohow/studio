@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:15:21.066Z",
+  "generatedAt": "2026-08-24T14:20:28.286Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2019,7 +2019,7 @@
                 "time": "17:00"
               }
             ],
-            "2026-08-31": [
+            "2026-08-29": [
               {
                 "time": "10:00"
               },
@@ -2070,9 +2070,41 @@
               },
               {
                 "time": "18:00"
+              }
+            ],
+            "2026-08-30": [
+              {
+                "time": "13:00"
               },
               {
-                "time": "22:00"
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
               }
             ]
           }
@@ -2080,7 +2112,7 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-23&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-14&roomId=4",
           "days": {}
         },
         {
@@ -2146,7 +2178,7 @@
         {
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-22&roomId=21",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-23&roomId=21",
           "days": {}
         }
       ]
