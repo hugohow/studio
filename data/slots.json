@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T07:14:30.972Z",
+  "generatedAt": "2026-08-27T07:19:36.412Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1652,17 +1652,6 @@
                 "time": "17:00"
               }
             ],
-            "2026-08-29": [
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-08-30": [
               {
                 "time": "13:00"
@@ -1696,6 +1685,14 @@
               },
               {
                 "time": "18:00"
+              }
+            ],
+            "2026-08-31": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "22:00"
               }
             ]
           }
@@ -1733,7 +1730,7 @@
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-25&roomId=15",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=15",
           "days": {}
         },
         {
@@ -1763,7 +1760,7 @@
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-25&roomId=20",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=20",
           "days": {}
         },
         {
