@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T10:58:32.794Z",
+  "generatedAt": "2026-08-27T11:03:37.895Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -518,9 +518,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-08-27": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "16:00"
               },
@@ -1074,9 +1071,6 @@
           "days": {
             "2026-08-27": [
               {
-                "time": "15:00"
-              },
-              {
                 "time": "16:00"
               },
               {
@@ -1625,14 +1619,6 @@
               {
                 "time": "12:00"
               }
-            ],
-            "2026-09-06": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
             ]
           }
         },
@@ -1659,59 +1645,13 @@
               {
                 "time": "17:00"
               }
-            ],
-            "2026-08-29": [
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              }
-            ],
-            "2026-08-30": [
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              }
             ]
           }
         },
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-04&roomId=4",
           "days": {}
         },
         {
@@ -1729,7 +1669,7 @@
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-25&roomId=13",
           "days": {}
         },
         {
@@ -6694,9 +6634,6 @@
           "days": {
             "2026-08-27": [
               {
-                "time": "13:00"
-              },
-              {
                 "time": "13:30"
               },
               {
@@ -7443,9 +7380,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-08-27": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "13:30"
               },
@@ -8797,9 +8731,6 @@
           "days": {
             "2026-08-27": [
               {
-                "time": "13:00"
-              },
-              {
                 "time": "18:00"
               },
               {
@@ -9487,9 +9418,6 @@
           "days": {
             "2026-08-27": [
               {
-                "time": "13:00"
-              },
-              {
                 "time": "17:00"
               },
               {
@@ -10131,9 +10059,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-08-27": [
-              {
-                "time": "13:00"
-              },
               {
                 "time": "13:30"
               },
