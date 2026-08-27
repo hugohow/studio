@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T17:11:36.879Z",
+  "generatedAt": "2026-08-27T17:15:27.701Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1698,20 +1698,6 @@
                 "time": "17:00"
               }
             ],
-            "2026-08-29": [
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-08-30": [
               {
                 "time": "10:00"
@@ -1889,19 +1875,18 @@
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=11",
           "days": {}
         },
         {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=12",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-07&roomId=12",
           "days": {}
         },
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-25&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=13",
           "days": {}
         },
         {
@@ -1931,7 +1916,7 @@
         {
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-18&roomId=18",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=18",
           "days": {}
         },
         {
