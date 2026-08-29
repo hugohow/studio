@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T16:14:35.786Z",
+  "generatedAt": "2026-08-29T16:29:50.325Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1405,7 +1405,7 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-27&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-28&roomId=4",
           "days": {}
         },
         {
@@ -1471,7 +1471,7 @@
         {
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-28&roomId=21",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-27&roomId=21",
           "days": {}
         }
       ]
