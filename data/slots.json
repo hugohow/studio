@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T15:59:09.684Z",
+  "generatedAt": "2026-08-29T16:09:24.489Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -445,9 +445,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-08-29": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               },
@@ -903,9 +900,6 @@
           "studio": "Studio 3",
           "days": {
             "2026-08-29": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               },
@@ -1449,7 +1443,7 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-10&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-28&roomId=4",
           "days": {}
         },
         {
@@ -1509,7 +1503,7 @@
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-28&roomId=20",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-27&roomId=20",
           "days": {}
         },
         {
@@ -3406,21 +3400,6 @@
                 "time": "17:00"
               },
               {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "19:30"
-              },
-              {
                 "time": "20:00"
               },
               {
@@ -4532,11 +4511,6 @@
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-29": [
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-08-30": [
               {
                 "time": "13:00"
@@ -5097,11 +5071,6 @@
           "studio": "Box Batterie 7",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-08-29": [
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-08-30": [
               {
                 "time": "13:30"
@@ -9463,9 +9432,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-08-29": [
-              {
-                "time": "18:00"
-              },
               {
                 "time": "18:30"
               },
