@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:31:29.129Z",
+  "generatedAt": "2026-09-01T00:51:47.082Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4216,6 +4216,14 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-09-11": [
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -4284,7 +4292,7 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-09-07": [
+            "2026-09-01": [
               {
                 "time": "10:00"
               },
@@ -4292,7 +4300,27 @@
                 "time": "10:30"
               },
               {
-                "time": "11:00"
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-09-02": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
               },
               {
                 "time": "22:00"
@@ -4345,7 +4373,7 @@
         {
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-29&roomId=18",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-30&roomId=18",
           "days": {}
         },
         {
