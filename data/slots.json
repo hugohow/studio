@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:32:40.767Z",
+  "generatedAt": "2026-09-01T12:39:42.368Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4623,7 +4623,7 @@
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-30&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-29&roomId=13",
           "days": {}
         },
         {
@@ -4647,7 +4647,7 @@
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-30&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-29&roomId=17",
           "days": {}
         },
         {
