@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:33:49.547Z",
+  "generatedAt": "2026-09-03T13:41:35.236Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4046,11 +4046,6 @@
                 "time": "12:00"
               }
             ],
-            "2026-09-07": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-09-08": [
               {
                 "time": "22:00"
@@ -4088,35 +4083,9 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-09-03": [
-              {
-                "time": "22:00"
-              }
-            ],
-            "2026-09-04": [
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "19:00"
-              },
+            "2026-09-05": [
               {
                 "time": "20:00"
-              },
-              {
-                "time": "22:00"
               }
             ]
           }
@@ -4124,13 +4093,13 @@
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-01&roomId=11",
           "days": {}
         },
         {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=12",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-30&roomId=12",
           "days": {}
         },
         {
@@ -4142,7 +4111,7 @@
         {
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=14",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-01&roomId=14",
           "days": {}
         },
         {
@@ -4154,7 +4123,7 @@
         {
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-01&roomId=16",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=16",
           "days": {}
         },
         {
@@ -4172,13 +4141,13 @@
         {
           "studio": "Studio D",
           "url": "https://reservation.studiobleu.com/studios/19",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-01&roomId=19",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=19",
           "days": {}
         },
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-01&roomId=20",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=20",
           "days": {}
         },
         {
@@ -5603,24 +5572,6 @@
               },
               {
                 "time": "19:00"
-              },
-              {
-                "time": "19:30"
-              },
-              {
-                "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              },
-              {
-                "time": "22:00"
               }
             ],
             "2026-09-12": [
@@ -11389,27 +11340,6 @@
               },
               {
                 "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "19:30"
-              },
-              {
-                "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
               },
               {
                 "time": "22:00"
