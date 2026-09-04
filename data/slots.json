@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T14:59:31.652Z",
+  "generatedAt": "2026-09-04T15:18:50.074Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-09-04": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "20:00"
               }
@@ -1264,9 +1261,6 @@
           "studio": "Studio 2",
           "days": {
             "2026-09-04": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "22:00"
               },
@@ -3744,60 +3738,6 @@
                 "time": "10:00"
               },
               {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
                 "time": "20:00"
               }
             ],
@@ -3860,6 +3800,100 @@
               {
                 "time": "20:00"
               }
+            ],
+            "2026-09-20": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              }
+            ],
+            "2026-09-24": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              }
+            ],
+            "2026-09-25": [
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-09-28": [
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-09-29": [
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -3868,15 +3902,6 @@
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
             "2026-09-04": [
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
               {
                 "time": "20:00"
               },
@@ -3930,88 +3955,31 @@
         {
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
-          "days": {
-            "2026-09-06": [
-              {
-                "time": "12:00"
-              }
-            ],
-            "2026-09-07": [
-              {
-                "time": "22:00"
-              }
-            ],
-            "2026-09-09": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              }
-            ]
-          }
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=3",
+          "days": {}
         },
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "days": {
-            "2026-09-05": [
-              {
-                "time": "20:00"
-              }
-            ],
-            "2026-09-07": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              }
-            ]
-          }
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=4",
+          "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "days": {
-            "2026-09-05": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ]
-          }
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=11",
+          "days": {}
         },
         {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-01&roomId=12",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=12",
           "days": {}
         },
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=13",
           "days": {}
         },
         {
@@ -4053,7 +4021,7 @@
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=20",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=20",
           "days": {}
         },
         {
@@ -5162,9 +5130,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-09-04": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "17:30"
               },
@@ -6968,11 +6933,6 @@
           "studio": "Box Batterie 7",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-09-04": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-09-05": [
               {
                 "time": "12:30"
@@ -7861,9 +7821,6 @@
           "days": {
             "2026-09-04": [
               {
-                "time": "17:00"
-              },
-              {
                 "time": "17:30"
               },
               {
@@ -8517,9 +8474,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-04": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "17:30"
               },
@@ -9217,9 +9171,6 @@
           "days": {
             "2026-09-04": [
               {
-                "time": "17:00"
-              },
-              {
                 "time": "17:30"
               },
               {
@@ -9614,9 +9565,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-04": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "17:30"
               },
@@ -10290,9 +10238,6 @@
           "days": {
             "2026-09-04": [
               {
-                "time": "17:00"
-              },
-              {
                 "time": "17:30"
               },
               {
@@ -10844,9 +10789,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-04": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "17:30"
               },
