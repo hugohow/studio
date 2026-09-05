@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:57:45.405Z",
+  "generatedAt": "2026-09-05T13:13:01.336Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -14,9 +14,6 @@
           "studio": "Studio 1",
           "days": {
             "2026-09-05": [
-              {
-                "time": "17:00"
-              },
               {
                 "time": "18:00"
               },
@@ -2418,9 +2415,6 @@
           "days": {
             "2026-09-05": [
               {
-                "time": "17:00"
-              },
-              {
                 "time": "18:00"
               },
               {
@@ -3702,11 +3696,6 @@
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
           "days": {
-            "2026-09-05": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-09-06": [
               {
                 "time": "10:00"
@@ -3723,7 +3712,7 @@
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-24&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-17&roomId=11",
           "days": {}
         },
         {
@@ -3735,7 +3724,7 @@
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-04&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-13&roomId=13",
           "days": {}
         },
         {
@@ -3759,7 +3748,7 @@
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-04&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=17",
           "days": {}
         },
         {
@@ -3777,7 +3766,7 @@
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=20",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-04&roomId=20",
           "days": {}
         },
         {
@@ -4332,9 +4321,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-09-05": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "15:30"
               },
@@ -6002,9 +5988,6 @@
           "days": {
             "2026-09-05": [
               {
-                "time": "15:00"
-              },
-              {
                 "time": "15:30"
               },
               {
@@ -7464,21 +7447,6 @@
             ],
             "2026-09-10": [
               {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
                 "time": "14:00"
               },
               {
@@ -7766,9 +7734,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-05": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "15:30"
               },
@@ -10726,9 +10691,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-05": [
-              {
-                "time": "15:00"
-              },
               {
                 "time": "15:30"
               },
