@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T07:47:28.428Z",
+  "generatedAt": "2026-09-05T07:52:31.790Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3759,22 +3759,30 @@
               {
                 "time": "12:00"
               }
+            ]
+          }
+        },
+        {
+          "studio": "STUDIO ROSE",
+          "url": "https://reservation.studiobleu.com/studios/4",
+          "days": {
+            "2026-09-06": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
+              }
             ],
-            "2026-09-07": [
+            "2026-09-08": [
               {
                 "time": "22:00"
               }
             ],
             "2026-09-09": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -3785,19 +3793,10 @@
                 "time": "16:00"
               },
               {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
+                "time": "22:00"
               }
             ]
           }
-        },
-        {
-          "studio": "STUDIO ROSE",
-          "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=4",
-          "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
@@ -3826,7 +3825,7 @@
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-04&roomId=15",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-03&roomId=15",
           "days": {}
         },
         {
