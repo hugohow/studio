@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T18:25:43.238Z",
+  "generatedAt": "2026-09-09T18:36:08.564Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3189,15 +3189,16 @@
               {
                 "time": "15:00"
               }
-            ],
-            "2026-09-25": [
+            ]
+          }
+        },
+        {
+          "studio": "STUDIO B (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/2",
+          "days": {
+            "2026-09-19": [
               {
-                "time": "22:00"
-              }
-            ],
-            "2026-10-01": [
-              {
-                "time": "19:00"
+                "time": "10:00"
               },
               {
                 "time": "20:00"
@@ -3205,24 +3206,63 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-09-20": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "10:30"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "11:30"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "20:00"
+              }
             ]
           }
         },
         {
-          "studio": "STUDIO B (P.A)",
-          "url": "https://reservation.studiobleu.com/studios/2",
-          "days": {}
-        },
-        {
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-17&roomId=3",
-          "days": {}
+          "days": {
+            "2026-09-12": [
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-09-15": [
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-09-16": [
+              {
+                "time": "15:30"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              }
+            ]
+          }
         },
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-08&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-26&roomId=4",
           "days": {}
         },
         {
@@ -3246,7 +3286,7 @@
         {
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-08&roomId=14",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-07&roomId=14",
           "days": {}
         },
         {
