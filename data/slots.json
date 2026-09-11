@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T03:37:17.293Z",
+  "generatedAt": "2026-09-11T03:52:34.898Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3100,11 +3100,6 @@
               {
                 "time": "22:00"
               }
-            ],
-            "2026-09-17": [
-              {
-                "time": "22:00"
-              }
             ]
           }
         },
@@ -3153,7 +3148,7 @@
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-08&roomId=17",
           "days": {}
         },
         {
@@ -3177,7 +3172,7 @@
         {
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-09&roomId=21",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=21",
           "days": {}
         }
       ]
