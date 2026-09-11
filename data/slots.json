@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:25:25.062Z",
+  "generatedAt": "2026-09-11T11:30:31.730Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3028,6 +3028,11 @@
               {
                 "time": "15:00"
               }
+            ],
+            "2026-09-25": [
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -3056,8 +3061,50 @@
               {
                 "time": "22:00"
               }
+            ]
+          }
+        },
+        {
+          "studio": "STUDIO NOIR (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/3",
+          "days": {
+            "2026-09-12": [
+              {
+                "time": "22:00"
+              }
+            ]
+          }
+        },
+        {
+          "studio": "STUDIO ROSE",
+          "url": "https://reservation.studiobleu.com/studios/4",
+          "days": {
+            "2026-09-13": [
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "18:30"
+              },
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
+              }
+            ]
+          }
+        },
+        {
+          "studio": "Studio INDIGO (P.A)",
+          "url": "https://reservation.studiobleu.com/studios/11",
+          "days": {
+            "2026-09-12": [
+              {
+                "time": "22:00"
+              }
             ],
-            "2026-09-20": [
+            "2026-09-13": [
               {
                 "time": "10:00"
               },
@@ -3074,48 +3121,39 @@
                 "time": "12:00"
               },
               {
+                "time": "12:30"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "13:30"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
                 "time": "20:00"
               }
             ]
           }
         },
         {
-          "studio": "STUDIO NOIR (P.A)",
-          "url": "https://reservation.studiobleu.com/studios/3",
-          "days": {
-            "2026-09-12": [
-              {
-                "time": "22:00"
-              }
-            ],
-            "2026-09-17": [
-              {
-                "time": "22:00"
-              }
-            ]
-          }
-        },
-        {
-          "studio": "STUDIO ROSE",
-          "url": "https://reservation.studiobleu.com/studios/4",
-          "days": {}
-        },
-        {
-          "studio": "Studio INDIGO (P.A)",
-          "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-20&roomId=11",
-          "days": {}
-        },
-        {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=12",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-19&roomId=12",
           "days": {}
         },
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=13",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-09&roomId=13",
           "days": {}
         },
         {
@@ -3133,7 +3171,7 @@
         {
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=16",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-09&roomId=16",
           "days": {}
         },
         {
@@ -5675,15 +5713,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
               },
               {
                 "time": "15:00"
