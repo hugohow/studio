@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T11:47:16.593Z",
+  "generatedAt": "2026-09-12T12:02:36.971Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -62,6 +62,12 @@
               },
               {
                 "time": "16:00"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "19:00"
               },
               {
                 "time": "23:00"
@@ -2891,11 +2897,6 @@
               {
                 "time": "22:00"
               }
-            ],
-            "2026-10-02": [
-              {
-                "time": "22:00"
-              }
             ]
           }
         },
@@ -2903,6 +2904,14 @@
           "studio": "STUDIO B (P.A)",
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
+            "2026-09-19": [
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-09-20": [
               {
                 "time": "10:00"
@@ -2928,7 +2937,19 @@
         {
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
-          "days": {}
+          "days": {
+            "2026-09-16": [
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              }
+            ]
+          }
         },
         {
           "studio": "STUDIO ROSE",
@@ -2939,7 +2960,7 @@
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=11",
           "days": {}
         },
         {
@@ -2957,7 +2978,7 @@
         {
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=14",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-09&roomId=14",
           "days": {}
         },
         {
@@ -2969,19 +2990,19 @@
         {
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-09&roomId=16",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=16",
           "days": {}
         },
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=17",
           "days": {}
         },
         {
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=18",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=18",
           "days": {}
         },
         {
@@ -2993,13 +3014,13 @@
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=20",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=20",
           "days": {}
         },
         {
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=21",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=21",
           "days": {}
         }
       ]
@@ -3555,12 +3576,6 @@
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
             "2026-09-12": [
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
@@ -5904,12 +5919,6 @@
             ],
             "2026-09-13": [
               {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
                 "time": "18:30"
               },
               {
@@ -6582,11 +6591,6 @@
           "studio": "Studio 1 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
-            "2026-09-12": [
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-09-14": [
               {
                 "time": "12:00"
@@ -7753,9 +7757,6 @@
           "days": {
             "2026-09-12": [
               {
-                "time": "14:00"
-              },
-              {
                 "time": "17:00"
               }
             ],
@@ -8403,9 +8404,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-12": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "14:30"
               },
@@ -9383,9 +9381,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-12": [
-              {
-                "time": "14:00"
-              },
               {
                 "time": "14:30"
               },
