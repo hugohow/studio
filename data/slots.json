@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T11:06:41.535Z",
+  "generatedAt": "2026-09-12T11:11:42.482Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2951,18 +2951,13 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "days": {
-            "2026-09-13": [
-              {
-                "time": "20:00"
-              }
-            ]
-          }
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=4",
+          "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-20&roomId=11",
           "days": {}
         },
         {
@@ -2986,7 +2981,7 @@
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=15",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=15",
           "days": {}
         },
         {
@@ -2998,7 +2993,7 @@
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=17",
           "days": {}
         },
         {
@@ -3022,7 +3017,7 @@
         {
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-10&roomId=21",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-11&roomId=21",
           "days": {}
         }
       ]
