@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T04:16:38.587Z",
+  "generatedAt": "2026-09-14T04:36:57.778Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2756,14 +2756,8 @@
               {
                 "time": "22:00"
               }
-            ]
-          }
-        },
-        {
-          "studio": "STUDIO ROSE",
-          "url": "https://reservation.studiobleu.com/studios/4",
-          "days": {
-            "2026-09-17": [
+            ],
+            "2026-09-20": [
               {
                 "time": "10:00"
               },
@@ -2778,7 +2772,9 @@
               },
               {
                 "time": "12:00"
-              },
+              }
+            ],
+            "2026-09-21": [
               {
                 "time": "22:00"
               }
@@ -2786,15 +2782,21 @@
           }
         },
         {
+          "studio": "STUDIO ROSE",
+          "url": "https://reservation.studiobleu.com/studios/4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-12&roomId=4",
+          "days": {}
+        },
+        {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-12&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-02&roomId=11",
           "days": {}
         },
         {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-13&roomId=12",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-04&roomId=12",
           "days": {}
         },
         {
