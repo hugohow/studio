@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T03:26:25.734Z",
+  "generatedAt": "2026-09-18T03:31:32.020Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2258,6 +2258,22 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-10-01": [
+              {
+                "time": "19:00"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-10-02": [
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -2437,59 +2453,8 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "days": {
-            "2026-09-18": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "22:00"
-              }
-            ],
-            "2026-09-19": [
-              {
-                "time": "20:00"
-              }
-            ],
-            "2026-09-20": [
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ]
-          }
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-17&roomId=4",
+          "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
