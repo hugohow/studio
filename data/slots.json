@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T12:22:38.749Z",
+  "generatedAt": "2026-09-19T12:32:50.868Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2359,7 +2359,7 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-13&roomId=4",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-30&roomId=4",
           "days": {}
         },
         {
@@ -2401,7 +2401,7 @@
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-17&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-18&roomId=17",
           "days": {}
         },
         {
@@ -8389,9 +8389,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-19": [
-              {
-                "time": "14:30"
-              },
               {
                 "time": "15:00"
               },
