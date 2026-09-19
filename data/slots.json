@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T13:03:25.831Z",
+  "generatedAt": "2026-09-19T13:08:32.149Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -2223,6 +2223,11 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-10-02": [
+              {
+                "time": "22:00"
+              }
             ]
           }
         },
@@ -2354,30 +2359,13 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "days": {
-            "2026-09-22": [
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              }
-            ]
-          }
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-18&roomId=4",
+          "days": {}
         },
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-09-28&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-18&roomId=11",
           "days": {}
         },
         {
@@ -2401,7 +2389,7 @@
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-16&roomId=15",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-18&roomId=15",
           "days": {}
         },
         {
@@ -2787,18 +2775,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "17:30"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
               }
             ],
             "2026-09-30": [
