@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T19:57:24.155Z",
+  "generatedAt": "2026-09-25T20:17:44.497Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -1465,55 +1465,6 @@
               {
                 "time": "22:00"
               }
-            ],
-            "2026-10-08": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              }
-            ],
-            "2026-10-09": [
-              {
-                "time": "22:00"
-              }
             ]
           }
         },
@@ -1521,11 +1472,6 @@
           "studio": "STUDIO B (P.A)",
           "url": "https://reservation.studiobleu.com/studios/2",
           "days": {
-            "2026-09-25": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-09-26": [
               {
                 "time": "20:00"
@@ -1589,13 +1535,45 @@
               {
                 "time": "22:00"
               }
+            ],
+            "2026-09-27": [
+              {
+                "time": "20:00"
+              }
+            ],
+            "2026-09-28": [
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-09-29": [
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "14:30"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-10-02": [
+              {
+                "time": "18:00"
+              }
             ]
           }
         },
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-24&roomId=11",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-05&roomId=11",
           "days": {}
         },
         {
@@ -1631,7 +1609,7 @@
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-24&roomId=17",
+          "error": "HTTP 429 on https://api.studiobleu.com/reservations/daily?date=2026-10-09&roomId=17",
           "days": {}
         },
         {
@@ -1671,11 +1649,6 @@
           "studio": "Grand Studio 1",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-09-25": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-09-26": [
               {
                 "time": "11:30"
@@ -3434,9 +3407,6 @@
           "days": {
             "2026-09-25": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "22:30"
               }
             ],
@@ -3755,11 +3725,6 @@
           "studio": "Mini Studio 8",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
           "days": {
-            "2026-09-25": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-09-26": [
               {
                 "time": "18:30"
@@ -4357,9 +4322,6 @@
           "days": {
             "2026-09-25": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "22:30"
               }
             ],
@@ -4894,9 +4856,6 @@
           "days": {
             "2026-09-25": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "22:30"
               }
             ],
@@ -5385,9 +5344,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-25": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
@@ -6003,9 +5959,6 @@
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
           "days": {
             "2026-09-25": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
