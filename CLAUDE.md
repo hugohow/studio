@@ -45,9 +45,9 @@ Pas de dépendances, Node ≥ 18 (utilise `fetch` global). Rien à installer.
 `venues[] → studios[] → days["YYYY-MM-DD"] → [{ time }]`.
 Chaque entrée = une heure de **début** réservable (`HH:MM`). Wacked = pas horaire ; Studio Bleu = pas
 de 30 min. Pas de prix dans le feed (focus dispo).
-Chaque studio peut aussi porter une fiche (optionnelle) : `emoji` (🥁 batterie, 🎹 cabine, 🎸 sinon),
+Chaque studio peut aussi porter une fiche (optionnelle) :
 `description` (1 ligne : surface · capacité · batterie) et `equipment[]` (matériel). Affichée côté front
-dans un popover au clic/tap sur l'emoji. Sources : API `/rooms` (Studio Bleu), bloc `description` des
+dans un popover au clic/tap sur l'icône ⓘ à côté du nom. Sources : API `/rooms` (Studio Bleu), bloc `description` des
 `room-box` (QuickStudio), fiches recopiées en dur (Wacked, L'Intervalle). Jamais de prix.
 `photos[]` (URLs absolues, optionnel) : API `/rooms` → bucket S3 (Studio Bleu, qui ne liste pas le matériel),
 pages studio WordPress (Wacked), sites des salles pour QuickStudio (option `photos` de `makeQuickStudio`,
