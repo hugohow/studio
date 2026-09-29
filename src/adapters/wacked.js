@@ -15,9 +15,17 @@ const VENUE = {
 
 // serviceIdsByDuration : id du service Amelia selon la durée (en heures)
 // providerIds : { avant18h, apres18h } — les deux providers à interroger pour avoir tous les créneaux
-// description / equipment : fiche de la salle (pages wackedlive.fr/index.php/studio_N/), sans les prix.
+// description / equipment / photos : fiche de la salle (pages wackedlive.fr/index.php/studio_N/), sans les prix.
+// photos = chemins sous PHOTOS_BASE.
+const PHOTOS_BASE = "https://wackedlive.fr/wp-content/uploads/";
 const STUDIOS = {
   "Studio 1": {
+    photos: [
+      "2024/03/IMG_4169-scaled.jpg",
+      "2024/03/IMG_4162-scaled.jpg",
+      "2024/03/IMG_4167-scaled.jpg",
+      "2024/03/IMG_4168-scaled.jpg",
+    ],
     description: "20 m² · jusqu'à 5 pers. · batterie",
     equipment: [
       'Batterie Yamaha Blue 20"',
@@ -30,6 +38,12 @@ const STUDIOS = {
     providerIds: { avant18h: 45, apres18h: 41 },
   },
   "Studio 2": {
+    photos: [
+      "2024/01/STUDIO-2-DRUMS.jpg",
+      "2024/01/STUDIO-2-COTE-TABLE.jpg",
+      "2024/01/STUDIO-2-AMP-L.jpg",
+      "2024/01/STUDIO-2-BASS-SIDE.jpg",
+    ],
     description: "25 m² · jusqu'à 8 pers. · batterie",
     equipment: [
       'Batterie Yamaha Yellow 20"',
@@ -42,6 +56,12 @@ const STUDIOS = {
     providerIds: { avant18h: 18, apres18h: 1 },
   },
   "Studio 3": {
+    photos: [
+      "2024/01/STUDIO-3-19-PANORAMA.jpg",
+      "2024/01/STUDIO-3-2-GA.jpg",
+      "2024/01/STUDIO-3-13-GA.jpg",
+      "2024/01/STUDIO-3-10-GA.jpg",
+    ],
     description: "33 m² · jusqu'à 15 pers. · batterie",
     equipment: [
       'Batterie Yamaha Hot Red 20"',
@@ -57,7 +77,12 @@ const STUDIOS = {
 
 // Fiche descriptive exposée dans le feed (popover côté front).
 function info(studio) {
-  return { emoji: "🥁", description: studio.description, equipment: studio.equipment };
+  return {
+    emoji: "🥁",
+    description: studio.description,
+    equipment: studio.equipment,
+    photos: studio.photos.map((path) => PHOTOS_BASE + path),
+  };
 }
 
 async function fetchSlots(studio, durationH, monthsLoad) {

@@ -24,6 +24,9 @@ const VENUE = {
   url: "https://reservation.studiobleu.com/studios?sites=1",
 };
 
+// Photos des salles (champ `images` de /rooms = chemins relatifs sur ce bucket S3 public).
+// Studio Bleu ne liste pas le matériel : les photos sont le seul moyen de voir s'il y a batterie, amplis…
+const IMAGES_BASE = "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/";
 const RETRY_WAIT_MS = 10000; // attente après un 429 avant de retenter
 const MAX_RETRIES = 12; // ~2 min max par requête avant d'abandonner le jour
 const MIN_DURATION_H = 2; // Studio Bleu impose une réservation de 2h minimum (impossible d'en réserver moins)
@@ -80,7 +83,8 @@ function roomInfo(room) {
   if (room.mirrors) equipment.push("Miroirs");
   if (room.curtains) equipment.push("Rideaux");
   if (room.to_know?.trim()) equipment.push(room.to_know.trim());
-  return { emoji: "🎸", description: parts.join(" · ") || undefined, equipment };
+  const photos = (room.images || []).filter(Boolean).map((path) => IMAGES_BASE + path);
+  return { emoji: "🎸", description: parts.join(" · ") || undefined, equipment, photos };
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

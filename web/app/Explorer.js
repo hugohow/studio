@@ -2,6 +2,7 @@
 
 import { useMemo, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { ConfigProvider, DatePicker, Popover, Slider } from "antd";
 import frFR from "antd/locale/fr_FR";
 import dayjs from "dayjs";
@@ -39,9 +40,18 @@ function frDateTime(iso) {
 
 // Fiche du studio (surface, capacité, matériel) dans un popover ouvert au clic/tap.
 function StudioInfo({ s }) {
-  if (!s.description && !s.equipment?.length) return null;
+  if (!s.description && !s.equipment?.length && !s.photos?.length) return null;
   const content = (
     <div className="infopop">
+      {s.photos?.length > 0 && (
+        <div className="photos">
+          {s.photos.map((src, i) => (
+            <a key={i} href={src} target="_blank" rel="noreferrer" aria-label={`Photo ${i + 1} de ${s.name}`}>
+              <Image src={src} alt={`${s.name} — photo ${i + 1}`} width={240} height={160} sizes="240px" />
+            </a>
+          ))}
+        </div>
+      )}
       {s.description && <p className="infodesc">{s.description}</p>}
       {s.equipment?.length > 0 && (
         <ul>
@@ -167,6 +177,7 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
           emoji: s.emoji,
           description: s.description,
           equipment: s.equipment,
+          photos: s.photos,
         };
       });
       // Salle (ou une partie de ses studios) en erreur côté adaptateur : pas de données fiables.

@@ -153,12 +153,14 @@ async function pool(items, limit, worker) {
 // Fabrique un adaptateur QuickStudio à partir de la meta de la salle.
 // `meta` : { id, name, address, slug, excludeRooms } — `slug` = segment d'URL
 // quickstudio.com/fr/studios/<slug> ; `excludeRooms` = noms de salles à exclure du feed
-// (ex. salles de concert qui ne sont pas des studios de répét).
+// (ex. salles de concert qui ne sont pas des studios de répét) ; `photos` = [{ match: RegExp, photos: [url] }]
+// (QuickStudio n'a pas de photo par salle : on les prend sur le site de la salle, 1re règle qui matche le nom).
 // Renvoie { meta, fetchAvailability } prêts à exporter depuis l'adaptateur de la salle.
 export function makeQuickStudio(meta) {
   const BASE = `https://www.quickstudio.com/fr/studios/${meta.slug}/bookings`;
   const VENUE = { id: meta.id, name: meta.name, address: meta.address, url: BASE };
   const excluded = new Set((meta.excludeRooms || []).map((n) => n.toLowerCase()));
+  const photosFor = (name) => (meta.photos || []).find((r) => r.match.test(name))?.photos;
 
   async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) {
     const dates = dateRange(monthsLoad, MAX_DAYS);
@@ -204,12 +206,10 @@ export function makeQuickStudio(meta) {
     // `{date}` est remplacé côté front par le jour sélectionné (la page planning accepte ?date=).
     const bookingUrl = `${BASE}?date={date}`;
     const studios = [...rooms.entries()]
-      .map(([id, r]) => ({
-        studio: roomNames.get(id) || `Salle ${id}`,
-        url: bookingUrl,
-        ...roomInfos.get(id),
-        days: r.days,
-      }))
+      .map(([id, r]) => {
+        const studio = roomNames.get(id) || `Salle ${id}`;
+        return { studio, url: bookingUrl, ...roomInfos.get(id), photos: photosFor(studio), days: r.days };
+      })
       .filter((s) => !excluded.has(s.studio.toLowerCase()));
 
     return { id: VENUE.id, name: VENUE.name, address: VENUE.address, url: VENUE.url, durationH, studios };

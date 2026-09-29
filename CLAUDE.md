@@ -49,6 +49,10 @@ Chaque studio peut aussi porter une fiche (optionnelle) : `emoji` (🥁 batterie
 `description` (1 ligne : surface · capacité · batterie) et `equipment[]` (matériel). Affichée côté front
 dans un popover au clic/tap sur l'emoji. Sources : API `/rooms` (Studio Bleu), bloc `description` des
 `room-box` (QuickStudio), fiches recopiées en dur (Wacked, L'Intervalle). Jamais de prix.
+`photos[]` (URLs absolues, optionnel) : API `/rooms` → bucket S3 (Studio Bleu, qui ne liste pas le matériel),
+pages studio WordPress (Wacked), sites des salles pour QuickStudio (option `photos` de `makeQuickStudio`,
+règles `match` sur le nom de salle). Front : `next/image` (hôtes autorisés dans `web/next.config.mjs`)
+→ redimensionnées par Vercel (sources jusqu'à 5 Mo). L'Intervalle : pas de vraies photos (images de stock).
 
 ## Ajouter une salle
 
