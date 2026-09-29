@@ -19,13 +19,34 @@ const HIDDEN_VENUES = [
 const H_MIN = 8;
 const H_MAX = 24; // 24 = minuit
 
-function frDate(iso) {
-  if (!iso) return "";
-  return dayjs(iso).format("dddd D MMMM");
-}
-
 function frShort(iso) {
   return dayjs(iso).format("D MMM");
+}
+
+// "à l'instant", "il y a 12 min", "il y a 3 h", "il y a 2 j".
+function frAgo(iso, now) {
+  const min = Math.max(0, Math.floor((now - new Date(iso)) / 60000));
+  if (min < 1) return "à l'instant";
+  if (min < 60) return `il y a ${min} min`;
+  const h = Math.floor(min / 60);
+  if (h < 24) return `il y a ${h} h`;
+  return `il y a ${Math.floor(h / 24)} j`;
+}
+
+// Rafraîchi chaque minute ; l'heure serveur ≠ heure client au rendu → suppressHydrationWarning.
+function UpdatedAgo({ iso }) {
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    setNow(Date.now());
+    const t = setInterval(() => setNow(Date.now()), 60000);
+    return () => clearInterval(t);
+  }, []);
+  if (!iso) return null;
+  return (
+    <span title={frDateTime(iso)} suppressHydrationWarning>
+      Mis à jour {frAgo(iso, now)}
+    </span>
+  );
 }
 
 function frDateTime(iso) {
@@ -113,11 +134,6 @@ function StudioInfo({ s, isMobile }) {
   );
 }
 
-// "1 créneau", "3 créneaux" (0 → singulier, règle française).
-function plural(n, one, many) {
-  return `${n} ${n > 1 ? many : one}`;
-}
-
 function fmtH(v) {
   return v >= 24 ? "minuit" : `${v}h`;
 }
@@ -197,14 +213,12 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
       const hf = h + m / 60;
       return hf >= a && hf <= b;
     };
-    let freeCount = 0;
     const out = venues.map((v) => {
       const cover = venueCover[v.name] || {};
       const beyond = cover.max && date > cover.max;
       const studios = (v.studios || []).map((s) => {
         const all = (s.days?.[date] || []).map((x) => x.time);
         const times = all.filter(inRange);
-        if (times.length) freeCount++;
         return {
           name: s.studio,
           times,
@@ -219,7 +233,7 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
       const failed = Boolean(v.error) || (v.studios || []).some((s) => s.error);
       return { name: v.name, address: v.address, url: v.url, studios, beyond, cover, failed };
     });
-    return { venues: out, freeCount };
+    return { venues: out };
   }, [venues, date, range, venueCover]);
 
   const isFullRange = range[0] === H_MIN && range[1] === H_MAX;
@@ -230,17 +244,16 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
         <h1>StudioTonight 🎸</h1>
         <p className="byline">
           by{" "}
-          <a href="https://www.linkedin.com/in/hugo-how-choong/" target="_blank" rel="noreferrer">
+          <a className="author" href="https://www.linkedin.com/in/hugo-how-choong/" target="_blank" rel="noreferrer">
             Hugo How-Choong
           </a>{" "}
           ·{" "}
           <a href="https://github.com/hugohow/studio" target="_blank" rel="noreferrer">
-            code sur GitHub
+            code open source
           </a>
         </p>
         <p className="sub">
-          {plural(venues.length, "salle", "salles")} · feed mis à jour le {feed.generatedAt ? frDateTime(feed.generatedAt) : "?"} · durée{" "}
-          {feed.durationH}h · données du {allMin && frShort(allMin)} au {allMax && frShort(allMax)}
+          <UpdatedAgo iso={feed.generatedAt} />
         </p>
 
         <div className="controls">
@@ -292,13 +305,6 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
               />
             </div>
           </div>
-
-          <div className="summary">
-            {frDate(date)} · <b>{view.freeCount}</b> {view.freeCount > 1 ? "studios" : "studio"}{" "}
-            {isFullRange
-              ? view.freeCount > 1 ? "dispos" : "dispo"
-              : `entre ${fmtH(range[0])} et ${fmtH(range[1])}`}
-          </div>
         </div>
 
         {view.venues.map((v) => {
@@ -332,14 +338,10 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
                 visible.map((s) => (
                   <div className="studio" key={s.name}>
                     <div className="name">
-                      <span className="namelabel">
-                        <span className="studioname">
-                          {s.name}
-                          <StudioInfo s={s} isMobile={isMobile} />
-                        </span>
-                        {s.description && <span className="desc">{s.description}</span>}
+                      <span className="studioname">
+                        {s.name}
+                        <StudioInfo s={s} isMobile={isMobile} />
                       </span>
-                      <span className="count">{plural(s.times.length, "créneau", "créneaux")}</span>
                     </div>
                     <div className="chips">
                       {s.times.map((t) => (

@@ -29,7 +29,7 @@ main {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 32px;
   margin: 0 0 4px;
 }
 
@@ -37,6 +37,9 @@ h1 {
   margin: 2px 0 16px;
   font-size: 13px;
   color: var(--muted);
+}
+.byline .author {
+  font-weight: 600;
 }
 
 .sub {
@@ -124,8 +127,7 @@ input[type="date"] {
   }
   /* en colonne, les flex-basis en px s'appliquent à la HAUTEUR → on réinitialise
      (spécificité .controls pour gagner sur les règles de base définies plus bas) */
-  .controls .field-hours,
-  .controls .summary {
+  .controls .field-hours {
     flex: 0 0 auto;
   }
 }
@@ -140,16 +142,6 @@ input[type="date"] {
 }
 .sliderbox .ant-slider {
   margin: 8px 6px 20px; /* place pour les marks + confort tactile */
-}
-
-.summary {
-  flex: 0 0 100%; /* ligne dédiée : bouger le slider ne redimensionne plus rien */
-  font-size: 14px;
-  color: var(--muted);
-  margin: 2px 0 0;
-}
-.summary b {
-  color: var(--free);
 }
 
 .venue {
@@ -181,14 +173,7 @@ input[type="date"] {
   font-weight: 600;
   margin-bottom: 8px;
   display: flex;
-  justify-content: space-between;
   gap: 8px;
-}
-.studio .count {
-  color: var(--muted);
-  font-weight: 400;
-  font-size: 13px;
-  white-space: nowrap;
 }
 
 .chips {
@@ -244,18 +229,6 @@ a:hover {
 }
 
 /* Fiche studio : icône ⓘ + popover (au clic/tap) */
-.studio .namelabel {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 4px 8px;
-  min-width: 0;
-}
-.studio .desc {
-  color: var(--muted);
-  font-weight: 400;
-  font-size: 12px;
-}
 .studio .studioname {
   display: inline-flex;
   align-items: center;
