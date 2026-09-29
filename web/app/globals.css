@@ -292,3 +292,24 @@ a:hover {
 .infopop li {
   margin: 2px 0;
 }
+.infopop .photos {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin: 0 -2px 8px;
+  padding-bottom: 4px;
+}
+.infopop .photos a {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  line-height: 0;
+}
+.infopop .photos img {
+  width: 240px;
+  max-width: 70vw;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--panel-2);
+}
