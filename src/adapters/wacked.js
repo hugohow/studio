@@ -15,20 +15,50 @@ const VENUE = {
 
 // serviceIdsByDuration : id du service Amelia selon la durée (en heures)
 // providerIds : { avant18h, apres18h } — les deux providers à interroger pour avoir tous les créneaux
+// description / equipment : fiche de la salle (pages wackedlive.fr/index.php/studio_N/), sans les prix.
 const STUDIOS = {
   "Studio 1": {
+    description: "20 m² · jusqu'à 5 pers. · batterie",
+    equipment: [
+      'Batterie Yamaha Blue 20"',
+      "Ampli basse Ampeg Micro CR 150W + cab SVT-210",
+      "Amplis guitare Orange Super Crush 100 (2×12) et Fender Super Champ",
+      "Table de mixage Tascam Model 12, enceintes et 3 micros",
+      "Piano électrique Yamaha P145 (en option)",
+    ],
     serviceIdsByDuration: { 1: 1, 2: 4, 3: 7, 4: 10, 5: 13, 6: 16, 7: 27, 8: 28 },
     providerIds: { avant18h: 45, apres18h: 41 },
   },
   "Studio 2": {
+    description: "25 m² · jusqu'à 8 pers. · batterie",
+    equipment: [
+      'Batterie Yamaha Yellow 20"',
+      "Ampli basse Ampeg Micro VR 200W + cab SVT-210",
+      "Amplis guitare 2× Orange Super Crush 100 (2×12) et Fender Hot Rod Deluxe",
+      "Table de mixage Tascam Model 16, enceintes et 5 micros",
+      "Piano électrique Yamaha P225 (en option)",
+    ],
     serviceIdsByDuration: { 1: 2, 2: 5, 3: 8, 4: 11, 5: 14, 6: 17, 7: 21, 8: 29 },
     providerIds: { avant18h: 18, apres18h: 1 },
   },
   "Studio 3": {
+    description: "33 m² · jusqu'à 15 pers. · batterie",
+    equipment: [
+      'Batterie Yamaha Hot Red 20"',
+      "Ampli basse Hartke HA3500 + cab 4×10",
+      "Amplis guitare 2× Marshall TSL 60 (4×12) et Fender Hot Rod Deluxe",
+      "Table de mixage Tascam Model 24, enceintes et 5 micros",
+      "Piano électrique Korg Havian 30 (en option)",
+    ],
     serviceIdsByDuration: { 1: 3, 2: 6, 3: 9, 4: 12, 5: 15, 6: 18, 7: 19, 8: 20 },
     providerIds: { avant18h: 17, apres18h: 8 },
   },
 };
+
+// Fiche descriptive exposée dans le feed (popover côté front).
+function info(studio) {
+  return { emoji: "🥁", description: studio.description, equipment: studio.equipment };
+}
 
 async function fetchSlots(studio, durationH, monthsLoad) {
   const serviceId = studio.serviceIdsByDuration[durationH];
@@ -56,7 +86,7 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
       try {
         slots = await fetchSlots(studio, durationH, monthsLoad);
       } catch (e) {
-        return { studio: studioName, error: String(e.message || e), days: {} };
+        return { studio: studioName, ...info(studio), error: String(e.message || e), days: {} };
       }
       const days = {};
       for (const date of Object.keys(slots).sort()) {
@@ -64,7 +94,7 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
           .sort()
           .map((time) => ({ time }));
       }
-      return { studio: studioName, days };
+      return { studio: studioName, ...info(studio), days };
     })
   );
   return { id: VENUE.id, name: VENUE.name, address: VENUE.address, url: VENUE.url, durationH, studios };

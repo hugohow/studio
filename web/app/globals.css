@@ -188,6 +188,7 @@ input[type="date"] {
   color: var(--muted);
   font-weight: 400;
   font-size: 13px;
+  white-space: nowrap;
 }
 
 .chips {
@@ -240,4 +241,54 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* Fiche studio : bouton emoji + popover (au clic/tap) */
+.studio .namelabel {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  min-width: 0;
+}
+.studio .desc {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 12px;
+}
+.infobtn {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px; /* cible tactile confortable */
+  margin: -4px 0;
+  display: grid;
+  place-items: center;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.12s, border-color 0.12s;
+}
+.infobtn:hover,
+.infobtn[aria-describedby],
+.infobtn.ant-popover-open {
+  background: #e3e9f1;
+  border-color: var(--accent);
+}
+.infopop {
+  font-size: 13px;
+}
+.infopop .infodesc {
+  margin: 0 0 6px;
+  color: var(--muted);
+}
+.infopop ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.infopop li {
+  margin: 2px 0;
 }

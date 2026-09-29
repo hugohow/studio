@@ -2,12 +2,13 @@
 // créer src/adapters/<salle>.js exportant fetchAvailability({durationH,monthsLoad}) + meta,
 // puis l'importer ici et l'ajouter au tableau ADAPTERS.
 
+import * as lintervalle from "./lintervalle.js";
 import * as wacked from "./wacked.js";
 import * as studiobleu from "./studiobleu.js";
 import * as hbs from "./hbs.js";
 import * as fgoBarbara from "./fgo-barbara.js";
 
-export const ADAPTERS = [wacked, studiobleu, hbs, fgoBarbara];
+export const ADAPTERS = [lintervalle, wacked, studiobleu, hbs, fgoBarbara];
 
 // Date + heure courantes en heure de Paris : { date: "YYYY-MM-DD", time: "HH:MM" }.
 function parisNow() {

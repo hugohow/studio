@@ -43,6 +43,57 @@ function parseRoomNames(html) {
   return names;
 }
 
+function htmlText(s) {
+  return s
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&euro;/g, "€")
+    .replace(/&amp;/g, "&")
+    .replace(/&#39;|&rsquo;/g, "'")
+    .replace(/[ \t]+/g, " ");
+}
+
+// Fiches des salles depuis les blocs room-box : Map(id -> { emoji, description, equipment }).
+// On prend la surface (<span class="size">) et les lignes « - … » du bloc description ;
+// tout ce qui suit « Tarifs » est ignoré (le feed n'expose pas de prix).
+function parseRoomInfos(html) {
+  const infos = new Map();
+  for (const m of html.matchAll(/<div class="room-box">([\s\S]*?)data-room="(\d+)"/g)) {
+    const box = m[1];
+    const size = box.match(/<span class="size">\s*([\d.,]+)\s*m/)?.[1];
+    const desc = box.match(/<div class="description">([\s\S]*?)<\/div>/)?.[1] || "";
+    const lines = htmlText(desc.split(/Tarifs?\s*:/i)[0])
+      .split("\n")
+      .map((l) => l.trim())
+      .filter(Boolean);
+    // Deux formats : lignes « - … » après « Matériel : » (HBS) ou une ligne par équipement (FGO).
+    const dashed = lines.filter((l) => l.startsWith("-"));
+    const equipment = (dashed.length ? dashed : lines.filter((l) => !/^studio de|mat[ée]riel/i.test(l)))
+      .map((l) => l.replace(/^-\s*/, "").replace(/^1\s+/, ""))
+      .map((l) => (l === l.toUpperCase() ? l[0] + l.slice(1).toLowerCase() : l)); // FGO écrit tout en capitales
+    // Première ligne libre (ex. « Box solo ») si format à tirets et pas déjà dans le nom de salle.
+    const name = htmlText(box.split("<i class")[0].split('<div class="description"')[0]).toLowerCase();
+    const label = dashed.length
+      ? lines.find(
+          (l) => !l.startsWith("-") && !/mat[ée]riel|^studio de/i.test(l) && !name.includes(l.toLowerCase())
+        )
+      : undefined;
+    const hasDrums = equipment.some((e) => /batterie/i.test(e) && !/sans batterie/i.test(e));
+    const parts = [];
+    if (size) parts.push(`${size} m²`);
+    if (label) parts.push(label.replace(/\s*:$/, ""));
+    if (hasDrums) parts.push("batterie");
+    infos.set(m[2], {
+      emoji: hasDrums ? "🥁" : "🎸",
+      description: parts.join(" · ") || undefined,
+      equipment,
+    });
+  }
+  return infos;
+}
+
 // Intervalles `available` par salle : Map(id -> [{start, end}]) (timestamps unix).
 function parseAvailableByRoom(html) {
   const marks = [];
@@ -112,6 +163,7 @@ export function makeQuickStudio(meta) {
   async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) {
     const dates = dateRange(monthsLoad, MAX_DAYS);
     let roomNames = new Map();
+    let roomInfos = new Map();
 
     // roomId -> { days: { date: [{time}] } }
     const rooms = new Map();
@@ -127,7 +179,12 @@ export function makeQuickStudio(meta) {
         });
         if (!r.ok) return null;
         const html = await r.text();
-        return { date, names: parseRoomNames(html), avail: parseAvailableByRoom(html) };
+        return {
+          date,
+          names: parseRoomNames(html),
+          infos: parseRoomInfos(html),
+          avail: parseAvailableByRoom(html),
+        };
       } catch (e) {
         return null;
       }
@@ -136,6 +193,7 @@ export function makeQuickStudio(meta) {
     for (const day of perDay) {
       if (!day) continue;
       if (day.names.size) roomNames = day.names; // garde la dernière table de noms vue
+      if (day.infos.size) roomInfos = day.infos;
       for (const [id, intervals] of day.avail) {
         if (!rooms.has(id)) rooms.set(id, { days: {} });
         const starts = startsFromIntervals(intervals, durationH);
@@ -149,6 +207,7 @@ export function makeQuickStudio(meta) {
       .map(([id, r]) => ({
         studio: roomNames.get(id) || `Salle ${id}`,
         url: bookingUrl,
+        ...roomInfos.get(id),
         days: r.days,
       }))
       .filter((s) => !excluded.has(s.studio.toLowerCase()));

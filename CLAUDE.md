@@ -45,6 +45,10 @@ Pas de dépendances, Node ≥ 18 (utilise `fetch` global). Rien à installer.
 `venues[] → studios[] → days["YYYY-MM-DD"] → [{ time }]`.
 Chaque entrée = une heure de **début** réservable (`HH:MM`). Wacked = pas horaire ; Studio Bleu = pas
 de 30 min. Pas de prix dans le feed (focus dispo).
+Chaque studio peut aussi porter une fiche (optionnelle) : `emoji` (🥁 batterie, 🎹 cabine, 🎸 sinon),
+`description` (1 ligne : surface · capacité · batterie) et `equipment[]` (matériel). Affichée côté front
+dans un popover au clic/tap sur l'emoji. Sources : API `/rooms` (Studio Bleu), bloc `description` des
+`room-box` (QuickStudio), fiches recopiées en dur (Wacked, L'Intervalle). Jamais de prix.
 
 ## Ajouter une salle
 
@@ -66,21 +70,24 @@ de 30 min. Pas de prix dans le feed (focus dispo).
 - Back **Next.js séparé**, API : `https://api.studiobleu.com`. Pas d'auth pour la lecture.
 - `GET /rooms` → inventaire **toutes salles/sites** (le param `?sites=` est ignoré). On filtre par
   `site.id === 1` (10ème Musique) **et** `internet_visibility` (exclut les salles admin).
-- `GET /reservations/daily?date=YYYY-MM-DD&roomId=<id>` → tranches de **30 min**
-  (`status: free | reserved`, `type: closeHour` = hors horaires). ⚠️ `date` en `YYYY-MM-DD` ; un ISO
-  avec `Z` décale le jour.
+- `GET /rooms/public-search?day=YYYY-MM-DD&site_ids[]=1&duration=<minutes>` → **1 requête = 1 jour pour
+  toutes les salles du site**, chacune avec `reservations[]` = tranches de **30 min** (`status: free |
+  reserved`, `type: closeHour` = hors horaires), identiques à `GET /reservations/daily?date=&roomId=`
+  (vérifié salle par salle le 29/09/2026). Ne renvoie que les salles ayant un bloc libre de `duration`
+  minutes : salle absente = aucun créneau ce jour-là. ⚠️ `day` en `YYYY-MM-DD` ; un ISO avec `Z` décale le jour.
 - Dispo = `status === "free"` ; un créneau de début tient si les `durationH*2` tranches consécutives
   sont toutes libres. Horizon plafonné par `room.days_visible` (~60 j).
+- ⚠️ **Rate limit** : ~30 requêtes en rafale puis 429 pendant plusieurs secondes. L'ancienne approche
+  (`/reservations/daily` par salle × jour ≈ 900 req/run) cassait le feed (11/15 salles en erreur en prod).
+  D'où `public-search` (~1 req/jour) en **séquentiel**, avec nouvelle tentative sur 429 (`RETRY_WAIT_MS`).
 - ⚠️ **Règles de réservation** (affichées sur la page de résa, encodées dans `allowedStart` +
   `effDurationH`) : **2h minimum** → l'adaptateur clampe la durée à `MIN_DURATION_H = 2`
   (`effDurationH = max(durationH, 2)`), donc même dans le feed 1h on n'expose que des créneaux où
   2h sont libres (la salle renvoie `durationH: 2`, pas affiché côté front) ; **pas de départ à la
   demi-heure à partir de 19h** ; **pas de fin possible à 23:00** (donc pas de départ à 21:00 en 2h).
-- La page de réservation (`reservation.studiobleu.com`, SPA Next.js) appelle le **même** endpoint
-  `/reservations/daily` que nous : pas d'endpoint « créneaux réservables » côté serveur, les règles
+- La page de réservation (`reservation.studiobleu.com`, SPA Next.js) appelle `/reservations/daily`
+  (même données que `public-search`) : pas d'endpoint « créneaux réservables » côté serveur, les règles
   sont appliquées en JS côté client → inutile de scraper, on réplique les règles ici.
-- ~15 salles × ~60 j = ~900 requêtes/run → concurrence bornée (`MAX_CONCURRENCY`), penser à espacer le
-  cron quand il sera activé.
 
 ## Points d'attention (QuickStudio : Studio HBS, FGO-Barbara)
 
