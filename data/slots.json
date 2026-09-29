@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T09:46:16.302Z",
+  "generatedAt": "2026-09-29T09:50:39.303Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4447,6 +4447,12 @@
             "Table de mixage Tascam Model 12, enceintes et 3 micros",
             "Piano électrique Yamaha P145 (en option)"
           ],
+          "photos": [
+            "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4169-scaled.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4162-scaled.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4167-scaled.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4168-scaled.jpg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -4833,6 +4839,12 @@
             "Amplis guitare 2× Orange Super Crush 100 (2×12) et Fender Hot Rod Deluxe",
             "Table de mixage Tascam Model 16, enceintes et 5 micros",
             "Piano électrique Yamaha P225 (en option)"
+          ],
+          "photos": [
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-DRUMS.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-COTE-TABLE.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-AMP-L.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-BASS-SIDE.jpg"
           ],
           "days": {
             "2026-09-29": [
@@ -6336,6 +6348,12 @@
             "Table de mixage Tascam Model 24, enceintes et 5 micros",
             "Piano électrique Korg Havian 30 (en option)"
           ],
+          "photos": [
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-19-PANORAMA.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-2-GA.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-13-GA.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-10-GA.jpg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -6656,6 +6674,13 @@
             "Miroirs",
             "Rideaux"
           ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-1-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-1-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-1-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-1-image-3.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-1-image-4.jpeg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -6797,6 +6822,12 @@
             "Sono de façade (P.A)",
             "Miroirs",
             "Rideaux"
+          ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-2-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-2-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-2-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-2-image-3.jpeg"
           ],
           "days": {
             "2026-09-30": [
@@ -6977,6 +7008,12 @@
           "equipment": [
             "Sono de façade (P.A)",
             "Miroirs"
+          ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-3-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-3-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-3-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-3-image-3.jpeg"
           ],
           "days": {
             "2026-10-02": [
@@ -7318,6 +7355,12 @@
           "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-3.jpeg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -7339,27 +7382,6 @@
               },
               {
                 "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
               },
               {
                 "time": "16:00"
@@ -8247,6 +8269,13 @@
             "Miroirs",
             "Rideaux"
           ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-3.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-4.jpeg"
+          ],
           "days": {
             "2026-10-01": [
               {
@@ -8370,6 +8399,13 @@
             "Sono de façade (P.A)",
             "Miroirs",
             "Rideaux"
+          ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-3.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-4.jpeg"
           ],
           "days": {
             "2026-09-30": [
@@ -8553,6 +8589,12 @@
             "Sono de façade (P.A)",
             "Miroirs"
           ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-3.jpeg"
+          ],
           "days": {
             "2026-09-30": [
               {
@@ -8676,6 +8718,12 @@
             "Sono de façade (P.A)",
             "Miroirs"
           ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-14-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-14-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-14-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-14-image-3.jpeg"
+          ],
           "days": {
             "2026-10-07": [
               {
@@ -8701,6 +8749,11 @@
           "description": "40 m² · jusqu'à 8 pers.",
           "equipment": [
             "Miroirs"
+          ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-15-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-15-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-15-image-2.jpeg"
           ],
           "days": {
             "2026-10-02": [
@@ -8910,6 +8963,12 @@
           "description": "40 m² · jusqu'à 8 pers.",
           "equipment": [
             "Miroirs"
+          ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-3.jpeg"
           ],
           "days": {
             "2026-10-01": [
@@ -9188,6 +9247,11 @@
           "emoji": "🎸",
           "description": "25 m² · jusqu'à 6 pers.",
           "equipment": [],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-17-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-17-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-17-image-2.jpeg"
+          ],
           "days": {
             "2026-09-30": [
               {
@@ -9584,6 +9648,12 @@
           "description": "25 m² · jusqu'à 6 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)"
+          ],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-3.jpeg"
           ],
           "days": {
             "2026-09-29": [
@@ -10068,6 +10138,12 @@
           "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-3.jpeg"
+          ],
           "days": {
             "2026-10-01": [
               {
@@ -10809,6 +10885,11 @@
           "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-20-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-20-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-20-image-2.jpeg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -11901,6 +11982,12 @@
           "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
+          "photos": [
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-0.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-1.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-2.jpeg",
+            "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-3.jpeg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -13015,6 +13102,9 @@
             "Sono HK Lucas Performer",
             "3 Micros Shure SM 58"
           ],
+          "photos": [
+            "http://www.studiohbs.com/img/grand2_hbs.jpg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -13399,6 +13489,9 @@
             "Console Yamaha MG 166 cx (effets intégrés)",
             "Sono HK Lucas Performer",
             "3 Micros Shure SM 58"
+          ],
+          "photos": [
+            "http://www.studiohbs.com/img/grand_hbs.jpg"
           ],
           "days": {
             "2026-09-29": [
@@ -13858,6 +13951,9 @@
             "Sono HK Lucas Performer",
             "3 Micros Shure SM 58"
           ],
+          "photos": [
+            "http://www.studiohbs.com/img/grand_hbs.jpg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -14278,6 +14374,9 @@
             "Sono HK Lucas Performer",
             "3 Micros Shure SM 58"
           ],
+          "photos": [
+            "http://www.studiohbs.com/img/grand_hbs.jpg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -14665,6 +14764,9 @@
             "Sono HK Lucas Performer",
             "2 Micros Shure SM 58"
           ],
+          "photos": [
+            "http://www.studiohbs.com/img/standard_hbs.jpg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -14872,6 +14974,9 @@
             "Console Yamaha MG 124 cx (effets intégrés)",
             "Sono HK Lucas Performer",
             "2 Micros Shure SM 58"
+          ],
+          "photos": [
+            "http://www.studiohbs.com/img/standard_hbs.jpg"
           ],
           "days": {
             "2026-09-29": [
@@ -15146,6 +15251,9 @@
           "equipment": [
             "Batterie Pearl Master Studio complète avec cymbales",
             "Sono Samson Expedition"
+          ],
+          "photos": [
+            "http://www.studiohbs.com/img/solo_hbs.jpg"
           ],
           "days": {
             "2026-09-29": [
@@ -15529,6 +15637,9 @@
             "Console Yamaha MG 124 cx + Enceintes HK",
             "micro Shure SM58"
           ],
+          "photos": [
+            "http://www.studiohbs.com/img/petit_hbs.jpg"
+          ],
           "days": {
             "2026-10-02": [
               {
@@ -15836,6 +15947,9 @@
             "Ampli guitare peavey bandit 112",
             "Piano numerique korg sv1 ou yamaha p140",
             "Batterie mapex ou sonor avec cymabales (hh/ride/crash16)"
+          ],
+          "photos": [
+            "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
             "2026-09-29": [
@@ -16295,6 +16409,9 @@
             "Piano numerique korg sv1 ou yamaha p140",
             "Batterie mapex ou sonor avec cymabales (hh/ride/crash16)"
           ],
+          "photos": [
+            "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -16443,27 +16560,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
               },
               {
                 "time": "17:00"
@@ -16864,6 +16960,9 @@
             "Ampli guitare peavey bandit 112",
             "Piano numerique korg sv1 ou yamaha p140",
             "Batterie mapex ou sonor avec cymabales (hh/ride/crash16)"
+          ],
+          "photos": [
+            "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
             "2026-09-29": [
@@ -17480,6 +17579,9 @@
             "Ampli guitare marshall mg101",
             "Ampli guitare peavey bandit 112",
             "Piano numerique korg sp230"
+          ],
+          "photos": [
+            "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
             "2026-09-29": [
@@ -18150,6 +18252,9 @@
             "Piano numerique korg sv1 ou yamaha p140",
             "Batterie mapex ou sonor avec cymabales (hh/ride/crash16)"
           ],
+          "photos": [
+            "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
+          ],
           "days": {
             "2026-09-29": [
               {
@@ -18439,6 +18544,10 @@
             "Ampli guitare jazz chorus",
             "Piano numerique nord stage 2",
             "Batterie mapex saturne avec cymabales (hh/ride/crash16/crash18)"
+          ],
+          "photos": [
+            "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_6.jpg",
+            "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
             "2026-09-29": [
