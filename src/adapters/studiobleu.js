@@ -1,8 +1,15 @@
 // Adaptateur Studio Bleu — site « 10ème Musique » (sites=1).
 // API JSON publique (back Next.js séparé) reverse-engineerée :
-//   GET /rooms                              -> inventaire + tarifs (toutes salles, tous sites)
-//   GET /reservations/daily?date=&roomId=   -> tranches de 30 min d'un jour pour une salle
+//   GET /rooms                              -> inventaire + fiches (toutes salles, tous sites)
+//   GET /rooms/public-search?day=&site_ids[]=1&duration=<min>
+//       -> 1 requête = 1 jour pour TOUTES les salles du site, chacune avec `reservations[]`
+//          (mêmes tranches de 30 min que /reservations/daily?date=&roomId=, vérifié identique).
+//          Ne renvoie que les salles ayant au moins un bloc libre de `duration` minutes :
+//          une salle absente = aucun créneau ce jour-là.
 // La dispo se déduit des tranches `status:"free"` (vs "reserved" ; type "closeHour" = hors horaires).
+// ⚠️ Rate limit (constaté le 29/09/2026) : ~30 requêtes en rafale puis 429 pendant plusieurs secondes.
+//   D'où public-search (1 req/jour au lieu de 1 req/jour/salle ≈ 900/run) + requêtes séquentielles
+//   avec nouvelle tentative sur 429.
 // ⚠️ `date` au format YYYY-MM-DD (un ISO avec Z décale le jour). Lecture seule, aucune réservation.
 
 import { USER_AGENT } from "./http.js";
@@ -17,7 +24,8 @@ const VENUE = {
   url: "https://reservation.studiobleu.com/studios?sites=1",
 };
 
-const MAX_CONCURRENCY = 8; // poli avec l'API : ~15 salles × ~60 jours = beaucoup de requêtes
+const RETRY_WAIT_MS = 10000; // attente après un 429 avant de retenter
+const MAX_RETRIES = 12; // ~2 min max par requête avant d'abandonner le jour
 const MIN_DURATION_H = 2; // Studio Bleu impose une réservation de 2h minimum (impossible d'en réserver moins)
 
 // On ne s'engage pas sur le prix (modèle par taille de groupe, variable) : seule la dispo compte.
@@ -59,12 +67,38 @@ function freeStarts(reservations, durationH) {
   return starts;
 }
 
+// Fiche descriptive d'une salle depuis /rooms (surface, capacité, équipements) — sans les prix.
+// "(P.A)" dans le nom = salle équipée d'une sono de façade.
+function roomInfo(room) {
+  const hasPA = /\(P\.?A\)/i.test(room.name || "");
+  const parts = [];
+  if (room.size) parts.push(`${room.size} m²`);
+  if (room.max_people) parts.push(`jusqu'à ${room.max_people} pers.`);
+  if (hasPA) parts.push("sono P.A");
+  const equipment = [];
+  if (hasPA) equipment.push("Sono de façade (P.A)");
+  if (room.mirrors) equipment.push("Miroirs");
+  if (room.curtains) equipment.push("Rideaux");
+  if (room.to_know?.trim()) equipment.push(room.to_know.trim());
+  return { emoji: "🎸", description: parts.join(" · ") || undefined, equipment };
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// GET JSON avec nouvelle tentative sur 429 (rate limit de l'API).
 async function getJSON(url) {
-  const r = await fetch(url, {
-    headers: { Accept: "application/json", "User-Agent": USER_AGENT },
-  });
-  if (!r.ok) throw new Error(`HTTP ${r.status} on ${url}`);
-  return r.json();
+  for (let attempt = 0; ; attempt++) {
+    const r = await fetch(url, {
+      headers: { Accept: "application/json", "User-Agent": USER_AGENT },
+    });
+    if (r.status === 429 && attempt < MAX_RETRIES) {
+      await r.arrayBuffer();
+      await sleep(RETRY_WAIT_MS);
+      continue;
+    }
+    if (!r.ok) throw new Error(`HTTP ${r.status} on ${url}`);
+    return r.json();
+  }
 }
 
 // Génère les dates "YYYY-MM-DD" de aujourd'hui jusqu'à +monthsLoad mois, plafonné à daysCap.
@@ -82,20 +116,6 @@ function dateRange(monthsLoad, daysCap) {
   return dates;
 }
 
-// Exécute des tâches avec une concurrence bornée.
-async function pool(items, limit, worker) {
-  const results = new Array(items.length);
-  let next = 0;
-  async function run() {
-    while (next < items.length) {
-      const i = next++;
-      results[i] = await worker(items[i], i);
-    }
-  }
-  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, run));
-  return results;
-}
-
 // Interface commune des adaptateurs (cf. wacked.js).
 export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) {
   // Studio Bleu refuse les résas < 2h : on ne surface que des créneaux où 2h sont libres.
@@ -104,41 +124,43 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
   const rooms = (allRooms || []).filter(
     (r) => r.site?.id === SITE_ID && r.internet_visibility
   );
+  const daysCap = Math.max(...rooms.map((r) => r.days_visible || 60));
+  const dates = dateRange(monthsLoad, daysCap);
 
-  const studios = await Promise.all(
-    rooms.map(async (room) => {
-      const dates = dateRange(monthsLoad, room.days_visible || 60);
+  // Séquentiel (rate limit) : 1 requête par jour pour toutes les salles du site.
+  const perDay = new Map(); // date -> Map(roomId -> reservations[]) | null si erreur
+  let lastError = null;
+  for (const date of dates) {
+    try {
+      const found = await getJSON(
+        `${API}/rooms/public-search?fromFrontend=true&day=${date}&site_ids[]=${SITE_ID}&duration=${effDurationH * 60}`
+      );
+      perDay.set(date, new Map((found || []).map((r) => [r.id, r.reservations])));
+    } catch (e) {
+      lastError = String(e.message || e);
+      perDay.set(date, null); // jour en erreur -> ignoré
+    }
+  }
+  const okDays = [...perDay.values()].filter(Boolean).length;
 
-      let lastError = null;
-      const perDay = await pool(dates, MAX_CONCURRENCY, async (date) => {
-        try {
-          const j = await getJSON(`${API}/reservations/daily?date=${date}&roomId=${room.id}`);
-          return [date, freeStarts(j?.reservations, effDurationH)];
-        } catch (e) {
-          lastError = String(e.message || e);
-          return [date, null]; // jour en erreur -> ignoré
-        }
-      });
-
-      const days = {};
-      let okDays = 0;
-      for (const [date, starts] of perDay) {
-        if (!starts) continue;
-        okDays++;
-        if (!starts.length) continue;
-        days[date] = starts.map((time) => ({ time }));
-      }
-      // Lien profond vers la page de réservation de cette salle.
-      const url = `https://reservation.studiobleu.com/studios/${room.id}`;
-      // 0 jour exploitable = la salle entière a échoué (ex. blocage UA du 26/06/2026) :
-      // on le signale au lieu de publier silencieusement une salle vide.
-      if (!okDays && lastError) {
-        console.error(`[studiobleu] ${room.name}: tous les jours en erreur (${lastError})`);
-        return { studio: room.name, url, error: lastError, days };
-      }
-      return { studio: room.name, url, days };
-    })
-  );
+  const studios = rooms.map((room) => {
+    const days = {};
+    dates.slice(0, room.days_visible || 60).forEach((date) => {
+      const reservations = perDay.get(date)?.get(room.id);
+      if (!reservations) return; // jour en erreur, ou salle sans bloc libre ce jour-là
+      const starts = freeStarts(reservations, effDurationH);
+      if (starts.length) days[date] = starts.map((time) => ({ time }));
+    });
+    // Lien profond vers la page de réservation de cette salle.
+    const url = `https://reservation.studiobleu.com/studios/${room.id}`;
+    // 0 jour exploitable = tout a échoué (ex. blocage UA du 26/06/2026, rate limit) :
+    // on le signale au lieu de publier silencieusement des salles vides.
+    if (!okDays && lastError) return { studio: room.name, url, ...roomInfo(room), error: lastError, days };
+    return { studio: room.name, url, ...roomInfo(room), days };
+  });
+  if (lastError) {
+    console.error(`[studiobleu] ${dates.length - okDays}/${dates.length} jour(s) en erreur (${lastError})`);
+  }
 
   return { id: VENUE.id, name: VENUE.name, address: VENUE.address, url: VENUE.url, durationH: effDurationH, studios };
 }

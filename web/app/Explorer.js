@@ -2,12 +2,18 @@
 
 import { useMemo, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { ConfigProvider, DatePicker, Slider } from "antd";
+import { ConfigProvider, DatePicker, Popover, Slider } from "antd";
 import frFR from "antd/locale/fr_FR";
 import dayjs from "dayjs";
 import "dayjs/locale/fr";
 
 dayjs.locale("fr");
+
+// Salles présentes dans le feed mais masquées côté front (pour l'instant).
+// Pour réactiver L'Intervalle : décommenter / retirer "lintervalle" de la liste.
+const HIDDEN_VENUES = [
+  "lintervalle", // TODO: réactiver L'Intervalle
+];
 
 const H_MIN = 8;
 const H_MAX = 24; // 24 = minuit
@@ -31,12 +37,47 @@ function frDateTime(iso) {
   });
 }
 
+// Fiche du studio (surface, capacité, matériel) dans un popover ouvert au clic/tap.
+function StudioInfo({ s }) {
+  if (!s.description && !s.equipment?.length) return null;
+  const content = (
+    <div className="infopop">
+      {s.description && <p className="infodesc">{s.description}</p>}
+      {s.equipment?.length > 0 && (
+        <ul>
+          {s.equipment.map((e, i) => (
+            <li key={i}>{e}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+  return (
+    <Popover
+      content={content}
+      title={s.name}
+      trigger="click"
+      placement="bottomLeft"
+      styles={{ root: { maxWidth: "min(340px, calc(100vw - 32px))" } }}
+    >
+      <button type="button" className="infobtn" aria-label={`Infos sur ${s.name}`}>
+        {s.emoji || "ℹ️"}
+      </button>
+    </Popover>
+  );
+}
+
+// "1 créneau", "3 créneaux" (0 → singulier, règle française).
+function plural(n, one, many) {
+  return `${n} ${n > 1 ? many : one}`;
+}
+
 function fmtH(v) {
   return v >= 24 ? "minuit" : `${v}h`;
 }
 
 export default function Explorer({ feed, initialDate = "", initialFrom, initialTo, isMobile = false }) {
-  const venues = feed.venues || [];
+  const venues = (feed.venues || []).filter((v) => !HIDDEN_VENUES.includes(v.id));
   const router = useRouter();
 
   // Auto-refresh : re-fetch du feed côté serveur toutes les 60 s, sans recharger l'onglet.
@@ -118,9 +159,19 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
         const all = (s.days?.[date] || []).map((x) => x.time);
         const times = all.filter(inRange);
         if (times.length) freeCount++;
-        return { name: s.studio, times, hasData: all.length > 0, url: s.url || v.url };
+        return {
+          name: s.studio,
+          times,
+          hasData: all.length > 0,
+          url: s.url || v.url,
+          emoji: s.emoji,
+          description: s.description,
+          equipment: s.equipment,
+        };
       });
-      return { name: v.name, address: v.address, url: v.url, studios, beyond, cover };
+      // Salle (ou une partie de ses studios) en erreur côté adaptateur : pas de données fiables.
+      const failed = Boolean(v.error) || (v.studios || []).some((s) => s.error);
+      return { name: v.name, address: v.address, url: v.url, studios, beyond, cover, failed };
     });
     return { venues: out, freeCount };
   }, [venues, date, range, venueCover]);
@@ -142,7 +193,7 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
           </a>
         </p>
         <p className="sub">
-          {venues.length} salle(s) · feed mis à jour le {feed.generatedAt ? frDateTime(feed.generatedAt) : "?"} · durée{" "}
+          {plural(venues.length, "salle", "salles")} · feed mis à jour le {feed.generatedAt ? frDateTime(feed.generatedAt) : "?"} · durée{" "}
           {feed.durationH}h · données du {allMin && frShort(allMin)} au {allMax && frShort(allMax)}
         </p>
 
@@ -197,8 +248,10 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
           </div>
 
           <div className="summary">
-            {frDate(date)} · <b>{view.freeCount}</b> studio(s){" "}
-            {isFullRange ? "dispo(s)" : `entre ${fmtH(range[0])} et ${fmtH(range[1])}`}
+            {frDate(date)} · <b>{view.freeCount}</b> {view.freeCount > 1 ? "studios" : "studio"}{" "}
+            {isFullRange
+              ? view.freeCount > 1 ? "dispos" : "dispo"
+              : `entre ${fmtH(range[0])} et ${fmtH(range[1])}`}
           </div>
         </div>
 
@@ -218,7 +271,12 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
               </h2>
               {v.address && <p className="addr">{v.address}</p>}
 
-              {!anyData && v.beyond ? (
+              {!anyData && v.failed ? (
+                <p className="note">
+                  Disponibilités momentanément indisponibles pour cette salle (erreur lors de la dernière mise à
+                  jour).
+                </p>
+              ) : !anyData && v.beyond ? (
                 <p className="note">
                   Horizon limité : pas de données au-delà du {v.cover.max && frShort(v.cover.max)} pour cette salle.
                 </p>
@@ -228,8 +286,12 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
                 visible.map((s) => (
                   <div className="studio" key={s.name}>
                     <div className="name">
-                      <span>{s.name}</span>
-                      <span className="count">{s.times.length} créneau(x)</span>
+                      <span className="namelabel">
+                        <StudioInfo s={s} />
+                        <span>{s.name}</span>
+                        {s.description && <span className="desc">{s.description}</span>}
+                      </span>
+                      <span className="count">{plural(s.times.length, "créneau", "créneaux")}</span>
                     </div>
                     <div className="chips">
                       {s.times.map((t) => (
