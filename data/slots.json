@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T20:30:12.586Z",
+  "generatedAt": "2026-09-29T20:40:24.310Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -11001,9 +11001,6 @@
                 "time": "11:00"
               },
               {
-                "time": "17:00"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -17457,11 +17454,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-09-29": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-09-30": [
               {
                 "time": "10:00"
@@ -17995,11 +17987,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
-            "2026-09-29": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-09-30": [
               {
                 "time": "10:00"
@@ -18609,11 +18596,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-09-29": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-09-30": [
               {
                 "time": "10:00"
@@ -18824,11 +18806,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
-            "2026-09-29": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-09-30": [
               {
                 "time": "12:00"
