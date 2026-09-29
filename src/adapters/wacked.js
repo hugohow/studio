@@ -78,7 +78,6 @@ const STUDIOS = {
 // Fiche descriptive exposée dans le feed (popover côté front).
 function info(studio) {
   return {
-    emoji: "🥁",
     description: studio.description,
     equipment: studio.equipment,
     photos: studio.photos.map((path) => PHOTOS_BASE + path),

@@ -28,7 +28,6 @@ const STUDIOS = [
   {
     id: "grand-studio",
     name: "Grand Studio",
-    emoji: "🥁",
     description: "35 m² · jusqu'à 8 pers. · batterie",
     equipment: [
       'Batterie Mapex Comet Pro Pack 18"',
@@ -41,7 +40,6 @@ const STUDIOS = [
   {
     id: "studio-b",
     name: "Studio B",
-    emoji: "🥁",
     description: "15 m² · jusqu'à 6 pers. · batterie",
     equipment: [
       'Batterie Mapex Comet Pro Pack 18"',
@@ -54,7 +52,6 @@ const STUDIOS = [
   {
     id: "studio-c",
     name: "Studio C",
-    emoji: "🥁",
     description: "13 m² · jusqu'à 5 pers. · batterie",
     equipment: [
       'Batterie Mapex Comet Pro Pack 18"',
@@ -67,14 +64,12 @@ const STUDIOS = [
   {
     id: "cabine-piano",
     name: "Cabine 1",
-    emoji: "🎹",
     description: "8 m² · jusqu'à 3 pers. · sans batterie",
     equipment: CABINE_EQUIP,
   },
   {
     id: "cabine-chant",
     name: "Cabine 2",
-    emoji: "🎹",
     description: "8 m² · jusqu'à 3 pers. · sans batterie",
     equipment: CABINE_EQUIP,
   },
@@ -166,7 +161,7 @@ export async function fetchAvailability({ durationH = 1, monthsLoad = 2 } = {}) 
   });
 
   const studios = STUDIOS.map((s) => {
-    const info = { emoji: s.emoji, description: s.description, equipment: s.equipment };
+    const info = { description: s.description, equipment: s.equipment };
     const mine = results.filter((r) => r.s === s);
     const days = {};
     for (const { date, starts } of mine) {

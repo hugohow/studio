@@ -71,7 +71,11 @@ function StudioInfo({ s }) {
       styles={{ root: { maxWidth: "min(340px, calc(100vw - 32px))" } }}
     >
       <button type="button" className="infobtn" aria-label={`Infos sur ${s.name}`}>
-        {s.emoji || "ℹ️"}
+        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+          <circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" strokeWidth="1.4" />
+          <circle cx="8" cy="4.9" r="0.95" fill="currentColor" />
+          <path d="M8 7.2v4.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
       </button>
     </Popover>
   );
@@ -174,7 +178,6 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
           times,
           hasData: all.length > 0,
           url: s.url || v.url,
-          emoji: s.emoji,
           description: s.description,
           equipment: s.equipment,
           photos: s.photos,
@@ -192,7 +195,7 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
   return (
     <ConfigProvider locale={frFR} theme={{ token: { colorPrimary: "#2563eb", borderRadius: 8 } }}>
       <main>
-        <h1>🎸 Studio Tonight</h1>
+        <h1>StudioTonight 🎸</h1>
         <p className="byline">
           by{" "}
           <a href="https://www.linkedin.com/in/hugo-how-choong/" target="_blank" rel="noreferrer">
@@ -298,8 +301,10 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
                   <div className="studio" key={s.name}>
                     <div className="name">
                       <span className="namelabel">
-                        <StudioInfo s={s} />
-                        <span>{s.name}</span>
+                        <span className="studioname">
+                          {s.name}
+                          <StudioInfo s={s} />
+                        </span>
                         {s.description && <span className="desc">{s.description}</span>}
                       </span>
                       <span className="count">{plural(s.times.length, "créneau", "créneaux")}</span>

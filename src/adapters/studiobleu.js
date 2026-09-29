@@ -84,7 +84,7 @@ function roomInfo(room) {
   if (room.curtains) equipment.push("Rideaux");
   if (room.to_know?.trim()) equipment.push(room.to_know.trim());
   const photos = (room.images || []).filter(Boolean).map((path) => IMAGES_BASE + path);
-  return { emoji: "🎸", description: parts.join(" · ") || undefined, equipment, photos };
+  return { description: parts.join(" · ") || undefined, equipment, photos };
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

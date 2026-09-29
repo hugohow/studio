@@ -243,7 +243,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Fiche studio : bouton emoji + popover (au clic/tap) */
+/* Fiche studio : icône ⓘ + popover (au clic/tap) */
 .studio .namelabel {
   display: flex;
   align-items: center;
@@ -256,27 +256,34 @@ a:hover {
   font-weight: 400;
   font-size: 12px;
 }
+.studio .studioname {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
 .infobtn {
   flex: 0 0 auto;
   width: 32px;
-  height: 32px; /* cible tactile confortable */
-  margin: -4px 0;
+  height: 32px; /* cible tactile confortable, icône 16px */
+  margin: -8px -6px -8px -4px;
   display: grid;
   place-items: center;
-  background: var(--panel-2);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  font-size: 16px;
-  line-height: 1;
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--muted);
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-  transition: background 0.12s, border-color 0.12s;
+  transition: color 0.12s;
 }
 .infobtn:hover,
-.infobtn[aria-describedby],
 .infobtn.ant-popover-open {
-  background: #e3e9f1;
-  border-color: var(--accent);
+  color: var(--accent);
+}
+.infobtn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -4px;
+  border-radius: 999px;
 }
 .infopop {
   font-size: 13px;

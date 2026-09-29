@@ -55,7 +55,7 @@ function htmlText(s) {
     .replace(/[ \t]+/g, " ");
 }
 
-// Fiches des salles depuis les blocs room-box : Map(id -> { emoji, description, equipment }).
+// Fiches des salles depuis les blocs room-box : Map(id -> { description, equipment }).
 // On prend la surface (<span class="size">) et les lignes « - … » du bloc description ;
 // tout ce qui suit « Tarifs » est ignoré (le feed n'expose pas de prix).
 function parseRoomInfos(html) {
@@ -86,7 +86,6 @@ function parseRoomInfos(html) {
     if (label) parts.push(label.replace(/\s*:$/, ""));
     if (hasDrums) parts.push("batterie");
     infos.set(m[2], {
-      emoji: hasDrums ? "🥁" : "🎸",
       description: parts.join(" · ") || undefined,
       equipment,
     });
