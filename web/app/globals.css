@@ -277,7 +277,7 @@ a:hover {
   transition: color 0.12s;
 }
 .infobtn:hover,
-.infobtn.ant-popover-open {
+.infobtn.is-open {
   color: var(--accent);
 }
 .infobtn:focus-visible {
@@ -319,4 +319,20 @@ a:hover {
   object-fit: cover;
   border-radius: 8px;
   background: var(--panel-2);
+}
+/* Modale mobile : photos pleine largeur, texte plus lisible */
+.infomodal {
+  font-size: 15px;
+}
+.infomodal .photos {
+  margin: 4px -4px 12px;
+}
+.infomodal .photos img {
+  width: 78vw;
+  max-width: 480px;
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+.infomodal li {
+  margin: 4px 0;
 }

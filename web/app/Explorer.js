@@ -3,7 +3,7 @@
 import { useMemo, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { ConfigProvider, DatePicker, Popover, Slider } from "antd";
+import { ConfigProvider, DatePicker, Modal, Popover, Slider } from "antd";
 import frFR from "antd/locale/fr_FR";
 import dayjs from "dayjs";
 import "dayjs/locale/fr";
@@ -38,16 +38,32 @@ function frDateTime(iso) {
   });
 }
 
-// Fiche du studio (surface, capacité, matériel) dans un popover ouvert au clic/tap.
-function StudioInfo({ s }) {
+const INFO_ICON = (
+  <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+    <circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" strokeWidth="1.4" />
+    <circle cx="8" cy="4.9" r="0.95" fill="currentColor" />
+    <path d="M8 7.2v4.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+  </svg>
+);
+
+// Fiche du studio (photos, surface, capacité, matériel), ouverte au clic/tap sur l'icône ⓘ :
+// popover sur desktop, modale sur mobile (le popover y est trop étroit et se cale mal).
+function StudioInfo({ s, isMobile }) {
+  const [open, setOpen] = useState(false);
   if (!s.description && !s.equipment?.length && !s.photos?.length) return null;
   const content = (
-    <div className="infopop">
+    <div className={isMobile ? "infopop infomodal" : "infopop"}>
       {s.photos?.length > 0 && (
         <div className="photos">
           {s.photos.map((src, i) => (
             <a key={i} href={src} target="_blank" rel="noreferrer" aria-label={`Photo ${i + 1} de ${s.name}`}>
-              <Image src={src} alt={`${s.name} — photo ${i + 1}`} width={240} height={160} sizes="240px" />
+              <Image
+                src={src}
+                alt={`${s.name} — photo ${i + 1}`}
+                width={isMobile ? 480 : 240}
+                height={isMobile ? 320 : 160}
+                sizes={isMobile ? "85vw" : "240px"}
+              />
             </a>
           ))}
         </div>
@@ -62,21 +78,37 @@ function StudioInfo({ s }) {
       )}
     </div>
   );
+  const button = (
+    <button
+      type="button"
+      className={open ? "infobtn is-open" : "infobtn"}
+      aria-label={`Infos sur ${s.name}`}
+      onClick={isMobile ? () => setOpen(true) : undefined}
+    >
+      {INFO_ICON}
+    </button>
+  );
+  if (isMobile) {
+    return (
+      <>
+        {button}
+        <Modal open={open} onCancel={() => setOpen(false)} title={s.name} footer={null} centered destroyOnHidden>
+          {content}
+        </Modal>
+      </>
+    );
+  }
   return (
     <Popover
       content={content}
       title={s.name}
       trigger="click"
       placement="bottomLeft"
+      open={open}
+      onOpenChange={setOpen}
       styles={{ root: { maxWidth: "min(340px, calc(100vw - 32px))" } }}
     >
-      <button type="button" className="infobtn" aria-label={`Infos sur ${s.name}`}>
-        <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-          <circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" strokeWidth="1.4" />
-          <circle cx="8" cy="4.9" r="0.95" fill="currentColor" />
-          <path d="M8 7.2v4.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-        </svg>
-      </button>
+      {button}
     </Popover>
   );
 }
@@ -303,7 +335,7 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
                       <span className="namelabel">
                         <span className="studioname">
                           {s.name}
-                          <StudioInfo s={s} />
+                          <StudioInfo s={s} isMobile={isMobile} />
                         </span>
                         {s.description && <span className="desc">{s.description}</span>}
                       </span>
