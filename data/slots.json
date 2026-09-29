@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T12:01:24.460Z",
+  "generatedAt": "2026-09-29T12:14:11.592Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -13,7 +13,6 @@
         {
           "studio": "Grand Studio",
           "url": "https://studios.lintervalle-studios.com/",
-          "emoji": "🥁",
           "description": "35 m² · jusqu'à 8 pers. · batterie",
           "equipment": [
             "Batterie Mapex Comet Pro Pack 18\"",
@@ -808,7 +807,6 @@
         {
           "studio": "Studio B",
           "url": "https://studios.lintervalle-studios.com/",
-          "emoji": "🥁",
           "description": "15 m² · jusqu'à 6 pers. · batterie",
           "equipment": [
             "Batterie Mapex Comet Pro Pack 18\"",
@@ -1675,7 +1673,6 @@
         {
           "studio": "Studio C",
           "url": "https://studios.lintervalle-studios.com/",
-          "emoji": "🥁",
           "description": "13 m² · jusqu'à 5 pers. · batterie",
           "equipment": [
             "Batterie Mapex Comet Pro Pack 18\"",
@@ -2569,7 +2566,6 @@
         {
           "studio": "Cabine 1",
           "url": "https://studios.lintervalle-studios.com/",
-          "emoji": "🎹",
           "description": "8 m² · jusqu'à 3 pers. · sans batterie",
           "equipment": [
             "Piano numérique Yamaha P225",
@@ -3462,7 +3458,6 @@
         {
           "studio": "Cabine 2",
           "url": "https://studios.lintervalle-studios.com/",
-          "emoji": "🎹",
           "description": "8 m² · jusqu'à 3 pers. · sans batterie",
           "equipment": [
             "Piano numérique Yamaha P225",
@@ -4393,7 +4388,6 @@
       "studios": [
         {
           "studio": "Studio 1",
-          "emoji": "🥁",
           "description": "20 m² · jusqu'à 5 pers. · batterie",
           "equipment": [
             "Batterie Yamaha Blue 20\"",
@@ -4777,7 +4771,6 @@
         },
         {
           "studio": "Studio 2",
-          "emoji": "🥁",
           "description": "25 m² · jusqu'à 8 pers. · batterie",
           "equipment": [
             "Batterie Yamaha Yellow 20\"",
@@ -6276,7 +6269,6 @@
         },
         {
           "studio": "Studio 3",
-          "emoji": "🥁",
           "description": "33 m² · jusqu'à 15 pers. · batterie",
           "equipment": [
             "Batterie Yamaha Hot Red 20\"",
@@ -6604,7 +6596,6 @@
         {
           "studio": "Studio A (P.A)",
           "url": "https://reservation.studiobleu.com/studios/1",
-          "emoji": "🎸",
           "description": "120 m² · jusqu'à 25 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)",
@@ -6798,7 +6789,6 @@
         {
           "studio": "STUDIO B (P.A)",
           "url": "https://reservation.studiobleu.com/studios/2",
-          "emoji": "🎸",
           "description": "60 m² · jusqu'à 12 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)",
@@ -6985,7 +6975,6 @@
         {
           "studio": "STUDIO NOIR (P.A)",
           "url": "https://reservation.studiobleu.com/studios/3",
-          "emoji": "🎸",
           "description": "40 m² · jusqu'à 8 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)",
@@ -7323,7 +7312,6 @@
         {
           "studio": "STUDIO ROSE",
           "url": "https://reservation.studiobleu.com/studios/4",
-          "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
           "photos": [
@@ -8200,7 +8188,6 @@
         {
           "studio": "Studio INDIGO (P.A)",
           "url": "https://reservation.studiobleu.com/studios/11",
-          "emoji": "🎸",
           "description": "120 m² · jusqu'à 25 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)",
@@ -8351,7 +8338,6 @@
         {
           "studio": "Studio BLEU (P.A)",
           "url": "https://reservation.studiobleu.com/studios/12",
-          "emoji": "🎸",
           "description": "60 m² · jusqu'à 12 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)",
@@ -8535,7 +8521,6 @@
         {
           "studio": "Studio ORANGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/13",
-          "emoji": "🎸",
           "description": "40 m² · jusqu'à 8 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)",
@@ -8664,7 +8649,6 @@
         {
           "studio": "Studio ROUGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/14",
-          "emoji": "🎸",
           "description": "40 m² · jusqu'à 8 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)",
@@ -8697,7 +8681,6 @@
         {
           "studio": "Studio VIOLET",
           "url": "https://reservation.studiobleu.com/studios/15",
-          "emoji": "🎸",
           "description": "40 m² · jusqu'à 8 pers.",
           "equipment": [
             "Miroirs"
@@ -8911,7 +8894,6 @@
         {
           "studio": "Studio VERT",
           "url": "https://reservation.studiobleu.com/studios/16",
-          "emoji": "🎸",
           "description": "40 m² · jusqu'à 8 pers.",
           "equipment": [
             "Miroirs"
@@ -9191,7 +9173,6 @@
         {
           "studio": "Studio C",
           "url": "https://reservation.studiobleu.com/studios/17",
-          "emoji": "🎸",
           "description": "25 m² · jusqu'à 6 pers.",
           "equipment": [],
           "photos": [
@@ -9586,7 +9567,6 @@
         {
           "studio": "Studio BEIGE (P.A)",
           "url": "https://reservation.studiobleu.com/studios/18",
-          "emoji": "🎸",
           "description": "25 m² · jusqu'à 6 pers. · sono P.A",
           "equipment": [
             "Sono de façade (P.A)"
@@ -10113,7 +10093,6 @@
         {
           "studio": "Studio D",
           "url": "https://reservation.studiobleu.com/studios/19",
-          "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
           "photos": [
@@ -10895,7 +10874,6 @@
         {
           "studio": "Studio JAUNE",
           "url": "https://reservation.studiobleu.com/studios/20",
-          "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
           "photos": [
@@ -11992,7 +11970,6 @@
         {
           "studio": "Studio E",
           "url": "https://reservation.studiobleu.com/studios/21",
-          "emoji": "🎸",
           "description": "20 m² · jusqu'à 5 pers.",
           "equipment": [],
           "photos": [
@@ -13104,7 +13081,6 @@
         {
           "studio": "Grand Studio 1",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "50 m² · batterie",
           "equipment": [
             "Batterie Pearl Master Studio complète avec cymbales",
@@ -13487,7 +13463,6 @@
         {
           "studio": "Studio Standard 2",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "38 m² · batterie",
           "equipment": [
             "Batterie Pearl Master Studio complète avec cymbales",
@@ -13963,7 +13938,6 @@
         {
           "studio": "Studio Standard 3",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "34 m² · batterie",
           "equipment": [
             "Batterie Pearl Master Studio complète avec cymbales",
@@ -13992,15 +13966,6 @@
                 "time": "11:30"
               },
               {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
                 "time": "16:00"
               }
             ],
@@ -14022,21 +13987,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
               },
               {
                 "time": "16:00"
@@ -14371,7 +14321,6 @@
         {
           "studio": "Studio Standard 4",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "36 m² · batterie",
           "equipment": [
             "Piano acoustique droit amplifié (loc. supp.)",
@@ -14754,7 +14703,6 @@
         {
           "studio": "Petit Studio 5",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "17 m² · batterie",
           "equipment": [
             "Piano acoustique droit amplifié (loc. supp.)",
@@ -14951,7 +14899,6 @@
         {
           "studio": "Petit Studio 6",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "18 m² · batterie",
           "equipment": [
             "Piano acoustique droit amplifié (loc. supp.)",
@@ -15233,7 +15180,6 @@
         {
           "studio": "Box Batterie 7",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "4 m² · Box solo · batterie",
           "equipment": [
             "Batterie Pearl Master Studio complète avec cymbales",
@@ -15615,7 +15561,6 @@
         {
           "studio": "Mini Studio 8",
           "url": "https://www.quickstudio.com/fr/studios/studio-hbs/bookings?date={date}",
-          "emoji": "🥁",
           "description": "9 m² · batterie",
           "equipment": [
             "Batterie Pearl Master Studio complète avec cymbales",
@@ -15934,7 +15879,6 @@
         {
           "studio": "Studio 1 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
-          "emoji": "🥁",
           "description": "26 m² · batterie",
           "equipment": [
             "Console, yamaha 01v96",
@@ -16371,7 +16315,6 @@
         {
           "studio": "Studio 2 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
-          "emoji": "🥁",
           "description": "24 m² · batterie",
           "equipment": [
             "Console, yamaha 01v96",
@@ -16484,15 +16427,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
               },
               {
                 "time": "15:00"
@@ -16920,7 +16854,6 @@
         {
           "studio": "Studio 3 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
-          "emoji": "🥁",
           "description": "24 m² · batterie",
           "equipment": [
             "Console, yamaha 01v96",
@@ -17532,7 +17465,6 @@
         {
           "studio": "Studio 4 (sans batterie) - 5 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
-          "emoji": "🎸",
           "description": "15 m²",
           "equipment": [
             "Console, yamaha 01v96",
@@ -18196,7 +18128,6 @@
         {
           "studio": "Studio 5 - 8 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
-          "emoji": "🥁",
           "description": "28 m² · batterie",
           "equipment": [
             "Console, yamaha 01v96",
@@ -18464,7 +18395,6 @@
         {
           "studio": "Studio 6 - 16 personnes",
           "url": "https://www.quickstudio.com/fr/studios/fgo-barbara/bookings?date={date}",
-          "emoji": "🥁",
           "description": "52 m² · batterie",
           "equipment": [
             "Console, yamaha ls9",
