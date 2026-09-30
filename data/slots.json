@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T20:22:24.384Z",
+  "generatedAt": "2026-09-30T20:37:39.783Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -11245,6 +11245,11 @@
                 "time": "12:00"
               }
             ],
+            "2026-10-14": [
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-10-16": [
               {
                 "time": "22:00"
@@ -12502,9 +12507,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "22:00"
               }
             ],
             "2026-10-22": [
@@ -13509,6 +13511,9 @@
               },
               {
                 "time": "17:00"
+              },
+              {
+                "time": "22:00"
               }
             ],
             "2026-10-22": [
@@ -17728,11 +17733,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-09-30": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-01": [
               {
                 "time": "10:00"
@@ -18072,11 +18072,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-09-30": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-01": [
               {
                 "time": "10:00"
@@ -18945,11 +18940,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
-            "2026-09-30": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-01": [
               {
                 "time": "10:00"
@@ -19645,11 +19635,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
-            "2026-09-30": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-01": [
               {
                 "time": "10:00"
