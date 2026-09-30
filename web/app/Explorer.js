@@ -241,7 +241,9 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
   return (
     <ConfigProvider locale={frFR} theme={{ token: { colorPrimary: "#2563eb", borderRadius: 8 } }}>
       <main>
-        <h1>StudioTonight 🎸</h1>
+        <h1>
+          StudioTonight <img className="logo" src="/icon.svg" alt="" width="36" height="36" />
+        </h1>
         <p className="byline">
           by{" "}
           <a className="author" href="https://www.linkedin.com/in/hugo-how-choong/" target="_blank" rel="noreferrer">

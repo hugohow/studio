@@ -71,7 +71,9 @@ export default async function Page({ searchParams }) {
   if (feed.error) {
     return (
       <main>
-        <h1>StudioTonight 🎸</h1>
+        <h1>
+          StudioTonight <img className="logo" src="/icon.svg" alt="" width="36" height="36" />
+        </h1>
         <p className="sub">
           Impossible de charger le feed : {feed.error}.
           <br />
