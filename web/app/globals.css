@@ -32,6 +32,12 @@ h1 {
   font-size: 32px;
   margin: 0 0 4px;
 }
+h1 .logo {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.18em;
+  margin-left: 4px;
+}
 
 .byline {
   margin: 2px 0 16px;
