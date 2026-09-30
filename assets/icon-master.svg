@@ -9,7 +9,7 @@
       <stop offset="1" stop-color="#dbeafe"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#bg)"/>
   <!-- lune (« Tonight ») -->
   <path transform="translate(8 -12)" d="M338 118a52 52 0 1 0 56 70a42 42 0 1 1 -56 -70z" fill="#fde68a"/>
   <!-- barres d'égaliseur (le son / le studio) ; la verte = un créneau libre -->

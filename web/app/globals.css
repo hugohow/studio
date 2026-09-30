@@ -309,3 +309,73 @@ a:hover {
 .infomodal li {
   margin: 4px 0;
 }
+
+/* Bandeau « Installer l'app » (PWA) */
+.installbanner {
+  position: fixed;
+  left: 50%;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: min(480px, calc(100% - 32px));
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 12px 12px 14px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(16, 24, 40, 0.18);
+  animation: ib-in 0.35s ease-out;
+}
+@keyframes ib-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 16px);
+  }
+}
+.ib-icon {
+  flex: none;
+  border-radius: 10px;
+}
+.ib-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  line-height: 1.35;
+  color: var(--muted);
+}
+.ib-text strong {
+  font-size: 14px;
+  color: var(--text);
+}
+.ib-share {
+  vertical-align: -3px;
+  color: var(--accent);
+}
+.ib-install {
+  flex: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.ib-close {
+  flex: none;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 22px;
+  line-height: 1;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+.ib-nowrap {
+  white-space: nowrap;
+}
