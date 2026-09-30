@@ -1,4 +1,5 @@
 import "./globals.css";
+import InstallBanner from "./InstallBanner";
 
 // Marque = « Studio Tonight » (deux mots) : c'est le mot-clé sur lequel on veut être référencé.
 // On le garde tel quel dans le <title>, l'OG, le siteName et le JSON-LD pour que les moteurs
@@ -27,6 +28,8 @@ export const metadata = {
     "FGO-Barbara",
   ],
   alternates: { canonical: "/" },
+  // iOS « Sur l'écran d'accueil » : plein écran + nom court sous l'icône (icône = app/apple-icon.png).
+  appleWebApp: { capable: true, title: "StudioTonight", statusBarStyle: "default" },
   // Renseigner GOOGLE_SITE_VERIFICATION (Vercel) avec le code fourni par Search Console
   // pour prouver la propriété du site et lancer l'indexation.
   verification: process.env.GOOGLE_SITE_VERIFICATION
@@ -83,6 +86,7 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }}
         />
         {children}
+        <InstallBanner />
       </body>
     </html>
   );
