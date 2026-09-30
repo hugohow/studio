@@ -121,7 +121,8 @@ export default function InstallBanner() {
           <span>Ouvre-le dans {ios ? "Safari" : "Chrome"} (menu ⋯) pour l'installer</span>
         ) : mode === "ios" ? (
           <span>
-            Touche <ShareIcon /> puis <span className="ib-nowrap">« Sur l'écran d'accueil »</span>
+            {/* iOS 26+ : Partager est rangé derrière « ⋯ » dans Safari. */}
+            Touche <ShareIcon /> Partager (ou ⋯), puis <span className="ib-nowrap">« Sur l'écran d'accueil »</span>
           </span>
         ) : (
           <span>Les créneaux libres en un tap, depuis ton écran d'accueil</span>
