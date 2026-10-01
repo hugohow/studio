@@ -1,4 +1,4 @@
-const SITE_URL = process.env.SITE_URL || "https://studiotonight.vercel.app";
+const SITE_URL = process.env.SITE_URL || "https://studiotonight.fr";
 
 // robots.txt : on autorise l'indexation complète et on pointe vers le sitemap,
 // pour que « Studio Tonight » soit bien référencé.

@@ -1,4 +1,4 @@
-const SITE_URL = process.env.SITE_URL || "https://studiotonight.vercel.app";
+const SITE_URL = process.env.SITE_URL || "https://studiotonight.fr";
 
 export default function sitemap() {
   return [
