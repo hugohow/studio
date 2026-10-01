@@ -138,6 +138,43 @@ function fmtH(v) {
   return v >= 24 ? "minuit" : `${v}h`;
 }
 
+const SHARE_ICON = (
+  <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+    <path d="M8 10V2M5 4.8 8 1.8l3 3" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M5.5 6.5H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1h-1.5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+  </svg>
+);
+
+// Partage du site (page d'accueil, sans filtres). Mobile : feuille de partage native ; sinon copie du lien.
+function ShareButton({ isMobile }) {
+  const [copied, setCopied] = useState(false);
+  async function share() {
+    const url = `${window.location.origin}/`;
+    const text = "Les créneaux libres des studios de répétition à Paris, en temps réel";
+    if (isMobile && navigator.share) {
+      try {
+        await navigator.share({ title: "Studio Tonight", text, url });
+        return;
+      } catch (e) {
+        if (e?.name === "AbortError") return; // partage annulé par l'utilisateur
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      /* presse-papier indisponible : rien à faire */
+    }
+  }
+  return (
+    <button type="button" className={copied ? "sharebtn is-copied" : "sharebtn"} onClick={share}>
+      {SHARE_ICON}
+      {copied ? "Lien copié ✓" : "Partager"}
+    </button>
+  );
+}
+
 export default function Explorer({ feed, initialDate = "", initialFrom, initialTo, isMobile = false }) {
   const venues = (feed.venues || []).filter((v) => !HIDDEN_VENUES.includes(v.id));
   const router = useRouter();
@@ -241,9 +278,12 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
   return (
     <ConfigProvider locale={frFR} theme={{ token: { colorPrimary: "#2563eb", borderRadius: 8 } }}>
       <main>
-        <h1>
-          StudioTonight <img className="logo" src="/icon.svg" alt="" width="36" height="36" />
-        </h1>
+        <div className="titlerow">
+          <h1>
+            StudioTonight <img className="logo" src="/icon.svg" alt="" width="36" height="36" />
+          </h1>
+          <ShareButton isMobile={isMobile} />
+        </div>
         <p className="byline">
           by{" "}
           <a className="author" href="https://www.linkedin.com/in/hugo-how-choong/" target="_blank" rel="noreferrer">
@@ -307,6 +347,7 @@ export default function Explorer({ feed, initialDate = "", initialFrom, initialT
               />
             </div>
           </div>
+
         </div>
 
         {view.venues.map((v) => {
