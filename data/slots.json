@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T20:24:41.488Z",
+  "generatedAt": "2026-10-01T20:42:27.446Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6834,15 +6834,6 @@
               },
               {
                 "time": "12:00"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "15:00"
               },
               {
                 "time": "18:00"
@@ -17376,11 +17367,6 @@
             "http://www.studiohbs.com/img/standard_hbs.jpg"
           ],
           "days": {
-            "2026-10-01": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-03": [
               {
                 "time": "11:00"
@@ -19280,11 +19266,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
-            "2026-10-01": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-02": [
               {
                 "time": "10:00"
@@ -19904,11 +19885,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
-            "2026-10-01": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-02": [
               {
                 "time": "10:00"
