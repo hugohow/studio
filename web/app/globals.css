@@ -39,6 +39,17 @@ h1 .logo {
   margin-left: 4px;
 }
 
+.titlerow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 0 0 4px;
+}
+.titlerow h1 {
+  margin: 0;
+}
+
 .byline {
   margin: 2px 0 16px;
   font-size: 13px;
@@ -148,6 +159,32 @@ input[type="date"] {
 }
 .sliderbox .ant-slider {
   margin: 8px 6px 20px; /* place pour les marks + confort tactile */
+}
+
+/* Bouton partager le site */
+.sharebtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 34px;
+  padding: 0 12px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.sharebtn:hover {
+  background: #e3e9f1;
+}
+.sharebtn.is-copied {
+  background: var(--free-bg);
+  border-color: var(--free);
+  color: var(--free);
 }
 
 .venue {
