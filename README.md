@@ -1,6 +1,6 @@
 # 🎸 Studio Tonight
 
-**[studiotonight.vercel.app](https://studiotonight.vercel.app)** — voir directement les créneaux libres des studios de répétition du nord-est parisien.
+**[studiotonight.fr](https://studiotonight.fr)** — voir directement les créneaux libres des studios de répétition du nord-est parisien.
 
 Agrège la disponibilité de plusieurs studios (**Wacked Live**, **Studio Bleu**, **Studio HBS**) et l'expose en JSON + une interface web. Lecture seule : aucune réservation, aucun paiement.
 

@@ -8,7 +8,7 @@ const BRAND = "Studio Tonight";
 const TITLE = "Studio Tonight — créneaux libres des studios de répétition à Paris";
 const DESC =
   "Studio Tonight : voir en temps réel les créneaux libres des studios de répétition à Paris (Wacked Live, Studio Bleu, HBS, FGO-Barbara).";
-const SITE_URL = process.env.SITE_URL || "https://studiotonight.vercel.app";
+const SITE_URL = process.env.SITE_URL || "https://studiotonight.fr";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
