@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:06:32.018Z",
+  "generatedAt": "2026-10-03T10:21:47.267Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -8613,14 +8613,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-1-image-4.jpeg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-05": [
               {
                 "time": "22:00"
@@ -14693,14 +14685,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-3.jpeg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-04": [
               {
                 "time": "12:00"
@@ -15840,24 +15824,6 @@
               }
             ],
             "2026-10-05": [
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
               {
                 "time": "13:30"
               },
@@ -17545,17 +17511,6 @@
             "http://www.studiohbs.com/img/standard_hbs.jpg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              }
-            ],
             "2026-10-04": [
               {
                 "time": "11:30"
@@ -17715,15 +17670,6 @@
               }
             ],
             "2026-10-12": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
               {
                 "time": "16:30"
               },
