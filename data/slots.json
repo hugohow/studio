@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T18:00:14.523Z",
+  "generatedAt": "2026-10-03T18:20:34.565Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -23,9 +23,6 @@
           ],
           "days": {
             "2026-10-03": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               }
@@ -816,9 +813,6 @@
           ],
           "days": {
             "2026-10-03": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               }
@@ -1708,9 +1702,6 @@
           ],
           "days": {
             "2026-10-03": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               }
@@ -2645,9 +2636,6 @@
           "days": {
             "2026-10-03": [
               {
-                "time": "20:00"
-              },
-              {
                 "time": "21:00"
               }
             ],
@@ -3580,9 +3568,6 @@
           ],
           "days": {
             "2026-10-03": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "21:00"
               }
@@ -4549,9 +4534,6 @@
           ],
           "days": {
             "2026-10-03": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "23:00"
               }
@@ -5824,9 +5806,6 @@
           "days": {
             "2026-10-03": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "23:00"
               }
             ],
@@ -5906,12 +5885,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "20:00"
-              },
-              {
-                "time": "21:00"
               },
               {
                 "time": "22:00"
@@ -7142,9 +7115,6 @@
           ],
           "days": {
             "2026-10-03": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "23:00"
               }
@@ -10300,11 +10270,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-4.jpeg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-05": [
               {
                 "time": "10:00"
@@ -10452,11 +10417,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-4.jpeg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-05": [
               {
                 "time": "22:00"
@@ -10561,11 +10521,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-3.jpeg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-06": [
               {
                 "time": "10:00"
@@ -10792,11 +10747,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-15-image-2.jpeg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-05": [
               {
                 "time": "22:00"
@@ -11881,11 +11831,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-3.jpeg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-04": [
               {
                 "time": "10:00"
@@ -16340,11 +16285,6 @@
             "http://www.studiohbs.com/img/grand_hbs.jpg"
           ],
           "days": {
-            "2026-10-04": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-10-05": [
               {
                 "time": "10:00"
@@ -18587,9 +18527,6 @@
           "days": {
             "2026-10-03": [
               {
-                "time": "20:00"
-              },
-              {
                 "time": "20:30"
               },
               {
@@ -19116,9 +19053,6 @@
           ],
           "days": {
             "2026-10-03": [
-              {
-                "time": "20:00"
-              },
               {
                 "time": "20:30"
               },
