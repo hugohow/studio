@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:12:42.331Z",
+  "generatedAt": "2026-10-03T11:30:18.191Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -16148,14 +16148,6 @@
             "http://www.studiohbs.com/img/grand_hbs.jpg"
           ],
           "days": {
-            "2026-10-03": [
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              }
-            ],
             "2026-10-05": [
               {
                 "time": "10:30"
