@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T06:37:50.846Z",
+  "generatedAt": "2026-10-03T06:58:15.952Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -9587,14 +9587,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-3.jpeg"
           ],
           "days": {
-            "2026-10-04": [
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-05": [
               {
                 "time": "22:00"
