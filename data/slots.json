@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T18:46:59.061Z",
+  "generatedAt": "2026-10-09T19:02:07.570Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -747,11 +747,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-09": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-10": [
               {
                 "time": "10:00"
@@ -1654,11 +1649,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-09": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-10": [
               {
                 "time": "10:00"
@@ -2551,11 +2541,6 @@
             "Table de mixage Yamaha MG10"
           ],
           "days": {
-            "2026-10-09": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-10": [
               {
                 "time": "10:00"
@@ -3451,11 +3436,6 @@
             "Table de mixage Yamaha MG10"
           ],
           "days": {
-            "2026-10-09": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-10": [
               {
                 "time": "10:00"
@@ -4429,11 +4409,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4168-scaled.jpg"
           ],
           "days": {
-            "2026-10-09": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-10-10": [
               {
                 "time": "21:00"
@@ -18260,9 +18235,6 @@
           "days": {
             "2026-10-09": [
               {
-                "time": "21:00"
-              },
-              {
                 "time": "21:30"
               },
               {
@@ -18510,9 +18482,6 @@
           ],
           "days": {
             "2026-10-09": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               },
@@ -19081,9 +19050,6 @@
           ],
           "days": {
             "2026-10-09": [
-              {
-                "time": "21:00"
-              },
               {
                 "time": "21:30"
               },
