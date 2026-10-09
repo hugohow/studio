@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T18:41:49.877Z",
+  "generatedAt": "2026-10-09T18:46:59.061Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -17118,14 +17118,6 @@
             "http://www.studiohbs.com/img/solo_hbs.jpg"
           ],
           "days": {
-            "2026-10-09": [
-              {
-                "time": "21:30"
-              },
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-10": [
               {
                 "time": "18:30"
@@ -17553,6 +17545,14 @@
             "http://www.studiohbs.com/img/petit_hbs.jpg"
           ],
           "days": {
+            "2026-10-09": [
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-10-10": [
               {
                 "time": "17:30"
