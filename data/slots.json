@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T19:48:35.907Z",
+  "generatedAt": "2026-10-10T20:03:53.888Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -7731,11 +7731,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-3-image-3.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-12": [
               {
                 "time": "13:00"
@@ -8319,11 +8314,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-3.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-11": [
               {
                 "time": "20:00"
@@ -9569,11 +9559,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-4.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-14": [
               {
                 "time": "22:00"
@@ -10038,11 +10023,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-15-image-2.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-16": [
               {
                 "time": "22:00"
@@ -10323,11 +10303,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-3.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-15": [
               {
                 "time": "22:00"
@@ -10636,11 +10611,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-17-image-2.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-17": [
               {
                 "time": "18:00"
@@ -11208,11 +11178,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-3.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-16": [
               {
                 "time": "10:00"
@@ -11996,11 +11961,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-3.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-12": [
               {
                 "time": "16:00"
@@ -12806,11 +12766,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-20-image-2.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-12": [
               {
                 "time": "22:00"
@@ -13936,11 +13891,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-3.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-12": [
               {
                 "time": "16:30"
