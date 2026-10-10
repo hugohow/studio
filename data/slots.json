@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:47:31.683Z",
+  "generatedAt": "2026-10-10T19:02:49.738Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -22,11 +22,6 @@
             "Table de mixage Yamaha MG16XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-11": [
               {
                 "time": "10:00"
@@ -758,11 +753,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-11": [
               {
                 "time": "10:00"
@@ -1647,11 +1637,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-11": [
               {
                 "time": "10:00"
@@ -2544,11 +2529,6 @@
             "Table de mixage Yamaha MG10"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-11": [
               {
                 "time": "10:00"
@@ -3426,11 +3406,6 @@
             "Table de mixage Yamaha MG10"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-11": [
               {
                 "time": "10:00"
@@ -5886,12 +5861,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "19:00"
               },
               {
                 "time": "22:00"
@@ -9769,11 +9738,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-3.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-17": [
               {
                 "time": "22:00"
@@ -18512,11 +18476,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-12": [
               {
                 "time": "12:00"
@@ -18778,11 +18737,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-12": [
               {
                 "time": "12:00"
@@ -19121,11 +19075,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-10": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-10-12": [
               {
                 "time": "14:00"
