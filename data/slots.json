@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T08:38:52.140Z",
+  "generatedAt": "2026-10-12T08:44:06.210Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -10881,6 +10881,11 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-17-image-2.jpeg"
           ],
           "days": {
+            "2026-10-14": [
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-10-17": [
               {
                 "time": "18:00"
@@ -17301,11 +17306,6 @@
             "http://www.studiohbs.com/img/standard_hbs.jpg"
           ],
           "days": {
-            "2026-10-12": [
-              {
-                "time": "19:30"
-              }
-            ],
             "2026-10-14": [
               {
                 "time": "13:00"
