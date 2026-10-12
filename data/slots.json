@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:58:24.744Z",
+  "generatedAt": "2026-10-12T17:18:47.730Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4489,12 +4489,6 @@
               },
               {
                 "time": "14:00"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "16:00"
               },
               {
                 "time": "23:00"
@@ -13897,11 +13891,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-3.jpeg"
           ],
           "days": {
-            "2026-10-12": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-13": [
               {
                 "time": "22:00"
@@ -16811,12 +16800,6 @@
             ],
             "2026-10-16": [
               {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
                 "time": "13:00"
               }
             ],
@@ -18268,21 +18251,6 @@
               },
               {
                 "time": "20:00"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
-              },
-              {
-                "time": "22:00"
-              },
-              {
-                "time": "22:30"
               }
             ],
             "2026-10-21": [
@@ -19534,11 +19502,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
-            "2026-10-12": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-10-17": [
               {
                 "time": "10:00"
