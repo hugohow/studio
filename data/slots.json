@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:01:08.891Z",
+  "generatedAt": "2026-10-13T19:06:59.894Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5277,11 +5277,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-BASS-SIDE.jpg"
           ],
           "days": {
-            "2026-10-13": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-10-14": [
               {
                 "time": "14:00"
