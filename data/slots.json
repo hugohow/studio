@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T19:00:18.701Z",
+  "generatedAt": "2026-10-14T19:05:18.644Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4421,11 +4421,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4168-scaled.jpg"
           ],
           "days": {
-            "2026-10-14": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-10-15": [
               {
                 "time": "10:00"
