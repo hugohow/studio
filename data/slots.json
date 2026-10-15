@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:49:02.859Z",
+  "generatedAt": "2026-10-15T19:09:20.183Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4448,11 +4448,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4168-scaled.jpg"
           ],
           "days": {
-            "2026-10-15": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-10-16": [
               {
                 "time": "16:00"
@@ -6196,11 +6191,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-10-GA.jpg"
           ],
           "days": {
-            "2026-10-15": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-10-16": [
               {
                 "time": "10:00"
@@ -10423,24 +10413,6 @@
             "2026-10-30": [
               {
                 "time": "10:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
               },
               {
                 "time": "17:00"
