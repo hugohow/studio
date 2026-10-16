@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:57:10.544Z",
+  "generatedAt": "2026-10-16T17:02:14.312Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -23,9 +23,6 @@
           ],
           "days": {
             "2026-10-16": [
-              {
-                "time": "19:00"
-              },
               {
                 "time": "20:00"
               },
@@ -773,11 +770,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-16": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-10-17": [
               {
                 "time": "14:00"
