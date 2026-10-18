@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T07:58:41.675Z",
+  "generatedAt": "2026-10-18T08:03:48.640Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -23,9 +23,6 @@
           ],
           "days": {
             "2026-10-18": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "11:00"
               },
@@ -2639,9 +2636,6 @@
           "days": {
             "2026-10-18": [
               {
-                "time": "10:00"
-              },
-              {
                 "time": "11:00"
               },
               {
@@ -3517,9 +3511,6 @@
           ],
           "days": {
             "2026-10-18": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "11:00"
               },
@@ -5207,11 +5198,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-BASS-SIDE.jpg"
           ],
           "days": {
-            "2026-10-18": [
-              {
-                "time": "12:00"
-              }
-            ],
             "2026-10-19": [
               {
                 "time": "10:00"
@@ -6044,9 +6030,6 @@
           ],
           "days": {
             "2026-10-18": [
-              {
-                "time": "12:00"
-              },
               {
                 "time": "21:00"
               },
@@ -9928,11 +9911,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-3.jpeg"
           ],
           "days": {
-            "2026-10-18": [
-              {
-                "time": "10:00"
-              }
-            ],
             "2026-10-19": [
               {
                 "time": "18:00"
