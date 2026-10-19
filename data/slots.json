@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T20:28:19.211Z",
+  "generatedAt": "2026-10-19T20:34:17.596Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -16421,11 +16421,6 @@
             "http://www.studiohbs.com/img/solo_hbs.jpg"
           ],
           "days": {
-            "2026-10-19": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-20": [
               {
                 "time": "13:30"
