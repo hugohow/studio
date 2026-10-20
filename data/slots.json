@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:26:33.559Z",
+  "generatedAt": "2026-10-20T20:36:44.538Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -8737,9 +8737,6 @@
             ],
             "2026-11-06": [
               {
-                "time": "20:00"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -9622,6 +9619,18 @@
               },
               {
                 "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
               },
               {
                 "time": "22:00"
@@ -17195,11 +17204,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-20": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-21": [
               {
                 "time": "17:30"
@@ -17214,33 +17218,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "17:30"
               },
               {
                 "time": "18:00"
@@ -18215,11 +18192,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-20": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-21": [
               {
                 "time": "10:00"
@@ -18749,11 +18721,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
-            "2026-10-20": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-21": [
               {
                 "time": "10:00"
@@ -19708,11 +19675,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
-            "2026-10-20": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-29": [
               {
                 "time": "10:00"
