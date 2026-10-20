@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:59:00.788Z",
+  "generatedAt": "2026-10-20T18:04:08.582Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -17683,11 +17683,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-20": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-10-21": [
               {
                 "time": "10:00"
