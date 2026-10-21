@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:26:50.726Z",
+  "generatedAt": "2026-10-21T20:31:53.706Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -13565,24 +13565,6 @@
             ],
             "2026-11-14": [
               {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
                 "time": "13:00"
               },
               {
@@ -16185,11 +16167,6 @@
             "http://www.studiohbs.com/img/solo_hbs.jpg"
           ],
           "days": {
-            "2026-10-21": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-22": [
               {
                 "time": "10:30"
@@ -17024,11 +17001,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-21": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-22": [
               {
                 "time": "16:00"
@@ -17447,11 +17419,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-21": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-22": [
               {
                 "time": "13:00"
@@ -19172,11 +19139,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-10-21": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-10-22": [
               {
                 "time": "10:00"
