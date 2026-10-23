@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T19:56:45.048Z",
+  "generatedAt": "2026-10-23T20:01:49.567Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6038,11 +6038,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-1-image-4.jpeg"
           ],
           "days": {
-            "2026-10-23": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-24": [
               {
                 "time": "18:00"
@@ -6120,11 +6115,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-2-image-3.jpeg"
           ],
           "days": {
-            "2026-10-23": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-24": [
               {
                 "time": "15:00"
@@ -6907,11 +6897,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-3.jpeg"
           ],
           "days": {
-            "2026-10-23": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-24": [
               {
                 "time": "10:00"
@@ -9105,11 +9090,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-3.jpeg"
           ],
           "days": {
-            "2026-10-23": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-24": [
               {
                 "time": "13:00"
@@ -10459,11 +10439,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-3.jpeg"
           ],
           "days": {
-            "2026-10-23": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-24": [
               {
                 "time": "18:00"
@@ -12263,11 +12238,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-3.jpeg"
           ],
           "days": {
-            "2026-10-23": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-24": [
               {
                 "time": "12:00"
@@ -16451,9 +16421,6 @@
           "days": {
             "2026-10-23": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "22:30"
               }
             ],
@@ -16875,9 +16842,6 @@
           ],
           "days": {
             "2026-10-23": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
@@ -17309,9 +17273,6 @@
           ],
           "days": {
             "2026-10-23": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
@@ -17834,9 +17795,6 @@
           ],
           "days": {
             "2026-10-23": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
