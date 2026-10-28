@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T15:40:59.778Z",
+  "generatedAt": "2026-10-28T15:46:04.996Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6118,11 +6118,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-3.jpeg"
           ],
           "days": {
-            "2026-10-28": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-29": [
               {
                 "time": "10:00"
@@ -7907,11 +7902,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-15-image-2.jpeg"
           ],
           "days": {
-            "2026-10-28": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-29": [
               {
                 "time": "20:00"
@@ -8891,11 +8881,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-3.jpeg"
           ],
           "days": {
-            "2026-10-28": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-30": [
               {
                 "time": "18:00"
@@ -9481,11 +9466,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-3.jpeg"
           ],
           "days": {
-            "2026-10-28": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-29": [
               {
                 "time": "22:00"
@@ -11157,11 +11137,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-3.jpeg"
           ],
           "days": {
-            "2026-10-28": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-10-29": [
               {
                 "time": "13:30"
@@ -14894,6 +14869,24 @@
               },
               {
                 "time": "17:00"
+              },
+              {
+                "time": "20:00"
+              },
+              {
+                "time": "20:30"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "22:30"
               }
             ],
             "2026-10-30": [
