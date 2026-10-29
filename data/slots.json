@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:56:14.852Z",
+  "generatedAt": "2026-10-29T16:05:10.285Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -695,11 +695,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-29": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-10-30": [
               {
                 "time": "10:00"
@@ -1559,11 +1554,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-10-29": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-10-30": [
               {
                 "time": "10:00"
@@ -3142,11 +3132,6 @@
             "Table de mixage Yamaha MG10"
           ],
           "days": {
-            "2026-10-29": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-10-30": [
               {
                 "time": "10:00"
@@ -11979,9 +11964,6 @@
           "days": {
             "2026-10-29": [
               {
-                "time": "17:00"
-              },
-              {
                 "time": "17:30"
               },
               {
@@ -12727,11 +12709,6 @@
             "http://www.studiohbs.com/img/grand_hbs.jpg"
           ],
           "days": {
-            "2026-10-29": [
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-10-30": [
               {
                 "time": "10:30"
@@ -13504,6 +13481,11 @@
             "http://www.studiohbs.com/img/standard_hbs.jpg"
           ],
           "days": {
+            "2026-10-29": [
+              {
+                "time": "17:30"
+              }
+            ],
             "2026-10-30": [
               {
                 "time": "16:00"
