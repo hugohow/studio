@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T15:01:28.810Z",
+  "generatedAt": "2026-11-01T15:21:51.340Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4512,9 +4512,6 @@
                 "time": "17:00"
               },
               {
-                "time": "18:00"
-              },
-              {
                 "time": "19:00"
               },
               {
@@ -5311,12 +5308,6 @@
               }
             ],
             "2026-11-08": [
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "16:00"
-              },
               {
                 "time": "17:00"
               },
@@ -9747,6 +9738,14 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-3.jpeg"
           ],
           "days": {
+            "2026-11-01": [
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              }
+            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -10398,11 +10397,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-16-image-3.jpeg"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "20:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "22:00"
@@ -10655,24 +10649,6 @@
               },
               {
                 "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
               }
             ],
             "2026-11-05": [
