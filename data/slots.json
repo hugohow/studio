@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T19:46:36.174Z",
+  "generatedAt": "2026-11-01T20:07:00.751Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -22,11 +22,6 @@
             "Table de mixage Yamaha MG16XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -659,11 +654,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -1479,11 +1469,6 @@
             "Table de mixage Yamaha MG12XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -2295,11 +2280,6 @@
             "Table de mixage Yamaha MG10"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -3021,11 +3001,6 @@
             "Table de mixage Yamaha MG10"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -3834,11 +3809,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4168-scaled.jpg"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -3897,12 +3867,6 @@
               },
               {
                 "time": "15:00"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "17:00"
               },
               {
                 "time": "23:00"
@@ -3998,12 +3962,6 @@
               },
               {
                 "time": "14:00"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "18:00"
               },
               {
                 "time": "19:00"
@@ -4222,12 +4180,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "18:00"
-              },
-              {
-                "time": "19:00"
               },
               {
                 "time": "20:00"
@@ -5107,11 +5059,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-BASS-SIDE.jpg"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -6458,11 +6405,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-10-GA.jpg"
           ],
           "days": {
-            "2026-11-01": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-11-02": [
               {
                 "time": "10:00"
@@ -12015,9 +11957,6 @@
               }
             ],
             "2026-11-28": [
-              {
-                "time": "10:00"
-              },
               {
                 "time": "17:00"
               },
