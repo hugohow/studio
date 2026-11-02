@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T17:59:57.628Z",
+  "generatedAt": "2026-11-02T18:05:05.503Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -11511,24 +11511,6 @@
                 "time": "10:00"
               },
               {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
                 "time": "19:00"
               },
               {
@@ -16610,11 +16592,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-11-02": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-11-03": [
               {
                 "time": "14:00"
@@ -16949,11 +16926,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-11-02": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-11-03": [
               {
                 "time": "13:00"
@@ -17761,11 +17733,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
-            "2026-11-02": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-11-03": [
               {
                 "time": "10:00"
@@ -18280,11 +18247,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-11-02": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-11-04": [
               {
                 "time": "10:00"
