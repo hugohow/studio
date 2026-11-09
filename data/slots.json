@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T17:25:05.091Z",
+  "generatedAt": "2026-11-09T17:30:10.200Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -8602,20 +8602,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-3.jpeg"
           ],
           "days": {
-            "2026-11-10": [
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-11-11": [
               {
                 "time": "22:00"
@@ -9523,21 +9509,6 @@
               }
             ],
             "2026-11-10": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
               {
                 "time": "12:30"
               },
