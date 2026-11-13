@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T21:13:00.970Z",
+  "generatedAt": "2026-11-13T21:38:28.418Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -5249,15 +5249,6 @@
                 "time": "14:00"
               },
               {
-                "time": "15:00"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "17:00"
-              },
-              {
                 "time": "18:00"
               },
               {
@@ -9065,6 +9056,9 @@
             "2026-11-18": [
               {
                 "time": "10:00"
+              },
+              {
+                "time": "22:00"
               }
             ],
             "2026-11-20": [
@@ -9558,6 +9552,23 @@
             "2026-11-19": [
               {
                 "time": "22:00"
+              }
+            ],
+            "2026-11-21": [
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "16:30"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "17:30"
+              },
+              {
+                "time": "18:00"
               }
             ],
             "2026-11-22": [
@@ -14270,11 +14281,6 @@
             "http://www.studiohbs.com/img/grand_hbs.jpg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-11-14": [
               {
                 "time": "19:00"
@@ -14637,11 +14643,6 @@
             "http://www.studiohbs.com/img/standard_hbs.jpg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-11-15": [
               {
                 "time": "13:00"
@@ -14765,11 +14766,6 @@
             "http://www.studiohbs.com/img/solo_hbs.jpg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-11-16": [
               {
                 "time": "10:30"
@@ -15219,11 +15215,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-11-14": [
               {
                 "time": "10:00"
@@ -15931,11 +15922,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/dsc02633.jpg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-11-14": [
               {
                 "time": "20:00"
@@ -16182,11 +16168,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/studio_5.jpeg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-11-14": [
               {
                 "time": "17:00"
@@ -16411,11 +16392,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:30"
-              }
-            ],
             "2026-11-16": [
               {
                 "time": "12:00"
