@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T16:51:03.103Z",
+  "generatedAt": "2026-11-13T17:10:09.736Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -22,11 +22,6 @@
             "Table de mixage Yamaha MG16XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-11-14": [
               {
                 "time": "21:00"
@@ -8448,11 +8443,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-4.jpeg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "19:00"
-              }
-            ],
             "2026-11-14": [
               {
                 "time": "19:00"
@@ -8719,11 +8709,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-13-image-3.jpeg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-15": [
               {
                 "time": "12:00"
@@ -8997,6 +8982,11 @@
               {
                 "time": "18:00"
               },
+              {
+                "time": "22:00"
+              }
+            ],
+            "2026-11-24": [
               {
                 "time": "22:00"
               }
@@ -9507,15 +9497,6 @@
               },
               {
                 "time": "12:30"
-              },
-              {
-                "time": "18:30"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
               }
             ],
             "2026-11-19": [
@@ -10058,6 +10039,11 @@
               },
               {
                 "time": "20:00"
+              }
+            ],
+            "2026-11-16": [
+              {
+                "time": "22:00"
               }
             ],
             "2026-11-18": [
@@ -10718,6 +10704,11 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-3.jpeg"
           ],
           "days": {
+            "2026-11-14": [
+              {
+                "time": "15:00"
+              }
+            ],
             "2026-11-15": [
               {
                 "time": "10:00"
@@ -13603,11 +13594,6 @@
             "http://www.studiohbs.com/img/grand2_hbs.jpg"
           ],
           "days": {
-            "2026-11-13": [
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-11-14": [
               {
                 "time": "12:30"
@@ -16363,9 +16349,6 @@
           "days": {
             "2026-11-13": [
               {
-                "time": "18:00"
-              },
-              {
                 "time": "22:00"
               },
               {
@@ -16597,9 +16580,6 @@
           ],
           "days": {
             "2026-11-13": [
-              {
-                "time": "18:00"
-              },
               {
                 "time": "18:30"
               },
