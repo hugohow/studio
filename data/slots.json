@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:23:58.443Z",
+  "generatedAt": "2026-11-16T15:34:06.696Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -6986,6 +6986,11 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-4-image-3.jpeg"
           ],
           "days": {
+            "2026-11-16": [
+              {
+                "time": "22:00"
+              }
+            ],
             "2026-11-18": [
               {
                 "time": "10:00"
@@ -8120,11 +8125,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-4.jpeg"
           ],
           "days": {
-            "2026-11-16": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-17": [
               {
                 "time": "12:00"
@@ -8201,11 +8201,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-12-image-4.jpeg"
           ],
           "days": {
-            "2026-11-16": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-20": [
               {
                 "time": "22:00"
@@ -12778,53 +12773,6 @@
                 "time": "22:00"
               }
             ],
-            "2026-12-01": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "13:30"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "14:30"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "16:30"
-              },
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-12-02": [
               {
                 "time": "10:00"
@@ -14264,9 +14212,6 @@
           "days": {
             "2026-11-16": [
               {
-                "time": "16:30"
-              },
-              {
                 "time": "17:00"
               }
             ],
@@ -15446,6 +15391,15 @@
               },
               {
                 "time": "18:00"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "21:30"
+              },
+              {
+                "time": "22:00"
               }
             ],
             "2026-11-24": [
