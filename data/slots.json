@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T18:48:26.058Z",
+  "generatedAt": "2026-11-20T19:24:01.487Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -22,11 +22,6 @@
             "Table de mixage Yamaha MG16XU, micros Shure SM58, enceintes"
           ],
           "days": {
-            "2026-11-20": [
-              {
-                "time": "21:00"
-              }
-            ],
             "2026-11-21": [
               {
                 "time": "10:00"
@@ -5002,9 +4997,6 @@
           "days": {
             "2026-11-20": [
               {
-                "time": "22:00"
-              },
-              {
                 "time": "23:00"
               }
             ],
@@ -7425,11 +7417,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-11-image-4.jpeg"
           ],
           "days": {
-            "2026-11-21": [
-              {
-                "time": "15:30"
-              }
-            ],
             "2026-11-23": [
               {
                 "time": "22:00"
@@ -11331,12 +11318,6 @@
                 "time": "15:00"
               },
               {
-                "time": "19:00"
-              },
-              {
-                "time": "20:00"
-              },
-              {
                 "time": "22:00"
               }
             ],
@@ -12981,11 +12962,6 @@
             "http://www.studiohbs.com/img/grand_hbs.jpg"
           ],
           "days": {
-            "2026-11-20": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-23": [
               {
                 "time": "10:30"
