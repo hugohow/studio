@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:03:53.845Z",
+  "generatedAt": "2026-11-21T10:29:17.277Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -4522,8 +4522,53 @@
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-AMP-L.jpg",
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-BASS-SIDE.jpg"
           ],
+          "error": "terminated",
+          "days": {}
+        },
+        {
+          "studio": "Studio 3",
+          "description": "33 m² · jusqu'à 15 pers. · batterie",
+          "equipment": [
+            "Batterie Yamaha Hot Red 20\"",
+            "Ampli basse Hartke HA3500 + cab 4×10",
+            "Amplis guitare 2× Marshall TSL 60 (4×12) et Fender Hot Rod Deluxe",
+            "Table de mixage Tascam Model 24, enceintes et 5 micros",
+            "Piano électrique Korg Havian 30 (en option)"
+          ],
+          "photos": [
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-19-PANORAMA.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-2-GA.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-13-GA.jpg",
+            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-10-GA.jpg"
+          ],
           "days": {
             "2026-11-21": [
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "21:00"
+              },
+              {
+                "time": "22:00"
+              },
+              {
+                "time": "23:00"
+              }
+            ],
+            "2026-11-22": [
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "21:00"
+              },
               {
                 "time": "22:00"
               },
@@ -4555,9 +4600,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "23:00"
               }
             ],
             "2026-11-24": [
@@ -4571,10 +4613,7 @@
                 "time": "12:00"
               },
               {
-                "time": "16:00"
-              },
-              {
-                "time": "17:00"
+                "time": "13:00"
               }
             ],
             "2026-11-25": [
@@ -4585,16 +4624,45 @@
                 "time": "11:00"
               },
               {
+                "time": "12:00"
+              },
+              {
+                "time": "13:00"
+              },
+              {
                 "time": "16:00"
               },
               {
                 "time": "17:00"
+              }
+            ],
+            "2026-11-26": [
+              {
+                "time": "10:00"
+              },
+              {
+                "time": "11:00"
+              },
+              {
+                "time": "12:00"
+              },
+              {
+                "time": "13:00"
+              },
+              {
+                "time": "14:00"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "20:00"
               },
               {
                 "time": "23:00"
               }
             ],
-            "2026-11-26": [
+            "2026-11-27": [
               {
                 "time": "10:00"
               },
@@ -4623,41 +4691,21 @@
                 "time": "18:00"
               },
               {
-                "time": "22:00"
+                "time": "19:00"
               },
               {
                 "time": "23:00"
               }
             ],
-            "2026-11-27": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "17:00"
-              },
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-11-28": [
               {
-                "time": "13:00"
+                "time": "14:00"
               },
               {
-                "time": "14:00"
+                "time": "15:00"
+              },
+              {
+                "time": "19:00"
               },
               {
                 "time": "20:00"
@@ -4681,6 +4729,18 @@
               },
               {
                 "time": "12:00"
+              },
+              {
+                "time": "15:00"
+              },
+              {
+                "time": "16:00"
+              },
+              {
+                "time": "17:00"
+              },
+              {
+                "time": "20:00"
               },
               {
                 "time": "21:00"
@@ -4716,12 +4776,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "22:00"
-              },
-              {
-                "time": "23:00"
               }
             ],
             "2026-12-01": [
@@ -4736,18 +4790,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "17:00"
               },
               {
                 "time": "22:00"
@@ -4780,9 +4822,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "19:00"
               },
               {
                 "time": "22:00"
@@ -4820,7 +4859,10 @@
                 "time": "18:00"
               },
               {
-                "time": "20:00"
+                "time": "22:00"
+              },
+              {
+                "time": "23:00"
               }
             ],
             "2026-12-04": [
@@ -4852,9 +4894,6 @@
                 "time": "18:00"
               },
               {
-                "time": "19:00"
-              },
-              {
                 "time": "22:00"
               },
               {
@@ -4863,16 +4902,25 @@
             ],
             "2026-12-05": [
               {
-                "time": "10:00"
-              },
-              {
                 "time": "13:00"
               },
               {
                 "time": "14:00"
               },
               {
+                "time": "15:00"
+              },
+              {
+                "time": "16:00"
+              },
+              {
                 "time": "17:00"
+              },
+              {
+                "time": "18:00"
+              },
+              {
+                "time": "19:00"
               },
               {
                 "time": "20:00"
@@ -4889,12 +4937,6 @@
             ],
             "2026-12-06": [
               {
-                "time": "10:00"
-              },
-              {
-                "time": "11:00"
-              },
-              {
                 "time": "12:00"
               },
               {
@@ -4904,10 +4946,7 @@
                 "time": "14:00"
               },
               {
-                "time": "18:00"
-              },
-              {
-                "time": "19:00"
+                "time": "15:00"
               },
               {
                 "time": "20:00"
@@ -4946,12 +4985,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "22:00"
-              },
-              {
-                "time": "23:00"
               }
             ],
             "2026-12-08": [
@@ -4966,18 +4999,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "17:00"
               },
               {
                 "time": "22:00"
@@ -5010,15 +5031,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "19:00"
-              },
-              {
-                "time": "22:00"
-              },
-              {
-                "time": "23:00"
               }
             ],
             "2026-12-10": [
@@ -5045,9 +5057,6 @@
               },
               {
                 "time": "17:00"
-              },
-              {
-                "time": "18:00"
               },
               {
                 "time": "22:00"
@@ -5082,6 +5091,9 @@
                 "time": "17:00"
               },
               {
+                "time": "18:00"
+              },
+              {
                 "time": "22:00"
               },
               {
@@ -5090,13 +5102,7 @@
             ],
             "2026-12-12": [
               {
-                "time": "10:00"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "14:00"
+                "time": "19:00"
               },
               {
                 "time": "20:00"
@@ -5112,25 +5118,6 @@
               }
             ]
           }
-        },
-        {
-          "studio": "Studio 3",
-          "description": "33 m² · jusqu'à 15 pers. · batterie",
-          "equipment": [
-            "Batterie Yamaha Hot Red 20\"",
-            "Ampli basse Hartke HA3500 + cab 4×10",
-            "Amplis guitare 2× Marshall TSL 60 (4×12) et Fender Hot Rod Deluxe",
-            "Table de mixage Tascam Model 24, enceintes et 5 micros",
-            "Piano électrique Korg Havian 30 (en option)"
-          ],
-          "photos": [
-            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-19-PANORAMA.jpg",
-            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-2-GA.jpg",
-            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-13-GA.jpg",
-            "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-3-10-GA.jpg"
-          ],
-          "error": "terminated",
-          "days": {}
         }
       ]
     },
@@ -13038,18 +13025,6 @@
             ],
             "2026-11-29": [
               {
-                "time": "11:00"
-              },
-              {
-                "time": "11:30"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "12:30"
-              },
-              {
                 "time": "13:00"
               },
               {
@@ -13751,15 +13726,6 @@
               },
               {
                 "time": "15:30"
-              },
-              {
-                "time": "20:30"
-              },
-              {
-                "time": "21:00"
-              },
-              {
-                "time": "21:30"
               }
             ],
             "2026-11-27": [
