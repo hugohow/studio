@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:42:18.883Z",
+  "generatedAt": "2026-11-23T20:02:43.659Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3669,11 +3669,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/03/IMG_4168-scaled.jpg"
           ],
           "days": {
-            "2026-11-23": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-11-24": [
               {
                 "time": "10:00"
@@ -4217,11 +4212,6 @@
             "https://wackedlive.fr/wp-content/uploads/2024/01/STUDIO-2-BASS-SIDE.jpg"
           ],
           "days": {
-            "2026-11-23": [
-              {
-                "time": "23:00"
-              }
-            ],
             "2026-11-24": [
               {
                 "time": "10:00"
@@ -9000,14 +8990,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-18-image-3.jpeg"
           ],
           "days": {
-            "2026-11-24": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "10:30"
-              }
-            ],
             "2026-11-25": [
               {
                 "time": "10:00"
@@ -13997,17 +13979,6 @@
             "http://www.studiohbs.com/img/solo_hbs.jpg"
           ],
           "days": {
-            "2026-11-24": [
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "15:30"
-              },
-              {
-                "time": "16:00"
-              }
-            ],
             "2026-11-25": [
               {
                 "time": "10:30"
@@ -14292,14 +14263,6 @@
             "http://www.studiohbs.com/img/petit_hbs.jpg"
           ],
           "days": {
-            "2026-11-24": [
-              {
-                "time": "21:30"
-              },
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-25": [
               {
                 "time": "10:00"
