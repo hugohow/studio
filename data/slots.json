@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:48:43.194Z",
+  "generatedAt": "2026-11-24T17:09:05.990Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -16557,9 +16557,6 @@
           "days": {
             "2026-11-24": [
               {
-                "time": "18:00"
-              },
-              {
                 "time": "20:00"
               },
               {
@@ -17728,11 +17725,6 @@
             "https://fgo-barbara.fr/sites/default/files/fgosite/ged/amplis_-_studio_6.png"
           ],
           "days": {
-            "2026-11-24": [
-              {
-                "time": "18:00"
-              }
-            ],
             "2026-11-25": [
               {
                 "time": "22:00"
