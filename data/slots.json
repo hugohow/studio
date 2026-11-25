@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T20:43:34.658Z",
+  "generatedAt": "2026-11-25T21:03:57.663Z",
   "durationH": 1,
   "monthsLoad": 1,
   "venues": [
@@ -3357,32 +3357,6 @@
                 "time": "17:00"
               }
             ],
-            "2026-12-17": [
-              {
-                "time": "10:00"
-              },
-              {
-                "time": "11:00"
-              },
-              {
-                "time": "12:00"
-              },
-              {
-                "time": "13:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "15:00"
-              },
-              {
-                "time": "16:00"
-              },
-              {
-                "time": "17:00"
-              }
-            ],
             "2026-12-18": [
               {
                 "time": "10:00"
@@ -3519,12 +3493,6 @@
               },
               {
                 "time": "13:00"
-              },
-              {
-                "time": "14:00"
-              },
-              {
-                "time": "15:00"
               },
               {
                 "time": "16:00"
@@ -10050,11 +10018,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-19-image-3.jpeg"
           ],
           "days": {
-            "2026-11-25": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-26": [
               {
                 "time": "10:00"
@@ -10830,11 +10793,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-20-image-2.jpeg"
           ],
           "days": {
-            "2026-11-25": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-27": [
               {
                 "time": "10:00"
@@ -11830,11 +11788,6 @@
             "https://studio-bleu-images-production.s3.eu-west-3.amazonaws.com/studios/studio-21-image-3.jpeg"
           ],
           "days": {
-            "2026-11-25": [
-              {
-                "time": "22:00"
-              }
-            ],
             "2026-11-27": [
               {
                 "time": "22:00"
@@ -17701,9 +17654,6 @@
           ],
           "days": {
             "2026-11-25": [
-              {
-                "time": "22:00"
-              },
               {
                 "time": "22:30"
               }
